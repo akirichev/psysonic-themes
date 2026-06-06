@@ -8,6 +8,7 @@
   "scripts": {
     "validate": "node scripts/validate-theme.mjs",
     "validate:template": "node scripts/validate-theme.mjs template",
+    "registry": "node scripts/build-registry.mjs",
     "thumb": "node scripts/make-thumbnail.mjs"
   },
   "devDependencies": {

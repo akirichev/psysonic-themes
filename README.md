@@ -38,6 +38,12 @@ node scripts/validate-theme.mjs themes/<your-id>   # one theme
 node scripts/validate-theme.mjs                     # every theme in themes/
 ```
 
+## Registry
+
+`registry.json` is the single index the app reads (over a CDN). It is
+**auto-generated** from the theme manifests — never hand-edit it. On every merge
+to `main` a workflow regenerates it; locally you can run `npm run registry`.
+
 ## License
 
 Theme submissions are accepted under the [MIT License](LICENSE).

@@ -1,0 +1,26 @@
+name: validate
+
+on:
+  pull_request:
+    paths:
+      - 'themes/**'
+      - 'template/**'
+      - 'schema/**'
+      - 'scripts/**'
+      - 'package.json'
+      - 'package-lock.json'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - name: Validate all themes
+        run: node scripts/validate-theme.mjs
+      - name: Validate the template stays contract-valid
+        run: node scripts/validate-theme.mjs template
