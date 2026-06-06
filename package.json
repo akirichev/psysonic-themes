@@ -1,0 +1,17 @@
+{
+  "name": "psysonic-themes",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Community theme registry for Psysonic.",
+  "license": "MIT",
+  "scripts": {
+    "validate": "node scripts/validate-theme.mjs",
+    "validate:template": "node scripts/validate-theme.mjs template",
+    "thumb": "node scripts/make-thumbnail.mjs"
+  },
+  "devDependencies": {
+    "ajv": "^8.17.1",
+    "postcss": "^8.4.47"
+  }
+}

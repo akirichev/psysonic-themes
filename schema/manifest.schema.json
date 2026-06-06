@@ -1,0 +1,60 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/Psychotoxical/psysonic-themes/schema/manifest.schema.json",
+  "title": "Psysonic community theme manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "name", "author", "version", "description", "mode"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique theme id. Must equal the folder name. Lowercase kebab-case.",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "minLength": 2,
+      "maxLength": 48
+    },
+    "name": {
+      "type": "string",
+      "description": "Display name shown in the store.",
+      "minLength": 1,
+      "maxLength": 50
+    },
+    "author": {
+      "type": "string",
+      "description": "GitHub handle of the author (no leading @).",
+      "pattern": "^[A-Za-z0-9](-?[A-Za-z0-9]){0,38}$"
+    },
+    "version": {
+      "type": "string",
+      "description": "SemVer version; bumping it signals an update to installed clients.",
+      "pattern": "^(0|[1-9]\\d*)\\.(0|[1-9]\\d*)\\.(0|[1-9]\\d*)(?:-((?:0|[1-9]\\d*|\\d*[A-Za-z-][0-9A-Za-z-]*)(?:\\.(?:0|[1-9]\\d*|\\d*[A-Za-z-][0-9A-Za-z-]*))*))?(?:\\+([0-9A-Za-z-]+(?:\\.[0-9A-Za-z-]+)*))?$"
+    },
+    "description": {
+      "type": "string",
+      "description": "Short store description.",
+      "minLength": 1,
+      "maxLength": 200
+    },
+    "mode": {
+      "type": "string",
+      "description": "Light or dark. Must match the theme's color-scheme.",
+      "enum": ["dark", "light"]
+    },
+    "tags": {
+      "type": "array",
+      "description": "Optional free-form tags for filtering/search.",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+        "maxLength": 24
+      },
+      "maxItems": 8,
+      "uniqueItems": true
+    },
+    "minAppVersion": {
+      "type": "string",
+      "description": "Optional minimum Psysonic version. Clients hide themes they are too old for.",
+      "pattern": "^(0|[1-9]\\d*)\\.(0|[1-9]\\d*)\\.(0|[1-9]\\d*)$"
+    }
+  }
+}

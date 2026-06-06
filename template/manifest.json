@@ -1,0 +1,9 @@
+{
+  "id": "template",
+  "name": "Template",
+  "author": "Psychotoxical",
+  "version": "1.0.0",
+  "description": "Starting point for a community theme. Copy this folder, rename, recolour.",
+  "mode": "dark",
+  "tags": ["template"]
+}
