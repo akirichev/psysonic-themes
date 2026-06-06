@@ -1,0 +1,12 @@
+{
+  "id": "terafox",
+  "name": "Terafox",
+  "author": "Psychotoxical",
+  "version": "1.0.0",
+  "description": "Terafox — recolour of the Nightfox palettes by EdenEast.",
+  "mode": "dark",
+  "tags": [
+    "open-source-classics",
+    "nightfox"
+  ]
+}

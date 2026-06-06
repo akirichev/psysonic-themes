@@ -1,0 +1,41 @@
+/* Catppuccin Frappé — exported from the Psysonic built-in themes. */
+[data-theme='frappe'] {
+  color-scheme: dark;
+
+  /* Accent */
+  --accent: #ca9ee6;
+  --accent-dim: rgba(202, 158, 230, 0.15);
+  --accent-glow: rgba(202, 158, 230, 0.3);
+  --accent-2: #8caaee;
+
+  /* Backgrounds */
+  --bg-app: #303446;
+  --bg-sidebar: #292c3c;
+  --bg-card: #414559;
+  --bg-hover: #51576d;
+  --bg-elevated: #626880;
+  --bg-player: #232634;
+  --bg-deep: #232634;
+  --bg-glass: rgba(48, 52, 70, 0.75);
+
+  /* Borders */
+  --border: #51576d;
+  --border-subtle: #414559;
+  --border-dropdown: #51576d;
+
+  /* Text */
+  --text-primary: #c6d0f5;
+  --text-secondary: #b5bfe2;
+  --text-muted: #a5adce;
+  --text-on-accent: #232634;
+
+  /* Status */
+  --danger: #e78284;
+  --positive: #a6d189;
+  --warning: #e5c890;
+  --highlight: #e5c890;
+
+  /* Special */
+  --select-arrow: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%23b5bfe2%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpolyline%20points%3D%226%209%2012%2015%2018%209%22%3E%3C%2Fpolyline%3E%3C%2Fsvg%3E");
+  --shadow-dropdown: rgba(0, 0, 0, 0.55);
+}

@@ -1,0 +1,44 @@
+/* Alliance — exported from the Psysonic built-in themes. */
+[data-theme='alliance'] {
+  color-scheme: dark;
+
+  /* Accent */
+  --accent: #3388cc;
+  --accent-dim: rgba(51, 136, 204, 0.15);
+  --accent-glow: rgba(51, 136, 204, 0.35);
+  --accent-2: #3388cc;
+
+  /* Backgrounds */
+  --bg-app: #06101e;
+  --bg-sidebar: #040c18;
+  --bg-card: #0c1e34;
+  --bg-hover: #122440;
+  --bg-elevated: #1a2e50;
+  --bg-player: #050e1a;
+  --bg-deep: #020810;
+  --bg-glass: rgba(30, 30, 46, 0.75);
+
+  /* Borders */
+  --border: rgba(80, 120, 180, 0.35);
+  --border-subtle: rgba(60, 100, 160, 0.28);
+  --border-dropdown: rgba(80, 120, 180, 0.35);
+
+  /* Text */
+  --text-primary: #d8e8f8;
+  --text-secondary: #8098b8;
+  --text-muted: #6880a0;
+  --text-on-accent: #020810;
+
+  /* Status */
+  --danger: #cc4433;
+  --positive: #88bb44;
+  --warning: #dd9944;
+  --highlight: #f0c840;
+
+  /* Special */
+  --select-arrow: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%23bac2de%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpolyline%20points%3D%226%209%2012%2015%2018%209%22%3E%3C%2Fpolyline%3E%3C%2Fsvg%3E");
+  --shadow-dropdown: rgba(0, 0, 0, 0.55);
+
+  /* Per-theme overrides */
+  --player-title: #e8f4ff;
+}

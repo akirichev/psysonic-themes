@@ -1,0 +1,41 @@
+/* Copper Oxide — exported from the Psysonic built-in themes. */
+[data-theme='copper-oxide'] {
+  color-scheme: dark;
+
+  /* Accent */
+  --accent: #45b8b0;
+  --accent-dim: rgba(78, 205, 196, 0.07);
+  --accent-glow: rgba(78, 205, 196, 0.14);
+  --accent-2: #207870;
+
+  /* Backgrounds */
+  --bg-app: #101a18;
+  --bg-sidebar: #0c1614;
+  --bg-card: #131f1c;
+  --bg-hover: #1a2e2b;
+  --bg-elevated: #203c38;
+  --bg-player: #0c1614;
+  --bg-deep: #080f0e;
+  --bg-glass: rgba(16, 26, 24, 0.95);
+
+  /* Borders */
+  --border: #1a2e2b;
+  --border-subtle: #131f1c;
+  --border-dropdown: #203c38;
+
+  /* Text */
+  --text-primary: #d8f0ee;
+  --text-secondary: #68b8b0;
+  --text-muted: #256860;
+  --text-on-accent: #080f0e;
+
+  /* Status */
+  --danger: #ff4444;
+  --positive: #44ff88;
+  --warning: #ffcc44;
+  --highlight: #ffcc44;
+
+  /* Special */
+  --select-arrow: url("data:image/svg+xml;charset=US-ASCII,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%2345b8b0' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
+  --shadow-dropdown: rgba(0, 0, 0, 0.90);
+}

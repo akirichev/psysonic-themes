@@ -1,0 +1,11 @@
+{
+  "id": "toy-tale",
+  "name": "Toy Tale",
+  "author": "Psychotoxical",
+  "version": "1.0.0",
+  "description": "Toy Tale — a movie-inspired theme for Psysonic.",
+  "mode": "dark",
+  "tags": [
+    "movies"
+  ]
+}

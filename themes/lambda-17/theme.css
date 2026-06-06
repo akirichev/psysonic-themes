@@ -1,0 +1,45 @@
+/* Lambda 17 — exported from the Psysonic built-in themes. */
+[data-theme='lambda-17'] {
+  color-scheme: dark;
+
+  /* Accent */
+  --accent: #ff9d00;
+  --accent-dim: rgba(255, 157, 0, 0.13);
+  --accent-glow: rgba(255, 157, 0, 0.45);
+  --accent-2: #0060a0;
+
+  /* Backgrounds */
+  --bg-app: #171a1c;
+  --bg-sidebar: #111315;
+  --bg-card: #1f2326;
+  --bg-hover: rgba(255, 157, 0, 0.08);
+  --bg-elevated: #33393d;
+  --bg-player: #0c0d0e;
+  --bg-deep: #0c0d0e;
+  --bg-glass: rgba(17, 19, 21, 0.95);
+
+  /* Borders */
+  --border: #2a3035;
+  --border-subtle: #1f2326;
+  --border-dropdown: #2a3035;
+
+  /* Text */
+  --text-primary: #e4ddd0;
+  --text-secondary: #00c8c0;
+  --text-muted: #4e5660;
+  --text-on-accent: #0c0d0e;
+
+  /* Status */
+  --danger: #e03020;
+  --positive: #78c800;
+  --warning: #ff9d00;
+  --highlight: #f0d000;
+
+  /* Special */
+  --select-arrow: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%23ff9d00%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpolyline%20points%3D%226%209%2012%2015%2018%209%22%3E%3C%2Fpolyline%3E%3C%2Fsvg%3E");
+  --shadow-dropdown: rgba(0, 0, 0, 0.85);
+
+  /* Per-theme overrides */
+  --volume-accent: #00c8c0;
+  --player-title: #ff9d00;
+}

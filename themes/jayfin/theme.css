@@ -1,0 +1,44 @@
+/* Jayfin — exported from the Psysonic built-in themes. */
+[data-theme='jayfin'] {
+  color-scheme: dark;
+
+  /* Accent */
+  --accent: #AA5CC3;
+  --accent-dim: rgba(170, 92, 195, 0.15);
+  --accent-glow: rgba(170, 92, 195, 0.4);
+  --accent-2: #0088cc;
+
+  /* Backgrounds */
+  --bg-app: #141414;
+  --bg-sidebar: #0c0c0c;
+  --bg-card: #1e1e1e;
+  --bg-hover: rgba(170, 92, 195, 0.1);
+  --bg-elevated: #333333;
+  --bg-player: #050505;
+  --bg-deep: #050505;
+  --bg-glass: rgba(14, 14, 14, 0.88);
+
+  /* Borders */
+  --border: #2a2a2a;
+  --border-subtle: #1e1e1e;
+  --border-dropdown: #2a2a2a;
+
+  /* Text */
+  --text-primary: #ffffff;
+  --text-secondary: #c8c8c8;
+  --text-muted: #888888;
+  --text-on-accent: #050505;
+
+  /* Status */
+  --danger: #ff4444;
+  --positive: #2ed573;
+  --warning: #ffd060;
+  --highlight: #ffd060;
+
+  /* Special */
+  --select-arrow: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%23AA5CC3%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpolyline%20points%3D%226%209%2012%2015%2018%209%22%3E%3C%2Fpolyline%3E%3C%2Fsvg%3E");
+  --shadow-dropdown: rgba(0, 0, 0, 0.55);
+
+  /* Per-theme overrides */
+  --volume-accent: #AA5CC3;
+}

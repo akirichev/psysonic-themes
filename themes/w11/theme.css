@@ -1,0 +1,47 @@
+/* Windows 11 — exported from the Psysonic built-in themes. */
+[data-theme='w11'] {
+  color-scheme: dark;
+
+  /* Accent */
+  --accent: #0078d4;
+  --accent-dim: rgba(0, 120, 212, 0.18);
+  --accent-glow: rgba(0, 120, 212, 0.30);
+  --accent-2: #0078d4;
+
+  /* Backgrounds */
+  --bg-app: #202020;
+  --bg-sidebar: #2b2b2b;
+  --bg-card: #2c2c2c;
+  --bg-hover: #3b3b3b;
+  --bg-elevated: #454545;
+  --bg-player: #1c1c1c;
+  --bg-deep: #181818;
+  --bg-glass: rgba(32, 32, 32, 0.92);
+
+  /* Borders */
+  --border: rgba(255, 255, 255, 0.18);
+  --border-subtle: rgba(255, 255, 255, 0.08);
+  --border-dropdown: rgba(255, 255, 255, 0.18);
+
+  /* Text */
+  --text-primary: #ffffff;
+  --text-secondary: #cfcfcf;
+  --text-muted: #a0a0a0;
+  --text-on-accent: #181818;
+
+  /* Status */
+  --danger: #ff99a4;
+  --positive: #6ccb5f;
+  --warning: #fce100;
+  --highlight: #f9f1a5;
+
+  /* Special */
+  --select-arrow: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%23bac2de%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpolyline%20points%3D%226%209%2012%2015%2018%209%22%3E%3C%2Fpolyline%3E%3C%2Fsvg%3E");
+  --shadow-dropdown: rgba(0, 0, 0, 0.55);
+
+  /* Per-theme overrides */
+  --volume-accent: #0078d4;
+  --waveform-played: #60cdff;
+  --waveform-buffered: #868686;
+  --waveform-unplayed: #3b3b3b;
+}

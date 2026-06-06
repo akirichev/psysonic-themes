@@ -1,0 +1,44 @@
+/* P-DVD — exported from the Psysonic built-in themes. */
+[data-theme='p-dvd'] {
+  color-scheme: dark;
+
+  /* Accent */
+  --accent: #0088e8;
+  --accent-dim: rgba(0, 136, 232, 0.14);
+  --accent-glow: rgba(0, 136, 232, 0.40);
+  --accent-2: #0070cc;
+
+  /* Backgrounds */
+  --bg-app: #0a0d18;
+  --bg-sidebar: #060810;
+  --bg-card: #10141f;
+  --bg-hover: #171c2a;
+  --bg-elevated: #1f2535;
+  --bg-player: #020306;
+  --bg-deep: #020306;
+  --bg-glass: rgba(10, 13, 24, 0.96);
+
+  /* Borders */
+  --border: #1a2030;
+  --border-subtle: #10141e;
+  --border-dropdown: #1a2030;
+
+  /* Text */
+  --text-primary: #a8b8d0;
+  --text-secondary: #6880a8;
+  --text-muted: #506080;
+  --text-on-accent: #020306;
+
+  /* Status */
+  --danger: #cc2222;
+  --positive: #00cc66;
+  --warning: #ccaa00;
+  --highlight: #ccaa00;
+
+  /* Special */
+  --select-arrow: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%235a7090%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpolyline%20points%3D%226%209%2012%2015%2018%209%22%3E%3C%2Fpolyline%3E%3C%2Fsvg%3E");
+  --shadow-dropdown: rgba(0, 0, 0, 0.55);
+
+  /* Per-theme overrides */
+  --player-title: #00ccff;
+}

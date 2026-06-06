@@ -1,0 +1,41 @@
+/* Gruvbox Light Medium — exported from the Psysonic built-in themes. */
+[data-theme='gruvbox-light-medium'] {
+  color-scheme: light;
+
+  /* Accent */
+  --accent: #b57614;
+  --accent-dim: rgba(181, 118, 20, 0.15);
+  --accent-glow: rgba(181, 118, 20, 0.25);
+  --accent-2: #076678;
+
+  /* Backgrounds */
+  --bg-app: #fbf1c7;
+  --bg-sidebar: #f2e5bc;
+  --bg-card: #f2e5bc;
+  --bg-hover: #ebdbb2;
+  --bg-elevated: #d5c4a1;
+  --bg-player: #f2e5bc;
+  --bg-deep: #ebdbb2;
+  --bg-glass: rgba(251, 241, 199, 0.9);
+
+  /* Borders */
+  --border: #d5c4a1;
+  --border-subtle: #ebdbb2;
+  --border-dropdown: #d5c4a1;
+
+  /* Text */
+  --text-primary: #3c3836;
+  --text-secondary: #504945;
+  --text-muted: #7c6f64;
+  --text-on-accent: #ebdbb2;
+
+  /* Status */
+  --danger: #9d0006;
+  --positive: #79740e;
+  --warning: #b57614;
+  --highlight: #b57614;
+
+  /* Special */
+  --select-arrow: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%23504945%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpolyline%20points%3D%226%209%2012%2015%2018%209%22%3E%3C%2Fpolyline%3E%3C%2Fsvg%3E");
+  --shadow-dropdown: rgba(0, 0, 0, 0.55);
+}

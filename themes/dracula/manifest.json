@@ -1,0 +1,12 @@
+{
+  "id": "dracula",
+  "name": "Dracula",
+  "author": "Psychotoxical",
+  "version": "1.0.0",
+  "description": "Dracula — recolour of the Dracula palette by Zeno Rocha.",
+  "mode": "dark",
+  "tags": [
+    "open-source-classics",
+    "dracula"
+  ]
+}

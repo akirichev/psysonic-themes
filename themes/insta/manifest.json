@@ -1,0 +1,11 @@
+{
+  "id": "insta",
+  "name": "Insta",
+  "author": "Psychotoxical",
+  "version": "1.0.0",
+  "description": "Insta — an app-inspired theme for Psysonic.",
+  "mode": "dark",
+  "tags": [
+    "social-media"
+  ]
+}

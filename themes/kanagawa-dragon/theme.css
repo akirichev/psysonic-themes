@@ -1,0 +1,46 @@
+/* Kanagawa Dragon — exported from the Psysonic built-in themes. */
+[data-theme='kanagawa-dragon'] {
+  color-scheme: dark;
+
+  /* Accent */
+  --accent: #8ba4b0;
+  --accent-dim: rgba(139, 164, 176, 0.16);
+  --accent-glow: rgba(139, 164, 176, 0.32);
+  --accent-2: #8ba4b0;
+
+  /* Backgrounds */
+  --bg-app: #181616;
+  --bg-sidebar: #12120f;
+  --bg-card: #282727;
+  --bg-hover: #393836;
+  --bg-elevated: #625e5a;
+  --bg-player: #12120f;
+  --bg-deep: #0d0c0c;
+  --bg-glass: rgba(24, 22, 22, 0.82);
+
+  /* Borders */
+  --border: #393836;
+  --border-subtle: #282727;
+  --border-dropdown: #625e5a;
+
+  /* Text */
+  --text-primary: #c5c9c5;
+  --text-secondary: #a6a69c;
+  --text-muted: #737c73;
+  --text-on-accent: #0d0c0c;
+
+  /* Status */
+  --danger: #c4746e;
+  --positive: #8a9a7b;
+  --warning: #c4b28a;
+  --highlight: #c4b28a;
+
+  /* Special */
+  --select-arrow: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%23c5c9c5%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpolyline%20points%3D%226%209%2012%2015%2018%209%22%3E%3C%2Fpolyline%3E%3C%2Fsvg%3E");
+  --shadow-dropdown: rgba(0, 0, 0, 0.7);
+
+  /* Per-theme overrides */
+  --waveform-played: #8ba4b0;
+  --waveform-buffered: #625e5a;
+  --waveform-unplayed: #282727;
+}

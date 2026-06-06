@@ -1,0 +1,11 @@
+{
+  "id": "dos",
+  "name": "MS-DOS",
+  "author": "Psychotoxical",
+  "version": "1.0.0",
+  "description": "MS-DOS — a theme for Psysonic.",
+  "mode": "dark",
+  "tags": [
+    "operating-systems"
+  ]
+}

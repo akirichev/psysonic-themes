@@ -1,0 +1,41 @@
+/* Neon Drift — exported from the Psysonic built-in themes. */
+[data-theme='neon-drift'] {
+  color-scheme: dark;
+
+  /* Accent */
+  --accent: #00f2ff;
+  --accent-dim: rgba(0, 242, 255, 0.12);
+  --accent-glow: rgba(0, 242, 255, 0.40);
+  --accent-2: #0077ff;
+
+  /* Backgrounds */
+  --bg-app: #12132c;
+  --bg-sidebar: #0d0e21;
+  --bg-card: #1a1b3b;
+  --bg-hover: #242650;
+  --bg-elevated: #2f3166;
+  --bg-player: #080916;
+  --bg-deep: #080916;
+  --bg-glass: rgba(13, 14, 33, 0.85);
+
+  /* Borders */
+  --border: #2f3166;
+  --border-subtle: #242650;
+  --border-dropdown: #2f3166;
+
+  /* Text */
+  --text-primary: #e0e2ff;
+  --text-secondary: #aeb3e0;
+  --text-muted: #7277ad;
+  --text-on-accent: #080916;
+
+  /* Status */
+  --danger: #ff2d55;
+  --positive: #00ffa3;
+  --warning: #ffe600;
+  --highlight: #ffe600;
+
+  /* Special */
+  --select-arrow: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%2300f2ff%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpolyline%20points%3D%226%209%2012%2015%2018%209%22%3E%3C%2Fpolyline%3E%3C%2Fsvg%3E");
+  --shadow-dropdown: rgba(0, 0, 0, 0.55);
+}

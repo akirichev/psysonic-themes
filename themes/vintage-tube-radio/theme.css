@@ -1,0 +1,44 @@
+/* Tube Radio — exported from the Psysonic built-in themes. */
+[data-theme='vintage-tube-radio'] {
+  color-scheme: dark;
+
+  /* Accent */
+  --accent: #FF6F00;
+  --accent-dim: rgba(255, 111, 0, 0.15);
+  --accent-glow: rgba(255, 111, 0, 0.40);
+  --accent-2: #5C6BC0;
+
+  /* Backgrounds */
+  --bg-app: #3E2723;
+  --bg-sidebar: #5D4037;
+  --bg-card: #4E342E;
+  --bg-hover: #5D4037;
+  --bg-elevated: #6D4C41;
+  --bg-player: #1E110A;
+  --bg-deep: #1E110A;
+  --bg-glass: rgba(62, 39, 35, 0.92);
+
+  /* Borders */
+  --border: #B08D57;
+  --border-subtle: #4E342E;
+  --border-dropdown: #B08D57;
+
+  /* Text */
+  --text-primary: #FFECB3;
+  --text-secondary: #BCAAA4;
+  --text-muted: #b09880;
+  --text-on-accent: #1E110A;
+
+  /* Status */
+  --danger: #C62828;
+  --positive: #558B2F;
+  --warning: #FFC107;
+  --highlight: #FFC107;
+
+  /* Special */
+  --select-arrow: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%23BCAAA4%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpolyline%20points%3D%226%209%2012%2015%2018%209%22%3E%3C%2Fpolyline%3E%3C%2Fsvg%3E");
+  --shadow-dropdown: rgba(0, 0, 0, 0.55);
+
+  /* Per-theme overrides */
+  --player-title: #FFC107;
+}

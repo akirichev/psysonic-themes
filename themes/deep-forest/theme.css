@@ -1,0 +1,41 @@
+/* Deep Forest — exported from the Psysonic built-in themes. */
+[data-theme='deep-forest'] {
+  color-scheme: dark;
+
+  /* Accent */
+  --accent: #6aa37c;
+  --accent-dim: rgba(106,163,124,0.05);
+  --accent-glow: rgba(106,163,124,0.09);
+  --accent-2: #456f57;
+
+  /* Backgrounds */
+  --bg-app: #141c17;
+  --bg-sidebar: #0f1511;
+  --bg-card: #19231d;
+  --bg-hover: #223027;
+  --bg-elevated: #2c3d31;
+  --bg-player: #0f1511;
+  --bg-deep: #0a0f0b;
+  --bg-glass: rgba(20,28,23,0.82);
+
+  /* Borders */
+  --border: #2c3d31;
+  --border-subtle: #223027;
+  --border-dropdown: #36493b;
+
+  /* Text */
+  --text-primary: #e0efe5;
+  --text-secondary: #84a791;
+  --text-muted: #547c64;
+  --text-on-accent: #0a0f0b;
+
+  /* Status */
+  --danger: #d97777;
+  --positive: #6aa37c;
+  --warning: #c9b76a;
+  --highlight: #c9b76a;
+
+  /* Special */
+  --select-arrow: url("data:image/svg+xml;charset=US-ASCII,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%236aa37c' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
+  --shadow-dropdown: rgba(0,0,0,0.72);
+}

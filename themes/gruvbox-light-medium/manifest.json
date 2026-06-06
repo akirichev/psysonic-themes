@@ -1,0 +1,12 @@
+{
+  "id": "gruvbox-light-medium",
+  "name": "Gruvbox Light Medium",
+  "author": "Psychotoxical",
+  "version": "1.0.0",
+  "description": "Gruvbox Light Medium — recolour of the Gruvbox palette by morhetz.",
+  "mode": "light",
+  "tags": [
+    "open-source-classics",
+    "gruvbox"
+  ]
+}

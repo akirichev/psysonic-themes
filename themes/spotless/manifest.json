@@ -1,0 +1,11 @@
+{
+  "id": "spotless",
+  "name": "Spotless",
+  "author": "Psychotoxical",
+  "version": "1.0.0",
+  "description": "Spotless — a media-player-inspired theme for Psysonic.",
+  "mode": "dark",
+  "tags": [
+    "mediaplayer"
+  ]
+}

@@ -1,0 +1,46 @@
+/* Dracula — exported from the Psysonic built-in themes. */
+[data-theme='dracula'] {
+  color-scheme: dark;
+
+  /* Accent */
+  --accent: #bd93f9;
+  --accent-dim: rgba(189, 147, 249, 0.18);
+  --accent-glow: rgba(189, 147, 249, 0.35);
+  --accent-2: #6272a4;
+
+  /* Backgrounds */
+  --bg-app: #282a36;
+  --bg-sidebar: #21222c;
+  --bg-card: #44475a;
+  --bg-hover: #565869;
+  --bg-elevated: #565869;
+  --bg-player: #21222c;
+  --bg-deep: #191a21;
+  --bg-glass: rgba(40, 42, 54, 0.88);
+
+  /* Borders */
+  --border: #6272a4;
+  --border-subtle: #4e5167;
+  --border-dropdown: #6272a4;
+
+  /* Text */
+  --text-primary: #f8f8f2;
+  --text-secondary: #e0dfe6;
+  --text-muted: #8b95c0;
+  --text-on-accent: #191a21;
+
+  /* Status */
+  --danger: #ff5555;
+  --positive: #50fa7b;
+  --warning: #ffb86c;
+  --highlight: #f1fa8c;
+
+  /* Special */
+  --select-arrow: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%23f8f8f2%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpolyline%20points%3D%226%209%2012%2015%2018%209%22%3E%3C%2Fpolyline%3E%3C%2Fsvg%3E");
+  --shadow-dropdown: rgba(0, 0, 0, 0.6);
+
+  /* Per-theme overrides */
+  --waveform-played: #bd93f9;
+  --waveform-buffered: #6272a4;
+  --waveform-unplayed: #3a3c4e;
+}

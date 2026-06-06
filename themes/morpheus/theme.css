@@ -1,0 +1,45 @@
+/* Morpheus — exported from the Psysonic built-in themes. */
+[data-theme='morpheus'] {
+  color-scheme: dark;
+
+  /* Accent */
+  --accent: #00ff41;
+  --accent-dim: rgba(0, 255, 65, 0.12);
+  --accent-glow: rgba(0, 255, 65, 0.45);
+  --accent-2: #00ff41;
+
+  /* Backgrounds */
+  --bg-app: #050905;
+  --bg-sidebar: #000000;
+  --bg-card: #0a120a;
+  --bg-hover: rgba(0, 255, 65, 0.10);
+  --bg-elevated: #162416;
+  --bg-player: #000000;
+  --bg-deep: #000000;
+  --bg-glass: rgba(0, 8, 0, 0.96);
+
+  /* Borders */
+  --border: #003b00;
+  --border-subtle: #001a00;
+  --border-dropdown: #003b00;
+
+  /* Text */
+  --text-primary: #00ff41;
+  --text-secondary: #00cc33;
+  --text-muted: #22cc44;
+  --text-on-accent: #000000;
+
+  /* Status */
+  --danger: #ff0033;
+  --positive: #00ff41;
+  --warning: #adff2f;
+  --highlight: #adff2f;
+
+  /* Special */
+  --select-arrow: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%2300ff41%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpolyline%20points%3D%226%209%2012%2015%2018%209%22%3E%3C%2Fpolyline%3E%3C%2Fsvg%3E");
+  --shadow-dropdown: rgba(0, 0, 0, 0.55);
+
+  /* Per-theme overrides */
+  --volume-accent: #00ff41;
+  --player-title: #00ff41;
+}

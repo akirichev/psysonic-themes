@@ -1,0 +1,12 @@
+{
+  "id": "macchiato",
+  "name": "Catppuccin Macchiato",
+  "author": "Psychotoxical",
+  "version": "1.0.0",
+  "description": "Catppuccin Macchiato — soothing pastel theme, recolour of the Catppuccin palette.",
+  "mode": "dark",
+  "tags": [
+    "open-source-classics",
+    "catppuccin"
+  ]
+}

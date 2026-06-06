@@ -1,0 +1,45 @@
+/* Hill Valley 85 — exported from the Psysonic built-in themes. */
+[data-theme='hill-valley-85'] {
+  color-scheme: dark;
+
+  /* Accent */
+  --accent: #ff8c00;
+  --accent-dim: rgba(255, 140, 0, 0.12);
+  --accent-glow: rgba(255, 140, 0, 0.40);
+  --accent-2: #3d88ff;
+
+  /* Backgrounds */
+  --bg-app: #0d0b18;
+  --bg-sidebar: #08060f;
+  --bg-card: #141120;
+  --bg-hover: rgba(255, 140, 0, 0.12);
+  --bg-elevated: #272338;
+  --bg-player: #040209;
+  --bg-deep: #020106;
+  --bg-glass: rgba(6, 4, 12, 0.96);
+
+  /* Borders */
+  --border: rgba(255, 140, 0, 0.20);
+  --border-subtle: rgba(255, 140, 0, 0.10);
+  --border-dropdown: rgba(255, 140, 0, 0.20);
+
+  /* Text */
+  --text-primary: #ede0c8;
+  --text-secondary: #c8b898;
+  --text-muted: #b0a0c8;
+  --text-on-accent: #020106;
+
+  /* Status */
+  --danger: #ff2200;
+  --positive: #44dd00;
+  --warning: #ffe033;
+  --highlight: #ffe033;
+
+  /* Special */
+  --select-arrow: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%23ff8c00%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpolyline%20points%3D%226%209%2012%2015%2018%209%22%3E%3C%2Fpolyline%3E%3C%2Fsvg%3E");
+  --shadow-dropdown: rgba(0, 0, 0, 0.55);
+
+  /* Per-theme overrides */
+  --volume-accent: #ff8c00;
+  --player-title: #ff2200;
+}

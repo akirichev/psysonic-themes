@@ -1,0 +1,11 @@
+{
+  "id": "alliance",
+  "name": "Alliance",
+  "author": "Psychotoxical",
+  "version": "1.0.0",
+  "description": "Alliance — a game-inspired theme for Psysonic.",
+  "mode": "dark",
+  "tags": [
+    "games"
+  ]
+}

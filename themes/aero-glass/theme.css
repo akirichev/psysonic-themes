@@ -1,0 +1,45 @@
+/* Windows 7 Aero — exported from the Psysonic built-in themes. */
+[data-theme='aero-glass'] {
+  color-scheme: light;
+
+  /* Accent */
+  --accent: #1878e8;
+  --accent-dim: rgba(24, 120, 232, 0.14);
+  --accent-glow: rgba(24, 120, 232, 0.40);
+  --accent-2: #1d4268;
+
+  /* Backgrounds */
+  --bg-app: #b8cfe8;
+  --bg-sidebar: rgba(210, 228, 248, 0.55);
+  --bg-card: rgba(225, 238, 252, 0.65);
+  --bg-hover: rgba(24, 120, 232, 0.85);
+  --bg-elevated: #e4f0f8;
+  --bg-player: #05080f;
+  --bg-deep: #05080f;
+  --bg-glass: rgba(210, 228, 248, 0.82);
+
+  /* Borders */
+  --border: rgba(130, 175, 220, 0.65);
+  --border-subtle: rgba(160, 200, 240, 0.45);
+  --border-dropdown: rgba(130, 175, 220, 0.65);
+
+  /* Text */
+  --text-primary: #0d1a2e;
+  --text-secondary: #1e3250;
+  --text-muted: #7090b8;
+  --text-on-accent: #05080f;
+
+  /* Status */
+  --danger: #c42b1c;
+  --positive: #107c10;
+  --warning: #c87400;
+  --highlight: #f7c948;
+
+  /* Special */
+  --select-arrow: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%234c607a%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpolyline%20points%3D%226%209%2012%2015%2018%209%22%3E%3C%2Fpolyline%3E%3C%2Fsvg%3E");
+  --shadow-dropdown: rgba(0, 0, 0, 0.55);
+
+  /* Per-theme overrides */
+  --volume-accent: #1878e8;
+  --player-title: #ffffff;
+}

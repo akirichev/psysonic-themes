@@ -1,0 +1,11 @@
+{
+  "id": "dzr0",
+  "name": "DZR",
+  "author": "Psychotoxical",
+  "version": "1.0.0",
+  "description": "DZR — a media-player-inspired theme for Psysonic.",
+  "mode": "light",
+  "tags": [
+    "mediaplayer"
+  ]
+}

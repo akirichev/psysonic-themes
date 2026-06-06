@@ -1,0 +1,12 @@
+{
+  "id": "gruvbox-light-hard",
+  "name": "Gruvbox Light Hard",
+  "author": "Psychotoxical",
+  "version": "1.0.0",
+  "description": "Gruvbox Light Hard — recolour of the Gruvbox palette by morhetz.",
+  "mode": "light",
+  "tags": [
+    "open-source-classics",
+    "gruvbox"
+  ]
+}

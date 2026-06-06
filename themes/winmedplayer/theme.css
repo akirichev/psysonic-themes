@@ -1,0 +1,44 @@
+/* WinMedPlayer — exported from the Psysonic built-in themes. */
+[data-theme='winmedplayer'] {
+  color-scheme: dark;
+
+  /* Accent */
+  --accent: #45ff00;
+  --accent-dim: rgba(69, 255, 0, 0.15);
+  --accent-glow: rgba(69, 255, 0, 0.45);
+  --accent-2: #5599ee;
+
+  /* Backgrounds */
+  --bg-app: #3a62a5;
+  --bg-sidebar: #1a3060;
+  --bg-card: #4a72b8;
+  --bg-hover: #5480cc;
+  --bg-elevated: #6090d8;
+  --bg-player: #000000;
+  --bg-deep: #000000;
+  --bg-glass: rgba(30, 58, 110, 0.88);
+
+  /* Borders */
+  --border: #071027;
+  --border-subtle: #4a72b8;
+  --border-dropdown: #071027;
+
+  /* Text */
+  --text-primary: #ffffff;
+  --text-secondary: #dce8ff;
+  --text-muted: #e8f0ff;
+  --text-on-accent: #000000;
+
+  /* Status */
+  --danger: #ee3344;
+  --positive: #30dd00;
+  --warning: #ffdd44;
+  --highlight: #ffdd44;
+
+  /* Special */
+  --select-arrow: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%23c2d4f2%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpolyline%20points%3D%226%209%2012%2015%2018%209%22%3E%3C%2Fpolyline%3E%3C%2Fsvg%3E");
+  --shadow-dropdown: rgba(0, 0, 0, 0.55);
+
+  /* Per-theme overrides */
+  --player-title: #45ff00;
+}

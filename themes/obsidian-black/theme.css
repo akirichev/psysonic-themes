@@ -1,0 +1,41 @@
+/* Obsidian Black — exported from the Psysonic built-in themes. */
+[data-theme='obsidian-black'] {
+  color-scheme: dark;
+
+  /* Accent */
+  --accent: #dfddd8;
+  --accent-dim: rgba(223,221,216,0.05);
+  --accent-glow: rgba(223,221,216,0.10);
+  --accent-2: #7f7a70;
+
+  /* Backgrounds */
+  --bg-app: #070706;
+  --bg-sidebar: #0a0a09;
+  --bg-card: #11110f;
+  --bg-hover: #191916;
+  --bg-elevated: #20201c;
+  --bg-player: #090908;
+  --bg-deep: #000000;
+  --bg-glass: rgba(10,10,9,0.80);
+
+  /* Borders */
+  --border: #272722;
+  --border-subtle: #1a1a16;
+  --border-dropdown: #32322c;
+
+  /* Text */
+  --text-primary: #f5f3ee;
+  --text-secondary: #b6b0a5;
+  --text-muted: #767066;
+  --text-on-accent: #000000;
+
+  /* Status */
+  --danger: #ff5f57;
+  --positive: #57d98c;
+  --warning: #ffd166;
+  --highlight: #ffd166;
+
+  /* Special */
+  --select-arrow: url("data:image/svg+xml;charset=US-ASCII,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23dfddd8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
+  --shadow-dropdown: rgba(0,0,0,0.92);
+}

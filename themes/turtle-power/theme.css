@@ -1,0 +1,45 @@
+/* Turtle Power — exported from the Psysonic built-in themes. */
+[data-theme='turtle-power'] {
+  color-scheme: dark;
+
+  /* Accent */
+  --accent: #33cc33;
+  --accent-dim: rgba(51, 204, 51, 0.15);
+  --accent-glow: rgba(51, 204, 51, 0.4);
+  --accent-2: #00aaff;
+
+  /* Backgrounds */
+  --bg-app: #1a1a1a;
+  --bg-sidebar: #121212;
+  --bg-card: #242424;
+  --bg-hover: rgba(51, 204, 51, 0.1);
+  --bg-elevated: #404040;
+  --bg-player: #0a0a0a;
+  --bg-deep: #0a0a0a;
+  --bg-glass: rgba(10, 10, 10, 0.85);
+
+  /* Borders */
+  --border: #333333;
+  --border-subtle: #222222;
+  --border-dropdown: #333333;
+
+  /* Text */
+  --text-primary: #e0e0e0;
+  --text-secondary: #a0b0a0;
+  --text-muted: #667766;
+  --text-on-accent: #0a0a0a;
+
+  /* Status */
+  --danger: #ff0000;
+  --positive: #33cc33;
+  --warning: #ffcc00;
+  --highlight: #ffcc00;
+
+  /* Special */
+  --select-arrow: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%2333cc33%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpolyline%20points%3D%226%209%2012%2015%2018%209%22%3E%3C%2Fpolyline%3E%3C%2Fsvg%3E");
+  --shadow-dropdown: rgba(0, 0, 0, 0.55);
+
+  /* Per-theme overrides */
+  --volume-accent: #33cc33;
+  --player-title: #44ee44;
+}

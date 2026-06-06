@@ -1,0 +1,11 @@
+{
+  "id": "gw1",
+  "name": "Guild Wars 1",
+  "author": "Psychotoxical",
+  "version": "1.0.0",
+  "description": "Guild Wars 1 — a game-inspired theme for Psysonic.",
+  "mode": "dark",
+  "tags": [
+    "games"
+  ]
+}

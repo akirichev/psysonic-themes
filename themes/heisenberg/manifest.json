@@ -1,0 +1,11 @@
+{
+  "id": "heisenberg",
+  "name": "Heisenberg",
+  "author": "Psychotoxical",
+  "version": "1.0.0",
+  "description": "Heisenberg — a TV-series-inspired theme for Psysonic.",
+  "mode": "dark",
+  "tags": [
+    "series"
+  ]
+}

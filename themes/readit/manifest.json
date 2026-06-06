@@ -1,0 +1,11 @@
+{
+  "id": "readit",
+  "name": "ReadIt",
+  "author": "Psychotoxical",
+  "version": "1.0.0",
+  "description": "ReadIt — an app-inspired theme for Psysonic.",
+  "mode": "dark",
+  "tags": [
+    "social-media"
+  ]
+}

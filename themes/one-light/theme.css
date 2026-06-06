@@ -1,0 +1,46 @@
+/* Atom One Light — exported from the Psysonic built-in themes. */
+[data-theme='one-light'] {
+  color-scheme: light;
+
+  /* Accent */
+  --accent: #4078f2;
+  --accent-dim: rgba(64, 120, 242, 0.12);
+  --accent-glow: rgba(64, 120, 242, 0.24);
+  --accent-2: #4078f2;
+
+  /* Backgrounds */
+  --bg-app: #fafafa;
+  --bg-sidebar: #eaeaeb;
+  --bg-card: #ececed;
+  --bg-hover: #dfdfdf;
+  --bg-elevated: #d3d3d3;
+  --bg-player: #eaeaeb;
+  --bg-deep: #e7e9e1;
+  --bg-glass: rgba(250, 250, 250, 0.92);
+
+  /* Borders */
+  --border: #dfdfdf;
+  --border-subtle: #ececed;
+  --border-dropdown: #c2c2c3;
+
+  /* Text */
+  --text-primary: #383A42;
+  --text-secondary: #696c77;
+  --text-muted: #a0a1a7;
+  --text-on-accent: #e7e9e1;
+
+  /* Status */
+  --danger: #e45649;
+  --positive: #50a14f;
+  --warning: #c18401;
+  --highlight: #c18401;
+
+  /* Special */
+  --select-arrow: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%23383A42%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpolyline%20points%3D%226%209%2012%2015%2018%209%22%3E%3C%2Fpolyline%3E%3C%2Fsvg%3E");
+  --shadow-dropdown: rgba(0, 0, 0, 0.16);
+
+  /* Per-theme overrides */
+  --waveform-played: #4078f2;
+  --waveform-buffered: #a0a1a7;
+  --waveform-unplayed: #dfdfdf;
+}

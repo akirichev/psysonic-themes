@@ -1,0 +1,41 @@
+/* Cupertino Dark — exported from the Psysonic built-in themes. */
+[data-theme='cupertino-dark'] {
+  color-scheme: dark;
+
+  /* Accent */
+  --accent: #007aff;
+  --accent-dim: rgba(0, 122, 255, 0.15);
+  --accent-glow: rgba(0, 122, 255, 0.35);
+  --accent-2: #007aff;
+
+  /* Backgrounds */
+  --bg-app: #1e1e1f;
+  --bg-sidebar: #161617;
+  --bg-card: #2d2d2f;
+  --bg-hover: #3a3a3c;
+  --bg-elevated: #48484a;
+  --bg-player: rgba(16, 16, 17, 0.90);
+  --bg-deep: #0d0d0e;
+  --bg-glass: rgba(30, 30, 31, 0.80);
+
+  /* Borders */
+  --border: #3a3a3c;
+  --border-subtle: #2d2d2f;
+  --border-dropdown: #3a3a3c;
+
+  /* Text */
+  --text-primary: #f5f5f7;
+  --text-secondary: #c7c7cc;
+  --text-muted: #8e8e93;
+  --text-on-accent: #0d0d0e;
+
+  /* Status */
+  --danger: #ff453a;
+  --positive: #30d158;
+  --warning: #ff9f0a;
+  --highlight: #ffd60a;
+
+  /* Special */
+  --select-arrow: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%2398989d%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpolyline%20points%3D%226%209%2012%2015%2018%209%22%3E%3C%2Fpolyline%3E%3C%2Fsvg%3E");
+  --shadow-dropdown: 0 8px 30px rgba(0, 0, 0, 0.55), 0 2px 8px rgba(0, 0, 0, 0.30);
+}

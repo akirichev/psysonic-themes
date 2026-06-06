@@ -1,0 +1,46 @@
+/* 1984 Light — exported from the Psysonic built-in themes. */
+[data-theme='vs-1984-light'] {
+  color-scheme: light;
+
+  /* Accent */
+  --accent: #4d5eff;
+  --accent-dim: rgba(77, 94, 255, 0.12);
+  --accent-glow: rgba(77, 94, 255, 0.24);
+  --accent-2: #4d5eff;
+
+  /* Backgrounds */
+  --bg-app: #e4e5f5;
+  --bg-sidebar: #dfe0f0;
+  --bg-card: #d4d6e7;
+  --bg-hover: #cccdde;
+  --bg-elevated: #b9bad0;
+  --bg-player: #dfe0f0;
+  --bg-deep: #d4d6e7;
+  --bg-glass: rgba(228, 229, 245, 0.92);
+
+  /* Borders */
+  --border: #cccdde;
+  --border-subtle: #d4d6e7;
+  --border-dropdown: #b9bad0;
+
+  /* Text */
+  --text-primary: #19152c;
+  --text-secondary: #585d74;
+  --text-muted: #9793b9;
+  --text-on-accent: #d4d6e7;
+
+  /* Status */
+  --danger: #FF16B0;
+  --positive: #1d7848;
+  --warning: #b88600;
+  --highlight: #b88600;
+
+  /* Special */
+  --select-arrow: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%2319152c%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpolyline%20points%3D%226%209%2012%2015%2018%209%22%3E%3C%2Fpolyline%3E%3C%2Fsvg%3E");
+  --shadow-dropdown: rgba(25, 21, 44, 0.18);
+
+  /* Per-theme overrides */
+  --waveform-played: #4d5eff;
+  --waveform-buffered: #9793b9;
+  --waveform-unplayed: #d4d6e7;
+}

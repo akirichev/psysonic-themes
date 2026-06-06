@@ -1,0 +1,41 @@
+/* Sakura Night — exported from the Psysonic built-in themes. */
+[data-theme='sakura-night'] {
+  color-scheme: dark;
+
+  /* Accent */
+  --accent: #d8a6bc;
+  --accent-dim: rgba(216,166,188,0.05);
+  --accent-glow: rgba(216,166,188,0.08);
+  --accent-2: #99687d;
+
+  /* Backgrounds */
+  --bg-app: #1c1218;
+  --bg-sidebar: #160d12;
+  --bg-card: #241821;
+  --bg-hover: #2f202b;
+  --bg-elevated: #3c2937;
+  --bg-player: #160d12;
+  --bg-deep: #10090c;
+  --bg-glass: rgba(28,18,24,0.82);
+
+  /* Borders */
+  --border: #3c2937;
+  --border-subtle: #2f202b;
+  --border-dropdown: #493341;
+
+  /* Text */
+  --text-primary: #fff0f5;
+  --text-secondary: #bc93a4;
+  --text-muted: #6f4d5d;
+  --text-on-accent: #10090c;
+
+  /* Status */
+  --danger: #e27b7b;
+  --positive: #74b68a;
+  --warning: #d8bf73;
+  --highlight: #d8bf73;
+
+  /* Special */
+  --select-arrow: url("data:image/svg+xml;charset=US-ASCII,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23d8a6bc' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
+  --shadow-dropdown: rgba(0,0,0,0.72);
+}

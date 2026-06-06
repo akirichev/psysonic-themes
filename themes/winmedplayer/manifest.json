@@ -1,0 +1,11 @@
+{
+  "id": "winmedplayer",
+  "name": "WinMedPlayer",
+  "author": "Psychotoxical",
+  "version": "1.0.0",
+  "description": "WinMedPlayer — a media-player-inspired theme for Psysonic.",
+  "mode": "dark",
+  "tags": [
+    "mediaplayer"
+  ]
+}

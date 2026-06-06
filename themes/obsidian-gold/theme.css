@@ -1,0 +1,41 @@
+/* Obsidian Gold — exported from the Psysonic built-in themes. */
+[data-theme='obsidian-gold'] {
+  color-scheme: dark;
+
+  /* Accent */
+  --accent: #c9a227;
+  --accent-dim: rgba(201, 162, 39, 0.06);
+  --accent-glow: rgba(201, 162, 39, 0.12);
+  --accent-2: #8f6e22;
+
+  /* Backgrounds */
+  --bg-app: #0f0d09;
+  --bg-sidebar: #0a0907;
+  --bg-card: #15120d;
+  --bg-hover: #1d1811;
+  --bg-elevated: #262016;
+  --bg-player: #0a0907;
+  --bg-deep: #050505;
+  --bg-glass: rgba(15, 13, 9, 0.82);
+
+  /* Borders */
+  --border: #262016;
+  --border-subtle: #1d1811;
+  --border-dropdown: #31281a;
+
+  /* Text */
+  --text-primary: #f8f4e8;
+  --text-secondary: #b89f56;
+  --text-muted: #7a6830;
+  --text-on-accent: #050505;
+
+  /* Status */
+  --danger: #ff5c5c;
+  --positive: #57d98c;
+  --warning: #e0b84f;
+  --highlight: #e0b84f;
+
+  /* Special */
+  --select-arrow: url("data:image/svg+xml;charset=US-ASCII,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23c9a227' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
+  --shadow-dropdown: rgba(0, 0, 0, 0.92);
+}

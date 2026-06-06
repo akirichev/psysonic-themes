@@ -1,0 +1,41 @@
+/* Sepia Dark — exported from the Psysonic built-in themes. */
+[data-theme='sepia-dark'] {
+  color-scheme: dark;
+
+  /* Accent */
+  --accent: #c8b89a;
+  --accent-dim: rgba(200, 184, 154, 0.07);
+  --accent-glow: rgba(200, 184, 154, 0.13);
+  --accent-2: #a08868;
+
+  /* Backgrounds */
+  --bg-app: #1e1a14;
+  --bg-sidebar: #13100c;
+  --bg-card: #252018;
+  --bg-hover: #2e281e;
+  --bg-elevated: #373025;
+  --bg-player: #13100c;
+  --bg-deep: #0e0c09;
+  --bg-glass: rgba(30, 26, 20, 0.95);
+
+  /* Borders */
+  --border: #2e281e;
+  --border-subtle: #252018;
+  --border-dropdown: #3a3025;
+
+  /* Text */
+  --text-primary: #ede0cc;
+  --text-secondary: #b0a080;
+  --text-muted: #80705c;
+  --text-on-accent: #0e0c09;
+
+  /* Status */
+  --danger: #c87060;
+  --positive: #80a870;
+  --warning: #b8a050;
+  --highlight: #b8a050;
+
+  /* Special */
+  --select-arrow: url("data:image/svg+xml;charset=US-ASCII,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23c8b89a' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
+  --shadow-dropdown: rgba(0, 0, 0, 0.88);
+}

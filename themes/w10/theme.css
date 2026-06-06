@@ -1,0 +1,47 @@
+/* Windows 10 — exported from the Psysonic built-in themes. */
+[data-theme='w10'] {
+  color-scheme: light;
+
+  /* Accent */
+  --accent: #0078d4;
+  --accent-dim: rgba(0, 120, 212, 0.10);
+  --accent-glow: rgba(0, 120, 212, 0.28);
+  --accent-2: #0063b1;
+
+  /* Backgrounds */
+  --bg-app: #ffffff;
+  --bg-sidebar: #f3f3f3;
+  --bg-card: #ffffff;
+  --bg-hover: #e8e8e8;
+  --bg-elevated: #d6d6d6;
+  --bg-player: #1c1c1c;
+  --bg-deep: #1c1c1c;
+  --bg-glass: rgba(255, 255, 255, 0.90);
+
+  /* Borders */
+  --border: #d6d6d6;
+  --border-subtle: #ebebeb;
+  --border-dropdown: #d6d6d6;
+
+  /* Text */
+  --text-primary: #000000;
+  --text-secondary: #1b1b1b;
+  --text-muted: #767676;
+  --text-on-accent: #1c1c1c;
+
+  /* Status */
+  --danger: #d13438;
+  --positive: #107c10;
+  --warning: #ffb900;
+  --highlight: #ffb900;
+
+  /* Special */
+  --select-arrow: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%23767676%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpolyline%20points%3D%226%209%2012%2015%2018%209%22%3E%3C%2Fpolyline%3E%3C%2Fsvg%3E");
+  --shadow-dropdown: rgba(0, 0, 0, 0.55);
+
+  /* Per-theme overrides */
+  --waveform-played: #0078d4;
+  --waveform-buffered: #80bbea;
+  --waveform-unplayed: #d6d6d6;
+  --player-title: #ffffff;
+}

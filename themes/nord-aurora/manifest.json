@@ -1,0 +1,12 @@
+{
+  "id": "nord-aurora",
+  "name": "Nord Aurora",
+  "author": "Psychotoxical",
+  "version": "1.0.0",
+  "description": "Nord Aurora — recolour of the Nord palette by arcticicestudio.",
+  "mode": "dark",
+  "tags": [
+    "open-source-classics",
+    "nord"
+  ]
+}

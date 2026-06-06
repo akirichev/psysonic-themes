@@ -1,0 +1,45 @@
+/* Barb & Ken — exported from the Psysonic built-in themes. */
+[data-theme='barb-and-ken'] {
+  color-scheme: dark;
+
+  /* Accent */
+  --accent: #FF1B8D;
+  --accent-dim: rgba(255, 27, 141, 0.15);
+  --accent-glow: rgba(255, 27, 141, 0.45);
+  --accent-2: #89CFF0;
+
+  /* Backgrounds */
+  --bg-app: #1a000f;
+  --bg-sidebar: #110009;
+  --bg-card: #2e0019;
+  --bg-hover: rgba(255, 27, 141, 0.12);
+  --bg-elevated: #5c0032;
+  --bg-player: #07000b;
+  --bg-deep: #07000b;
+  --bg-glass: rgba(26, 0, 15, 0.88);
+
+  /* Borders */
+  --border: rgba(255, 27, 141, 0.28);
+  --border-subtle: rgba(255, 27, 141, 0.12);
+  --border-dropdown: rgba(255, 27, 141, 0.3);
+
+  /* Text */
+  --text-primary: #ffe6f3;
+  --text-secondary: #ffb8da;
+  --text-muted: #7a3055;
+  --text-on-accent: #07000b;
+
+  /* Status */
+  --danger: #FF4466;
+  --positive: #a6e3a1;
+  --warning: #FFE4A8;
+  --highlight: #FFE4A8;
+
+  /* Special */
+  --select-arrow: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%23FF1B8D%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpolyline%20points%3D%226%209%2012%2015%2018%209%22%3E%3C%2Fpolyline%3E%3C%2Fsvg%3E");
+  --shadow-dropdown: rgba(7, 0, 11, 0.9);
+
+  /* Per-theme overrides */
+  --volume-accent: #89CFF0;
+  --player-artist: #89CFF0;
+}

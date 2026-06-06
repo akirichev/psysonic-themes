@@ -1,0 +1,48 @@
+/* MuMa Jukebox — exported from the Psysonic built-in themes. */
+[data-theme='muma-jukebox'] {
+  color-scheme: light;
+
+  /* Accent */
+  --accent: #0070a0;
+  --accent-dim: rgba(0, 112, 160, 0.15);
+  --accent-glow: rgba(0, 112, 160, 0.35);
+  --accent-2: #0058b8;
+
+  /* Backgrounds */
+  --bg-app: #d4d8db;
+  --bg-sidebar: #b5babc;
+  --bg-card: #c8ccce;
+  --bg-hover: #bec2c4;
+  --bg-elevated: #8a9094;
+  --bg-player: #001358;
+  --bg-deep: #001358;
+  --bg-glass: rgba(212, 216, 219, 0.92);
+
+  /* Borders */
+  --border: #8a9094;
+  --border-subtle: #c0c4c6;
+  --border-dropdown: #8a9094;
+
+  /* Text */
+  --text-primary: #1a1a1a;
+  --text-secondary: #4a4a4a;
+  --text-muted: #909090;
+  --text-on-accent: #001358;
+
+  /* Status */
+  --danger: #c82020;
+  --positive: #008840;
+  --warning: #cc8800;
+  --highlight: #cc8800;
+
+  /* Special */
+  --select-arrow: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%234a4a4a%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpolyline%20points%3D%226%209%2012%2015%2018%209%22%3E%3C%2Fpolyline%3E%3C%2Fsvg%3E");
+  --shadow-dropdown: rgba(0, 0, 0, 0.55);
+
+  /* Per-theme overrides */
+  --volume-accent: #ff6600;
+  --player-title: #ffffff;
+  --waveform-played: #ff6600;
+  --waveform-buffered: #00d0ff;
+  --waveform-unplayed: #3a5080;
+}

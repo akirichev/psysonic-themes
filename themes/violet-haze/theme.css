@@ -1,0 +1,41 @@
+/* Violet Haze — exported from the Psysonic built-in themes. */
+[data-theme='violet-haze'] {
+  color-scheme: dark;
+
+  /* Accent */
+  --accent: #b4a0ff;
+  --accent-dim: rgba(184,167,255,0.06);
+  --accent-glow: rgba(184,167,255,0.10);
+  --accent-2: #7f6ac8;
+
+  /* Backgrounds */
+  --bg-app: #12101d;
+  --bg-sidebar: #0d0a16;
+  --bg-card: #171425;
+  --bg-hover: #211c35;
+  --bg-elevated: #26203d;
+  --bg-player: #0d0a16;
+  --bg-deep: #09070f;
+  --bg-glass: rgba(18,16,29,0.78);
+
+  /* Borders */
+  --border: #26203d;
+  --border-subtle: #1d1930;
+  --border-dropdown: #31284c;
+
+  /* Text */
+  --text-primary: #f3efff;
+  --text-secondary: #a696d6;
+  --text-muted: #65558f;
+  --text-on-accent: #09070f;
+
+  /* Status */
+  --danger: #ff6b6b;
+  --positive: #4ade80;
+  --warning: #ffd166;
+  --highlight: #ffd166;
+
+  /* Special */
+  --select-arrow: url("data:image/svg+xml;charset=US-ASCII,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23b4a0ff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
+  --shadow-dropdown: rgba(0,0,0,0.88);
+}

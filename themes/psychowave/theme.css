@@ -1,0 +1,41 @@
+/* Psychowave — exported from the Psysonic built-in themes. */
+[data-theme='psychowave'] {
+  color-scheme: dark;
+
+  /* Accent */
+  --accent: #a06ae0;
+  --accent-dim: rgba(160, 106, 224, 0.12);
+  --accent-glow: rgba(160, 106, 224, 0.30);
+  --accent-2: #58a8e8;
+
+  /* Backgrounds */
+  --bg-app: #161428;
+  --bg-sidebar: #110f22;
+  --bg-card: #1f1c38;
+  --bg-hover: #2a2750;
+  --bg-elevated: #383468;
+  --bg-player: #0d0c1a;
+  --bg-deep: #0d0c1a;
+  --bg-glass: rgba(22, 20, 40, 0.85);
+
+  /* Borders */
+  --border: #383468;
+  --border-subtle: #1f1c38;
+  --border-dropdown: #383468;
+
+  /* Text */
+  --text-primary: #e6e0f6;
+  --text-secondary: #b09ee0;
+  --text-muted: #706898;
+  --text-on-accent: #0d0c1a;
+
+  /* Status */
+  --danger: #b04060;
+  --positive: #58c878;
+  --warning: #c8a848;
+  --highlight: #c8a848;
+
+  /* Special */
+  --select-arrow: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%23b09ee0%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpolyline%20points%3D%226%209%2012%2015%2018%209%22%3E%3C%2Fpolyline%3E%3C%2Fsvg%3E");
+  --shadow-dropdown: rgba(0, 0, 0, 0.55);
+}

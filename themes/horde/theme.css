@@ -1,0 +1,44 @@
+/* Horde — exported from the Psysonic built-in themes. */
+[data-theme='horde'] {
+  color-scheme: dark;
+
+  /* Accent */
+  --accent: #cc2200;
+  --accent-dim: rgba(204, 34, 0, 0.15);
+  --accent-glow: rgba(204, 34, 0, 0.35);
+  --accent-2: #cc2200;
+
+  /* Backgrounds */
+  --bg-app: #1a0500;
+  --bg-sidebar: #110300;
+  --bg-card: #2e0a02;
+  --bg-hover: #3e1104;
+  --bg-elevated: #521806;
+  --bg-player: #120400;
+  --bg-deep: #0e0200;
+  --bg-glass: rgba(30, 30, 46, 0.75);
+
+  /* Borders */
+  --border: rgba(180, 80, 30, 0.35);
+  --border-subtle: rgba(140, 60, 20, 0.30);
+  --border-dropdown: rgba(180, 80, 30, 0.35);
+
+  /* Text */
+  --text-primary: #e8d4b8;
+  --text-secondary: #c09070;
+  --text-muted: #a07848;
+  --text-on-accent: #0e0200;
+
+  /* Status */
+  --danger: #ff4422;
+  --positive: #887722;
+  --warning: #ff8844;
+  --highlight: #ffd890;
+
+  /* Special */
+  --select-arrow: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%23bac2de%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpolyline%20points%3D%226%209%2012%2015%2018%209%22%3E%3C%2Fpolyline%3E%3C%2Fsvg%3E");
+  --shadow-dropdown: rgba(0, 0, 0, 0.55);
+
+  /* Per-theme overrides */
+  --player-title: #ffd890;
+}

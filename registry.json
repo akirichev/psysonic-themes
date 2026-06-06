@@ -1,5 +1,1091 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-06T12:50:00.890Z",
-  "themes": []
+  "generatedAt": "2026-06-06T15:15:07.603Z",
+  "themes": [
+    {
+      "id": "aero-glass",
+      "name": "Windows 7 Aero",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "Windows 7 Aero — a theme for Psysonic.",
+      "mode": "light",
+      "tags": [
+        "operating-systems"
+      ],
+      "css": "themes/aero-glass/theme.css",
+      "thumbnail": "themes/aero-glass/thumbnail.png"
+    },
+    {
+      "id": "alliance",
+      "name": "Alliance",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "Alliance — a game-inspired theme for Psysonic.",
+      "mode": "dark",
+      "tags": [
+        "games"
+      ],
+      "css": "themes/alliance/theme.css",
+      "thumbnail": "themes/alliance/thumbnail.png"
+    },
+    {
+      "id": "amoled-black-pure",
+      "name": "AMOLED Black Pure",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "AMOLED Black Pure — a theme for Psysonic.",
+      "mode": "dark",
+      "css": "themes/amoled-black-pure/theme.css",
+      "thumbnail": "themes/amoled-black-pure/thumbnail.png"
+    },
+    {
+      "id": "barb-and-ken",
+      "name": "Barb & Ken",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "Barb & Ken — a movie-inspired theme for Psysonic.",
+      "mode": "dark",
+      "tags": [
+        "movies"
+      ],
+      "css": "themes/barb-and-ken/theme.css",
+      "thumbnail": "themes/barb-and-ken/thumbnail.png"
+    },
+    {
+      "id": "blade",
+      "name": "Blade",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "Blade — a movie-inspired theme for Psysonic.",
+      "mode": "dark",
+      "tags": [
+        "movies"
+      ],
+      "css": "themes/blade/theme.css",
+      "thumbnail": "themes/blade/thumbnail.png"
+    },
+    {
+      "id": "carbon-grey",
+      "name": "Carbon Grey",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "Carbon Grey — a theme for Psysonic.",
+      "mode": "dark",
+      "css": "themes/carbon-grey/theme.css",
+      "thumbnail": "themes/carbon-grey/thumbnail.png"
+    },
+    {
+      "id": "carbonfox",
+      "name": "Carbonfox",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "Carbonfox — recolour of the Nightfox palettes by EdenEast.",
+      "mode": "dark",
+      "tags": [
+        "open-source-classics",
+        "nightfox"
+      ],
+      "css": "themes/carbonfox/theme.css",
+      "thumbnail": "themes/carbonfox/thumbnail.png"
+    },
+    {
+      "id": "copper-oxide",
+      "name": "Copper Oxide",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "Copper Oxide — a theme for Psysonic.",
+      "mode": "dark",
+      "css": "themes/copper-oxide/theme.css",
+      "thumbnail": "themes/copper-oxide/thumbnail.png"
+    },
+    {
+      "id": "cupertino-beats",
+      "name": "Cupertino Beats",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "Cupertino Beats — a media-player-inspired theme for Psysonic.",
+      "mode": "dark",
+      "tags": [
+        "mediaplayer"
+      ],
+      "css": "themes/cupertino-beats/theme.css",
+      "thumbnail": "themes/cupertino-beats/thumbnail.png"
+    },
+    {
+      "id": "cupertino-dark",
+      "name": "Cupertino Dark",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "Cupertino Dark — a theme for Psysonic.",
+      "mode": "dark",
+      "tags": [
+        "operating-systems"
+      ],
+      "css": "themes/cupertino-dark/theme.css",
+      "thumbnail": "themes/cupertino-dark/thumbnail.png"
+    },
+    {
+      "id": "cupertino-light",
+      "name": "Cupertino Light",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "Cupertino Light — a theme for Psysonic.",
+      "mode": "light",
+      "tags": [
+        "operating-systems"
+      ],
+      "css": "themes/cupertino-light/theme.css",
+      "thumbnail": "themes/cupertino-light/thumbnail.png"
+    },
+    {
+      "id": "dark-side-of-the-moon",
+      "name": "Dark Side of the Moon (inspired)",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "Dark Side of the Moon (inspired) — an album-inspired theme for Psysonic.",
+      "mode": "dark",
+      "tags": [
+        "famous-albums"
+      ],
+      "css": "themes/dark-side-of-the-moon/theme.css",
+      "thumbnail": "themes/dark-side-of-the-moon/thumbnail.png"
+    },
+    {
+      "id": "dawnfox",
+      "name": "Dawnfox",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "Dawnfox — recolour of the Nightfox palettes by EdenEast.",
+      "mode": "light",
+      "tags": [
+        "open-source-classics",
+        "nightfox"
+      ],
+      "css": "themes/dawnfox/theme.css",
+      "thumbnail": "themes/dawnfox/thumbnail.png"
+    },
+    {
+      "id": "dayfox",
+      "name": "Dayfox",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "Dayfox — recolour of the Nightfox palettes by EdenEast.",
+      "mode": "light",
+      "tags": [
+        "open-source-classics",
+        "nightfox"
+      ],
+      "css": "themes/dayfox/theme.css",
+      "thumbnail": "themes/dayfox/thumbnail.png"
+    },
+    {
+      "id": "deep-forest",
+      "name": "Deep Forest",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "Deep Forest — a theme for Psysonic.",
+      "mode": "dark",
+      "css": "themes/deep-forest/theme.css",
+      "thumbnail": "themes/deep-forest/thumbnail.png"
+    },
+    {
+      "id": "doh-matic",
+      "name": "D'oh-matic",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "D'oh-matic — a TV-series-inspired theme for Psysonic.",
+      "mode": "light",
+      "tags": [
+        "series"
+      ],
+      "css": "themes/doh-matic/theme.css",
+      "thumbnail": "themes/doh-matic/thumbnail.png"
+    },
+    {
+      "id": "dos",
+      "name": "MS-DOS",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "MS-DOS — a theme for Psysonic.",
+      "mode": "dark",
+      "tags": [
+        "operating-systems"
+      ],
+      "css": "themes/dos/theme.css",
+      "thumbnail": "themes/dos/thumbnail.png"
+    },
+    {
+      "id": "dracula",
+      "name": "Dracula",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "Dracula — recolour of the Dracula palette by Zeno Rocha.",
+      "mode": "dark",
+      "tags": [
+        "open-source-classics",
+        "dracula"
+      ],
+      "css": "themes/dracula/theme.css",
+      "thumbnail": "themes/dracula/thumbnail.png"
+    },
+    {
+      "id": "dune",
+      "name": "Dune",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "Dune — a movie-inspired theme for Psysonic.",
+      "mode": "dark",
+      "tags": [
+        "movies"
+      ],
+      "css": "themes/dune/theme.css",
+      "thumbnail": "themes/dune/thumbnail.png"
+    },
+    {
+      "id": "duskfox",
+      "name": "Duskfox",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "Duskfox — recolour of the Nightfox palettes by EdenEast.",
+      "mode": "dark",
+      "tags": [
+        "open-source-classics",
+        "nightfox"
+      ],
+      "css": "themes/duskfox/theme.css",
+      "thumbnail": "themes/duskfox/thumbnail.png"
+    },
+    {
+      "id": "dzr0",
+      "name": "DZR",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "DZR — a media-player-inspired theme for Psysonic.",
+      "mode": "light",
+      "tags": [
+        "mediaplayer"
+      ],
+      "css": "themes/dzr0/theme.css",
+      "thumbnail": "themes/dzr0/thumbnail.png"
+    },
+    {
+      "id": "frappe",
+      "name": "Catppuccin Frappé",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "Catppuccin Frappé — soothing pastel theme, recolour of the Catppuccin palette.",
+      "mode": "dark",
+      "tags": [
+        "open-source-classics",
+        "catppuccin"
+      ],
+      "css": "themes/frappe/theme.css",
+      "thumbnail": "themes/frappe/thumbnail.png"
+    },
+    {
+      "id": "grand-theft-audio",
+      "name": "Grand Theft Audio",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "Grand Theft Audio — a game-inspired theme for Psysonic.",
+      "mode": "dark",
+      "tags": [
+        "games"
+      ],
+      "css": "themes/grand-theft-audio/theme.css",
+      "thumbnail": "themes/grand-theft-audio/thumbnail.png"
+    },
+    {
+      "id": "gruvbox-dark-hard",
+      "name": "Gruvbox Dark Hard",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "Gruvbox Dark Hard — recolour of the Gruvbox palette by morhetz.",
+      "mode": "dark",
+      "tags": [
+        "open-source-classics",
+        "gruvbox"
+      ],
+      "css": "themes/gruvbox-dark-hard/theme.css",
+      "thumbnail": "themes/gruvbox-dark-hard/thumbnail.png"
+    },
+    {
+      "id": "gruvbox-dark-medium",
+      "name": "Gruvbox Dark Medium",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "Gruvbox Dark Medium — recolour of the Gruvbox palette by morhetz.",
+      "mode": "dark",
+      "tags": [
+        "open-source-classics",
+        "gruvbox"
+      ],
+      "css": "themes/gruvbox-dark-medium/theme.css",
+      "thumbnail": "themes/gruvbox-dark-medium/thumbnail.png"
+    },
+    {
+      "id": "gruvbox-dark-soft",
+      "name": "Gruvbox Dark Soft",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "Gruvbox Dark Soft — recolour of the Gruvbox palette by morhetz.",
+      "mode": "dark",
+      "tags": [
+        "open-source-classics",
+        "gruvbox"
+      ],
+      "css": "themes/gruvbox-dark-soft/theme.css",
+      "thumbnail": "themes/gruvbox-dark-soft/thumbnail.png"
+    },
+    {
+      "id": "gruvbox-light-hard",
+      "name": "Gruvbox Light Hard",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "Gruvbox Light Hard — recolour of the Gruvbox palette by morhetz.",
+      "mode": "light",
+      "tags": [
+        "open-source-classics",
+        "gruvbox"
+      ],
+      "css": "themes/gruvbox-light-hard/theme.css",
+      "thumbnail": "themes/gruvbox-light-hard/thumbnail.png"
+    },
+    {
+      "id": "gruvbox-light-medium",
+      "name": "Gruvbox Light Medium",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "Gruvbox Light Medium — recolour of the Gruvbox palette by morhetz.",
+      "mode": "light",
+      "tags": [
+        "open-source-classics",
+        "gruvbox"
+      ],
+      "css": "themes/gruvbox-light-medium/theme.css",
+      "thumbnail": "themes/gruvbox-light-medium/thumbnail.png"
+    },
+    {
+      "id": "gruvbox-light-soft",
+      "name": "Gruvbox Light Soft",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "Gruvbox Light Soft — recolour of the Gruvbox palette by morhetz.",
+      "mode": "light",
+      "tags": [
+        "open-source-classics",
+        "gruvbox"
+      ],
+      "css": "themes/gruvbox-light-soft/theme.css",
+      "thumbnail": "themes/gruvbox-light-soft/thumbnail.png"
+    },
+    {
+      "id": "gw1",
+      "name": "Guild Wars 1",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "Guild Wars 1 — a game-inspired theme for Psysonic.",
+      "mode": "dark",
+      "tags": [
+        "games"
+      ],
+      "css": "themes/gw1/theme.css",
+      "thumbnail": "themes/gw1/thumbnail.png"
+    },
+    {
+      "id": "heisenberg",
+      "name": "Heisenberg",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "Heisenberg — a TV-series-inspired theme for Psysonic.",
+      "mode": "dark",
+      "tags": [
+        "series"
+      ],
+      "css": "themes/heisenberg/theme.css",
+      "thumbnail": "themes/heisenberg/thumbnail.png"
+    },
+    {
+      "id": "hill-valley-85",
+      "name": "Hill Valley 85",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "Hill Valley 85 — a movie-inspired theme for Psysonic.",
+      "mode": "dark",
+      "tags": [
+        "movies"
+      ],
+      "css": "themes/hill-valley-85/theme.css",
+      "thumbnail": "themes/hill-valley-85/thumbnail.png"
+    },
+    {
+      "id": "horde",
+      "name": "Horde",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "Horde — a game-inspired theme for Psysonic.",
+      "mode": "dark",
+      "tags": [
+        "games"
+      ],
+      "css": "themes/horde/theme.css",
+      "thumbnail": "themes/horde/thumbnail.png"
+    },
+    {
+      "id": "ice-and-fire",
+      "name": "A Theme of Ice and Fire",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "A Theme of Ice and Fire — a TV-series-inspired theme for Psysonic.",
+      "mode": "dark",
+      "tags": [
+        "series"
+      ],
+      "css": "themes/ice-and-fire/theme.css",
+      "thumbnail": "themes/ice-and-fire/thumbnail.png"
+    },
+    {
+      "id": "insta",
+      "name": "Insta",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "Insta — an app-inspired theme for Psysonic.",
+      "mode": "dark",
+      "tags": [
+        "social-media"
+      ],
+      "css": "themes/insta/theme.css",
+      "thumbnail": "themes/insta/thumbnail.png"
+    },
+    {
+      "id": "jayfin",
+      "name": "Jayfin",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "Jayfin — a media-player-inspired theme for Psysonic.",
+      "mode": "dark",
+      "tags": [
+        "mediaplayer"
+      ],
+      "css": "themes/jayfin/theme.css",
+      "thumbnail": "themes/jayfin/thumbnail.png"
+    },
+    {
+      "id": "kanagawa-dragon",
+      "name": "Kanagawa Dragon",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "Kanagawa Dragon — recolour of the Kanagawa palette by rebelot.",
+      "mode": "dark",
+      "tags": [
+        "open-source-classics",
+        "kanagawa"
+      ],
+      "css": "themes/kanagawa-dragon/theme.css",
+      "thumbnail": "themes/kanagawa-dragon/thumbnail.png"
+    },
+    {
+      "id": "kanagawa-lotus",
+      "name": "Kanagawa Lotus",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "Kanagawa Lotus — recolour of the Kanagawa palette by rebelot.",
+      "mode": "light",
+      "tags": [
+        "open-source-classics",
+        "kanagawa"
+      ],
+      "css": "themes/kanagawa-lotus/theme.css",
+      "thumbnail": "themes/kanagawa-lotus/thumbnail.png"
+    },
+    {
+      "id": "lambda-17",
+      "name": "Lambda 17",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "Lambda 17 — a game-inspired theme for Psysonic.",
+      "mode": "dark",
+      "tags": [
+        "games"
+      ],
+      "css": "themes/lambda-17/theme.css",
+      "thumbnail": "themes/lambda-17/thumbnail.png"
+    },
+    {
+      "id": "luna-teal",
+      "name": "Windows XP Luna",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "Windows XP Luna — a theme for Psysonic.",
+      "mode": "light",
+      "tags": [
+        "operating-systems"
+      ],
+      "css": "themes/luna-teal/theme.css",
+      "thumbnail": "themes/luna-teal/thumbnail.png"
+    },
+    {
+      "id": "macchiato",
+      "name": "Catppuccin Macchiato",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "Catppuccin Macchiato — soothing pastel theme, recolour of the Catppuccin palette.",
+      "mode": "dark",
+      "tags": [
+        "open-source-classics",
+        "catppuccin"
+      ],
+      "css": "themes/macchiato/theme.css",
+      "thumbnail": "themes/macchiato/thumbnail.png"
+    },
+    {
+      "id": "midnight-blue",
+      "name": "Midnight Blue",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "Midnight Blue — a theme for Psysonic.",
+      "mode": "dark",
+      "css": "themes/midnight-blue/theme.css",
+      "thumbnail": "themes/midnight-blue/thumbnail.png"
+    },
+    {
+      "id": "morpheus",
+      "name": "Morpheus",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "Morpheus — a movie-inspired theme for Psysonic.",
+      "mode": "dark",
+      "tags": [
+        "movies"
+      ],
+      "css": "themes/morpheus/theme.css",
+      "thumbnail": "themes/morpheus/thumbnail.png"
+    },
+    {
+      "id": "muma-jukebox",
+      "name": "MuMa Jukebox",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "MuMa Jukebox — a media-player-inspired theme for Psysonic.",
+      "mode": "light",
+      "tags": [
+        "mediaplayer"
+      ],
+      "css": "themes/muma-jukebox/theme.css",
+      "thumbnail": "themes/muma-jukebox/thumbnail.png"
+    },
+    {
+      "id": "neon-drift",
+      "name": "Neon Drift",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "Neon Drift — a theme for Psysonic.",
+      "mode": "dark",
+      "css": "themes/neon-drift/theme.css",
+      "thumbnail": "themes/neon-drift/thumbnail.png"
+    },
+    {
+      "id": "nightcity-2077",
+      "name": "NightCity 2077",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "NightCity 2077 — a game-inspired theme for Psysonic.",
+      "mode": "dark",
+      "tags": [
+        "games"
+      ],
+      "css": "themes/nightcity-2077/theme.css",
+      "thumbnail": "themes/nightcity-2077/thumbnail.png"
+    },
+    {
+      "id": "nightfox",
+      "name": "Nightfox",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "Nightfox — recolour of the Nightfox palettes by EdenEast.",
+      "mode": "dark",
+      "tags": [
+        "open-source-classics",
+        "nightfox"
+      ],
+      "css": "themes/nightfox/theme.css",
+      "thumbnail": "themes/nightfox/thumbnail.png"
+    },
+    {
+      "id": "nord",
+      "name": "Nord Polar Night",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "Nord Polar Night — recolour of the Nord palette by arcticicestudio.",
+      "mode": "dark",
+      "tags": [
+        "open-source-classics",
+        "nord"
+      ],
+      "css": "themes/nord/theme.css",
+      "thumbnail": "themes/nord/thumbnail.png"
+    },
+    {
+      "id": "nord-aurora",
+      "name": "Nord Aurora",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "Nord Aurora — recolour of the Nord palette by arcticicestudio.",
+      "mode": "dark",
+      "tags": [
+        "open-source-classics",
+        "nord"
+      ],
+      "css": "themes/nord-aurora/theme.css",
+      "thumbnail": "themes/nord-aurora/thumbnail.png"
+    },
+    {
+      "id": "nord-frost",
+      "name": "Nord Frost",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "Nord Frost — recolour of the Nord palette by arcticicestudio.",
+      "mode": "dark",
+      "tags": [
+        "open-source-classics",
+        "nord"
+      ],
+      "css": "themes/nord-frost/theme.css",
+      "thumbnail": "themes/nord-frost/thumbnail.png"
+    },
+    {
+      "id": "nord-snowstorm",
+      "name": "Nord Snowstorm",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "Nord Snowstorm — recolour of the Nord palette by arcticicestudio.",
+      "mode": "light",
+      "tags": [
+        "open-source-classics",
+        "nord"
+      ],
+      "css": "themes/nord-snowstorm/theme.css",
+      "thumbnail": "themes/nord-snowstorm/thumbnail.png"
+    },
+    {
+      "id": "nordfox",
+      "name": "Nordfox",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "Nordfox — recolour of the Nightfox palettes by EdenEast.",
+      "mode": "dark",
+      "tags": [
+        "open-source-classics",
+        "nightfox"
+      ],
+      "css": "themes/nordfox/theme.css",
+      "thumbnail": "themes/nordfox/thumbnail.png"
+    },
+    {
+      "id": "nucleo",
+      "name": "Nucleo",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "Nucleo — a theme for Psysonic.",
+      "mode": "light",
+      "css": "themes/nucleo/theme.css",
+      "thumbnail": "themes/nucleo/thumbnail.png"
+    },
+    {
+      "id": "obsidian-black",
+      "name": "Obsidian Black",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "Obsidian Black — a theme for Psysonic.",
+      "mode": "dark",
+      "css": "themes/obsidian-black/theme.css",
+      "thumbnail": "themes/obsidian-black/thumbnail.png"
+    },
+    {
+      "id": "obsidian-gold",
+      "name": "Obsidian Gold",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "Obsidian Gold — a theme for Psysonic.",
+      "mode": "dark",
+      "css": "themes/obsidian-gold/theme.css",
+      "thumbnail": "themes/obsidian-gold/thumbnail.png"
+    },
+    {
+      "id": "one-dark",
+      "name": "Atom One Dark",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "Atom One Dark — recolour of the Atom One palette (one-nvim by Th3Whit3Wolf).",
+      "mode": "dark",
+      "tags": [
+        "open-source-classics",
+        "atom-one"
+      ],
+      "css": "themes/one-dark/theme.css",
+      "thumbnail": "themes/one-dark/thumbnail.png"
+    },
+    {
+      "id": "one-light",
+      "name": "Atom One Light",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "Atom One Light — recolour of the Atom One palette (one-nvim by Th3Whit3Wolf).",
+      "mode": "light",
+      "tags": [
+        "open-source-classics",
+        "atom-one"
+      ],
+      "css": "themes/one-light/theme.css",
+      "thumbnail": "themes/one-light/thumbnail.png"
+    },
+    {
+      "id": "p-dvd",
+      "name": "P-DVD",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "P-DVD — a media-player-inspired theme for Psysonic.",
+      "mode": "dark",
+      "tags": [
+        "mediaplayer"
+      ],
+      "css": "themes/p-dvd/theme.css",
+      "thumbnail": "themes/p-dvd/thumbnail.png"
+    },
+    {
+      "id": "poison",
+      "name": "Poison",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "Poison — a theme for Psysonic.",
+      "mode": "dark",
+      "css": "themes/poison/theme.css",
+      "thumbnail": "themes/poison/thumbnail.png"
+    },
+    {
+      "id": "psychowave",
+      "name": "Psychowave",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "Psychowave — a theme for Psysonic.",
+      "mode": "dark",
+      "css": "themes/psychowave/theme.css",
+      "thumbnail": "themes/psychowave/thumbnail.png"
+    },
+    {
+      "id": "readit",
+      "name": "ReadIt",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "ReadIt — an app-inspired theme for Psysonic.",
+      "mode": "dark",
+      "tags": [
+        "social-media"
+      ],
+      "css": "themes/readit/theme.css",
+      "thumbnail": "themes/readit/thumbnail.png"
+    },
+    {
+      "id": "sakura-night",
+      "name": "Sakura Night",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "Sakura Night — a theme for Psysonic.",
+      "mode": "dark",
+      "css": "themes/sakura-night/theme.css",
+      "thumbnail": "themes/sakura-night/thumbnail.png"
+    },
+    {
+      "id": "sepia-dark",
+      "name": "Sepia Dark",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "Sepia Dark — a theme for Psysonic.",
+      "mode": "dark",
+      "css": "themes/sepia-dark/theme.css",
+      "thumbnail": "themes/sepia-dark/thumbnail.png"
+    },
+    {
+      "id": "spider-tech",
+      "name": "Spider-Tech",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "Spider-Tech — a movie-inspired theme for Psysonic.",
+      "mode": "dark",
+      "tags": [
+        "movies"
+      ],
+      "css": "themes/spider-tech/theme.css",
+      "thumbnail": "themes/spider-tech/thumbnail.png"
+    },
+    {
+      "id": "spotless",
+      "name": "Spotless",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "Spotless — a media-player-inspired theme for Psysonic.",
+      "mode": "dark",
+      "tags": [
+        "mediaplayer"
+      ],
+      "css": "themes/spotless/theme.css",
+      "thumbnail": "themes/spotless/thumbnail.png"
+    },
+    {
+      "id": "t-800",
+      "name": "T-800",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "T-800 — a movie-inspired theme for Psysonic.",
+      "mode": "dark",
+      "tags": [
+        "movies"
+      ],
+      "css": "themes/t-800/theme.css",
+      "thumbnail": "themes/t-800/thumbnail.png"
+    },
+    {
+      "id": "terafox",
+      "name": "Terafox",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "Terafox — recolour of the Nightfox palettes by EdenEast.",
+      "mode": "dark",
+      "tags": [
+        "open-source-classics",
+        "nightfox"
+      ],
+      "css": "themes/terafox/theme.css",
+      "thumbnail": "themes/terafox/thumbnail.png"
+    },
+    {
+      "id": "tetrastack",
+      "name": "TetraStack",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "TetraStack — a game-inspired theme for Psysonic.",
+      "mode": "dark",
+      "tags": [
+        "games"
+      ],
+      "css": "themes/tetrastack/theme.css",
+      "thumbnail": "themes/tetrastack/thumbnail.png"
+    },
+    {
+      "id": "toy-tale",
+      "name": "Toy Tale",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "Toy Tale — a movie-inspired theme for Psysonic.",
+      "mode": "dark",
+      "tags": [
+        "movies"
+      ],
+      "css": "themes/toy-tale/theme.css",
+      "thumbnail": "themes/toy-tale/thumbnail.png"
+    },
+    {
+      "id": "turtle-power",
+      "name": "Turtle Power",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "Turtle Power — a TV-series-inspired theme for Psysonic.",
+      "mode": "dark",
+      "tags": [
+        "series"
+      ],
+      "css": "themes/turtle-power/theme.css",
+      "thumbnail": "themes/turtle-power/thumbnail.png"
+    },
+    {
+      "id": "unix",
+      "name": "Unix Shell",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "Unix Shell — a theme for Psysonic.",
+      "mode": "dark",
+      "tags": [
+        "operating-systems"
+      ],
+      "css": "themes/unix/theme.css",
+      "thumbnail": "themes/unix/thumbnail.png"
+    },
+    {
+      "id": "v-tactical",
+      "name": "V-Tactical",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "V-Tactical — a game-inspired theme for Psysonic.",
+      "mode": "dark",
+      "tags": [
+        "games"
+      ],
+      "css": "themes/v-tactical/theme.css",
+      "thumbnail": "themes/v-tactical/thumbnail.png"
+    },
+    {
+      "id": "vintage-tube-radio",
+      "name": "Tube Radio",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "Tube Radio — a theme for Psysonic.",
+      "mode": "dark",
+      "css": "themes/vintage-tube-radio/theme.css",
+      "thumbnail": "themes/vintage-tube-radio/thumbnail.png"
+    },
+    {
+      "id": "violet-haze",
+      "name": "Violet Haze",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "Violet Haze — a theme for Psysonic.",
+      "mode": "dark",
+      "css": "themes/violet-haze/theme.css",
+      "thumbnail": "themes/violet-haze/thumbnail.png"
+    },
+    {
+      "id": "volcanic-dark",
+      "name": "Volcanic Dark",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "Volcanic Dark — a theme for Psysonic.",
+      "mode": "dark",
+      "css": "themes/volcanic-dark/theme.css",
+      "thumbnail": "themes/volcanic-dark/thumbnail.png"
+    },
+    {
+      "id": "vs-1984",
+      "name": "1984 Default",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "1984 Default — recolour of the vs-1984 palette by juanmnl.",
+      "mode": "dark",
+      "tags": [
+        "open-source-classics",
+        "1984"
+      ],
+      "css": "themes/vs-1984/theme.css",
+      "thumbnail": "themes/vs-1984/thumbnail.png"
+    },
+    {
+      "id": "vs-1984-cyberpunk",
+      "name": "1984 Cyberpunk",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "1984 Cyberpunk — recolour of the vs-1984 palette by juanmnl.",
+      "mode": "dark",
+      "tags": [
+        "open-source-classics",
+        "1984"
+      ],
+      "css": "themes/vs-1984-cyberpunk/theme.css",
+      "thumbnail": "themes/vs-1984-cyberpunk/thumbnail.png"
+    },
+    {
+      "id": "vs-1984-light",
+      "name": "1984 Light",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "1984 Light — recolour of the vs-1984 palette by juanmnl.",
+      "mode": "light",
+      "tags": [
+        "open-source-classics",
+        "1984"
+      ],
+      "css": "themes/vs-1984-light/theme.css",
+      "thumbnail": "themes/vs-1984-light/thumbnail.png"
+    },
+    {
+      "id": "vs-1984-orwell",
+      "name": "1984 Orwell",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "1984 Orwell — recolour of the vs-1984 palette by juanmnl.",
+      "mode": "dark",
+      "tags": [
+        "open-source-classics",
+        "1984"
+      ],
+      "css": "themes/vs-1984-orwell/theme.css",
+      "thumbnail": "themes/vs-1984-orwell/thumbnail.png"
+    },
+    {
+      "id": "w10",
+      "name": "Windows 10",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "Windows 10 — a theme for Psysonic.",
+      "mode": "light",
+      "tags": [
+        "operating-systems"
+      ],
+      "css": "themes/w10/theme.css",
+      "thumbnail": "themes/w10/thumbnail.png"
+    },
+    {
+      "id": "w11",
+      "name": "Windows 11",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "Windows 11 — a theme for Psysonic.",
+      "mode": "dark",
+      "tags": [
+        "operating-systems"
+      ],
+      "css": "themes/w11/theme.css",
+      "thumbnail": "themes/w11/thumbnail.png"
+    },
+    {
+      "id": "w3-1",
+      "name": "Windows 3.1",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "Windows 3.1 — a theme for Psysonic.",
+      "mode": "light",
+      "tags": [
+        "operating-systems"
+      ],
+      "css": "themes/w3-1/theme.css",
+      "thumbnail": "themes/w3-1/thumbnail.png"
+    },
+    {
+      "id": "w98",
+      "name": "Windows 98",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "Windows 98 — a theme for Psysonic.",
+      "mode": "light",
+      "tags": [
+        "operating-systems"
+      ],
+      "css": "themes/w98/theme.css",
+      "thumbnail": "themes/w98/thumbnail.png"
+    },
+    {
+      "id": "winmedplayer",
+      "name": "WinMedPlayer",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "WinMedPlayer — a media-player-inspired theme for Psysonic.",
+      "mode": "dark",
+      "tags": [
+        "mediaplayer"
+      ],
+      "css": "themes/winmedplayer/theme.css",
+      "thumbnail": "themes/winmedplayer/thumbnail.png"
+    },
+    {
+      "id": "wnamp",
+      "name": "WnAmp",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "WnAmp — a media-player-inspired theme for Psysonic.",
+      "mode": "dark",
+      "tags": [
+        "mediaplayer"
+      ],
+      "css": "themes/wnamp/theme.css",
+      "thumbnail": "themes/wnamp/thumbnail.png"
+    }
+  ]
 }

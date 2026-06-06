@@ -1,0 +1,41 @@
+/* Poison — exported from the Psysonic built-in themes. */
+[data-theme='poison'] {
+  color-scheme: dark;
+
+  /* Accent */
+  --accent: #1bd655;
+  --accent-dim: rgba(27, 214, 85, 0.12);
+  --accent-glow: rgba(27, 214, 85, 0.35);
+  --accent-2: #4888d0;
+
+  /* Backgrounds */
+  --bg-app: #1f1f1f;
+  --bg-sidebar: #161616;
+  --bg-card: #282828;
+  --bg-hover: #323232;
+  --bg-elevated: #3e3e3e;
+  --bg-player: #0e0e0e;
+  --bg-deep: #0e0e0e;
+  --bg-glass: rgba(22, 22, 22, 0.90);
+
+  /* Borders */
+  --border: #3a3a38;
+  --border-subtle: #282826;
+  --border-dropdown: #3a3a38;
+
+  /* Text */
+  --text-primary: #d0d0cc;
+  --text-secondary: #a8a8a4;
+  --text-muted: #909090;
+  --text-on-accent: #0e0e0e;
+
+  /* Status */
+  --danger: #c03030;
+  --positive: #1bd655;
+  --warning: #c8a830;
+  --highlight: #c8a830;
+
+  /* Special */
+  --select-arrow: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%231bd655%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpolyline%20points%3D%226%209%2012%2015%2018%209%22%3E%3C%2Fpolyline%3E%3C%2Fsvg%3E");
+  --shadow-dropdown: rgba(0, 0, 0, 0.55);
+}

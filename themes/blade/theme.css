@@ -1,0 +1,44 @@
+/* Blade — exported from the Psysonic built-in themes. */
+[data-theme='blade'] {
+  color-scheme: dark;
+
+  /* Accent */
+  --accent: #b30000;
+  --accent-dim: rgba(179, 0, 0, 0.15);
+  --accent-glow: rgba(179, 0, 0, 0.4);
+  --accent-2: #2980b9;
+
+  /* Backgrounds */
+  --bg-app: #121212;
+  --bg-sidebar: #0a0a0a;
+  --bg-card: #1a1a1a;
+  --bg-hover: rgba(179, 0, 0, 0.1);
+  --bg-elevated: #333333;
+  --bg-player: #050505;
+  --bg-deep: #050505;
+  --bg-glass: rgba(10, 10, 10, 0.85);
+
+  /* Borders */
+  --border: #2a2a2a;
+  --border-subtle: #1a1a1a;
+  --border-dropdown: #2a2a2a;
+
+  /* Text */
+  --text-primary: #e0e0e0;
+  --text-secondary: #b0b0b0;
+  --text-muted: #888888;
+  --text-on-accent: #050505;
+
+  /* Status */
+  --danger: #ff0000;
+  --positive: #00ff66;
+  --warning: #f1c40f;
+  --highlight: #f1c40f;
+
+  /* Special */
+  --select-arrow: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%23a0a0a0%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpolyline%20points%3D%226%209%2012%2015%2018%209%22%3E%3C%2Fpolyline%3E%3C%2Fsvg%3E");
+  --shadow-dropdown: rgba(0, 0, 0, 0.55);
+
+  /* Per-theme overrides */
+  --player-title: #fff;
+}

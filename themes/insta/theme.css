@@ -1,0 +1,44 @@
+/* Insta — exported from the Psysonic built-in themes. */
+[data-theme='insta'] {
+  color-scheme: dark;
+
+  /* Accent */
+  --accent: #E1306C;
+  --accent-dim: rgba(225, 48, 108, 0.15);
+  --accent-glow: rgba(225, 48, 108, 0.35);
+  --accent-2: #0095F6;
+
+  /* Backgrounds */
+  --bg-app: #121212;
+  --bg-sidebar: #000000;
+  --bg-card: #1A1A1A;
+  --bg-hover: #262626;
+  --bg-elevated: #363636;
+  --bg-player: #000000;
+  --bg-deep: #000000;
+  --bg-glass: rgba(0, 0, 0, 0.85);
+
+  /* Borders */
+  --border: #262626;
+  --border-subtle: #1A1A1A;
+  --border-dropdown: #262626;
+
+  /* Text */
+  --text-primary: #F5F5F5;
+  --text-secondary: #A8A8A8;
+  --text-muted: #737373;
+  --text-on-accent: #000000;
+
+  /* Status */
+  --danger: #ED4956;
+  --positive: #0095F6;
+  --warning: #FFD600;
+  --highlight: #FFD600;
+
+  /* Special */
+  --select-arrow: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpolyline%20points%3D%226%209%2012%2015%2018%209%22%3E%3C%2Fpolyline%3E%3C%2Fsvg%3E");
+  --shadow-dropdown: rgba(0, 0, 0, 0.55);
+
+  /* Per-theme overrides */
+  --volume-accent: #E1306C;
+}

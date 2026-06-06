@@ -1,0 +1,41 @@
+/* Carbonfox — exported from the Psysonic built-in themes. */
+[data-theme='carbonfox'] {
+  color-scheme: dark;
+
+  /* Accent */
+  --accent: #be95ff;
+  --accent-dim: rgba(190, 149, 255, 0.15);
+  --accent-glow: rgba(190, 149, 255, 0.3);
+  --accent-2: #78a9ff;
+
+  /* Backgrounds */
+  --bg-app: #161616;
+  --bg-sidebar: #121212;
+  --bg-card: #1c1c1c;
+  --bg-hover: #222222;
+  --bg-elevated: #2e2e2e;
+  --bg-player: #121212;
+  --bg-deep: #121212;
+  --bg-glass: rgba(22, 22, 22, 0.82);
+
+  /* Borders */
+  --border: #222222;
+  --border-subtle: #1c1c1c;
+  --border-dropdown: #2e2e2e;
+
+  /* Text */
+  --text-primary: #f2f4f8;
+  --text-secondary: #dde1e6;
+  --text-muted: #878d96;
+  --text-on-accent: #121212;
+
+  /* Status */
+  --danger: #ee5396;
+  --positive: #25be6a;
+  --warning: #08bdba;
+  --highlight: #08bdba;
+
+  /* Special */
+  --select-arrow: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%23f2f4f8%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpolyline%20points%3D%226%209%2012%2015%2018%209%22%3E%3C%2Fpolyline%3E%3C%2Fsvg%3E");
+  --shadow-dropdown: rgba(0, 0, 0, 0.7);
+}

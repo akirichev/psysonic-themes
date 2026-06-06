@@ -1,0 +1,11 @@
+{
+  "id": "dune",
+  "name": "Dune",
+  "author": "Psychotoxical",
+  "version": "1.0.0",
+  "description": "Dune — a movie-inspired theme for Psysonic.",
+  "mode": "dark",
+  "tags": [
+    "movies"
+  ]
+}

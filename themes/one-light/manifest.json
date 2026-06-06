@@ -1,0 +1,12 @@
+{
+  "id": "one-light",
+  "name": "Atom One Light",
+  "author": "Psychotoxical",
+  "version": "1.0.0",
+  "description": "Atom One Light — recolour of the Atom One palette (one-nvim by Th3Whit3Wolf).",
+  "mode": "light",
+  "tags": [
+    "open-source-classics",
+    "atom-one"
+  ]
+}

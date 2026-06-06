@@ -1,0 +1,11 @@
+{
+  "id": "unix",
+  "name": "Unix Shell",
+  "author": "Psychotoxical",
+  "version": "1.0.0",
+  "description": "Unix Shell — a theme for Psysonic.",
+  "mode": "dark",
+  "tags": [
+    "operating-systems"
+  ]
+}

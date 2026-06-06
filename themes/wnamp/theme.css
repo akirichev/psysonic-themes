@@ -1,0 +1,49 @@
+/* WnAmp — exported from the Psysonic built-in themes. */
+[data-theme='wnamp'] {
+  color-scheme: dark;
+
+  /* Accent */
+  --accent: #d4cc46;
+  --accent-dim: rgba(212, 204, 70, 0.18);
+  --accent-glow: rgba(212, 204, 70, 0.40);
+  --accent-2: #4898d0;
+
+  /* Backgrounds */
+  --bg-app: #2b2b3a;
+  --bg-sidebar: #1e1e28;
+  --bg-card: #353545;
+  --bg-hover: #484860;
+  --bg-elevated: #5a5a78;
+  --bg-player: #000000;
+  --bg-deep: #000000;
+  --bg-glass: rgba(43, 43, 58, 0.92);
+
+  /* Borders */
+  --border: #7676a0;
+  --border-subtle: #484860;
+  --border-dropdown: #7676a0;
+
+  /* Text */
+  --text-primary: #d4d4dc;
+  --text-secondary: #b4b4c0;
+  --text-muted: #949ab0;
+  --text-on-accent: #000000;
+
+  /* Status */
+  --danger: #ff6b6b;
+  --positive: #00cc66;
+  --warning: #d4cc46;
+  --highlight: #e8c050;
+
+  /* Special */
+  --select-arrow: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%23d4d4dc%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpolyline%20points%3D%226%209%2012%2015%2018%209%22%3E%3C%2Fpolyline%3E%3C%2Fsvg%3E");
+  --shadow-dropdown: rgba(0, 0, 0, 0.55);
+
+  /* Per-theme overrides */
+  --volume-accent: #de9b35;
+  --waveform-played: #d4cc46;
+  --waveform-buffered: #8a8a96;
+  --waveform-unplayed: #4a4a60;
+  --player-title: #00ff00;
+  --player-artist: #00cc00;
+}

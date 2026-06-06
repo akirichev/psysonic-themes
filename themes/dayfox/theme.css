@@ -1,0 +1,41 @@
+/* Dayfox — exported from the Psysonic built-in themes. */
+[data-theme='dayfox'] {
+  color-scheme: light;
+
+  /* Accent */
+  --accent: #2848a9;
+  --accent-dim: rgba(40, 72, 169, 0.12);
+  --accent-glow: rgba(40, 72, 169, 0.25);
+  --accent-2: #2848a9;
+
+  /* Backgrounds */
+  --bg-app: #f6f2ee;
+  --bg-sidebar: #e4dcd4;
+  --bg-card: #dbd1dd;
+  --bg-hover: #d3c7bb;
+  --bg-elevated: #aab0ad;
+  --bg-player: #e4dcd4;
+  --bg-deep: #e4dcd4;
+  --bg-glass: rgba(246, 242, 238, 0.92);
+
+  /* Borders */
+  --border: #d3c7bb;
+  --border-subtle: #dbd1dd;
+  --border-dropdown: #aab0ad;
+
+  /* Text */
+  --text-primary: #3d2b5a;
+  --text-secondary: #643f61;
+  --text-muted: #837a72;
+  --text-on-accent: #e4dcd4;
+
+  /* Status */
+  --danger: #a5222f;
+  --positive: #396847;
+  --warning: #ac5402;
+  --highlight: #ac5402;
+
+  /* Special */
+  --select-arrow: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%233d2b5a%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpolyline%20points%3D%226%209%2012%2015%2018%209%22%3E%3C%2Fpolyline%3E%3C%2Fsvg%3E");
+  --shadow-dropdown: rgba(0, 0, 0, 0.18);
+}

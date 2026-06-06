@@ -1,0 +1,45 @@
+/* TetraStack — exported from the Psysonic built-in themes. */
+[data-theme='tetrastack'] {
+  color-scheme: dark;
+
+  /* Accent */
+  --accent: #00f0f0;
+  --accent-dim: rgba(0, 240, 240, 0.12);
+  --accent-glow: rgba(0, 240, 240, 0.5);
+  --accent-2: #4090ff;
+
+  /* Backgrounds */
+  --bg-app: #060614;
+  --bg-sidebar: #00000e;
+  --bg-card: #0d0d22;
+  --bg-hover: rgba(0, 240, 240, 0.07);
+  --bg-elevated: #1e1e48;
+  --bg-player: #000008;
+  --bg-deep: #000008;
+  --bg-glass: rgba(6, 6, 20, 0.96);
+
+  /* Borders */
+  --border: #1e1e48;
+  --border-subtle: #0d0d22;
+  --border-dropdown: #1e1e48;
+
+  /* Text */
+  --text-primary: #ffffff;
+  --text-secondary: #f0d000;
+  --text-muted: #7878b8;
+  --text-on-accent: #000008;
+
+  /* Status */
+  --danger: #f02000;
+  --positive: #00d000;
+  --warning: #f0d000;
+  --highlight: #f0d000;
+
+  /* Special */
+  --select-arrow: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%2300f0f0%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpolyline%20points%3D%226%209%2012%2015%2018%209%22%3E%3C%2Fpolyline%3E%3C%2Fsvg%3E");
+  --shadow-dropdown: rgba(0, 0, 0, 0.55);
+
+  /* Per-theme overrides */
+  --volume-accent: #f0d000;
+  --player-title: #00f0f0;
+}

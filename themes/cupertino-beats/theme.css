@@ -1,0 +1,44 @@
+/* Cupertino Beats — exported from the Psysonic built-in themes. */
+[data-theme='cupertino-beats'] {
+  color-scheme: dark;
+
+  /* Accent */
+  --accent: #fa243c;
+  --accent-dim: rgba(250, 36, 60, 0.15);
+  --accent-glow: rgba(250, 36, 60, 0.3);
+  --accent-2: #007aff;
+
+  /* Backgrounds */
+  --bg-app: #1c1c1e;
+  --bg-sidebar: rgba(18, 18, 18, 0.75);
+  --bg-card: #2c2c2e;
+  --bg-hover: rgba(255, 255, 255, 0.08);
+  --bg-elevated: #48484a;
+  --bg-player: rgba(0, 0, 0, 0.85);
+  --bg-deep: #000000;
+  --bg-glass: rgba(28, 28, 30, 0.6);
+
+  /* Borders */
+  --border: rgba(255, 255, 255, 0.1);
+  --border-subtle: rgba(255, 255, 255, 0.05);
+  --border-dropdown: rgba(255, 255, 255, 0.1);
+
+  /* Text */
+  --text-primary: #ffffff;
+  --text-secondary: rgba(235, 235, 245, 0.6);
+  --text-muted: rgba(235, 235, 245, 0.3);
+  --text-on-accent: #000000;
+
+  /* Status */
+  --danger: #ff3b30;
+  --positive: #34c759;
+  --warning: #ffcc00;
+  --highlight: #ffcc00;
+
+  /* Special */
+  --select-arrow: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%23a1a1a1%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpolyline%20points%3D%226%209%2012%2015%2018%209%22%3E%3C%2Fpolyline%3E%3C%2Fsvg%3E");
+  --shadow-dropdown: rgba(0, 0, 0, 0.55);
+
+  /* Per-theme overrides */
+  --volume-accent: #fa243c;
+}

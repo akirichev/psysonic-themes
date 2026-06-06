@@ -1,0 +1,48 @@
+/* Dark Side of the Moon (inspired) — exported from the Psysonic built-in themes. */
+[data-theme='dark-side-of-the-moon'] {
+  color-scheme: dark;
+
+  /* Accent */
+  --accent: #9B30FF;
+  --accent-dim: rgba(155, 48, 255, 0.10);
+  --accent-glow: rgba(155, 48, 255, 0.28);
+  --accent-2: #0040FF;
+
+  /* Backgrounds */
+  --bg-app: #050505;
+  --bg-sidebar: #020202;
+  --bg-card: #0D0D0D;
+  --bg-hover: #141414;
+  --bg-elevated: #1A1A1A;
+  --bg-player: #010101;
+  --bg-deep: #000000;
+  --bg-glass: rgba(5, 5, 5, 0.96);
+
+  /* Borders */
+  --border: rgba(255, 255, 255, 0.07);
+  --border-subtle: rgba(255, 255, 255, 0.04);
+  --border-dropdown: rgba(155, 48, 255, 0.22);
+
+  /* Text */
+  --text-primary: #F0F0F0;
+  --text-secondary: #A0A0A0;
+  --text-muted: #555555;
+  --text-on-accent: #000000;
+
+  /* Status */
+  --danger: #FF2400;
+  --positive: #72FF00;
+  --warning: #FFE600;
+  --highlight: #FFE600;
+
+  /* Special */
+  --select-arrow: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%239B30FF%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpolyline%20points%3D%226%209%2012%2015%2018%209%22%3E%3C%2Fpolyline%3E%3C%2Fsvg%3E");
+  --shadow-dropdown: rgba(0, 0, 0, 0.99);
+
+  /* Per-theme overrides */
+  --waveform-played: #9B30FF;
+  --waveform-buffered: rgba(255, 255, 255, 0.07);
+  --waveform-unplayed: rgba(255, 255, 255, 0.04);
+  --player-title: #FFFFFF;
+  --player-artist: #888888;
+}

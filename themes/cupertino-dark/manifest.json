@@ -1,0 +1,11 @@
+{
+  "id": "cupertino-dark",
+  "name": "Cupertino Dark",
+  "author": "Psychotoxical",
+  "version": "1.0.0",
+  "description": "Cupertino Dark — a theme for Psysonic.",
+  "mode": "dark",
+  "tags": [
+    "operating-systems"
+  ]
+}

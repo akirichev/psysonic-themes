@@ -1,0 +1,45 @@
+/* Grand Theft Audio — exported from the Psysonic built-in themes. */
+[data-theme='grand-theft-audio'] {
+  color-scheme: dark;
+
+  /* Accent */
+  --accent: #57b05a;
+  --accent-dim: rgba(87, 176, 90, 0.14);
+  --accent-glow: rgba(87, 176, 90, 0.45);
+  --accent-2: #4a9fd4;
+
+  /* Backgrounds */
+  --bg-app: #0e0e0e;
+  --bg-sidebar: #080808;
+  --bg-card: #161616;
+  --bg-hover: rgba(87, 176, 90, 0.08);
+  --bg-elevated: #2c2c2c;
+  --bg-player: #030303;
+  --bg-deep: #030303;
+  --bg-glass: rgba(8, 8, 8, 0.95);
+
+  /* Borders */
+  --border: #242424;
+  --border-subtle: #161616;
+  --border-dropdown: #242424;
+
+  /* Text */
+  --text-primary: #d8d8d8;
+  --text-secondary: #ffd700;
+  --text-muted: #707070;
+  --text-on-accent: #030303;
+
+  /* Status */
+  --danger: #e02020;
+  --positive: #57b05a;
+  --warning: #ffd700;
+  --highlight: #ffd700;
+
+  /* Special */
+  --select-arrow: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%2357b05a%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpolyline%20points%3D%226%209%2012%2015%2018%209%22%3E%3C%2Fpolyline%3E%3C%2Fsvg%3E");
+  --shadow-dropdown: rgba(0, 0, 0, 0.9);
+
+  /* Per-theme overrides */
+  --volume-accent: #ffd700;
+  --player-title: #57b05a;
+}

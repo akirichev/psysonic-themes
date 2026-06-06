@@ -1,0 +1,46 @@
+/* Toy Tale — exported from the Psysonic built-in themes. */
+[data-theme='toy-tale'] {
+  color-scheme: dark;
+
+  /* Accent */
+  --accent: #FFD600;
+  --accent-dim: rgba(255, 214, 0, 0.15);
+  --accent-glow: rgba(255, 214, 0, 0.40);
+  --accent-2: #7B4FD6;
+
+  /* Backgrounds */
+  --bg-app: #1a1208;
+  --bg-sidebar: #1e3a5f;
+  --bg-card: #2a1c10;
+  --bg-hover: rgba(255, 214, 0, 0.10);
+  --bg-elevated: #4a3422;
+  --bg-player: #0d0a06;
+  --bg-deep: #080603;
+  --bg-glass: rgba(26, 18, 8, 0.90);
+
+  /* Borders */
+  --border: rgba(255, 214, 0, 0.22);
+  --border-subtle: rgba(255, 214, 0, 0.10);
+  --border-dropdown: rgba(255, 214, 0, 0.25);
+
+  /* Text */
+  --text-primary: #f0e8d8;
+  --text-secondary: #c8a878;
+  --text-muted: #6a5030;
+  --text-on-accent: #080603;
+
+  /* Status */
+  --danger: #e53935;
+  --positive: #4CAF50;
+  --warning: #FFA000;
+  --highlight: #FFD600;
+
+  /* Special */
+  --select-arrow: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%23FFD600%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpolyline%20points%3D%226%209%2012%2015%2018%209%22%3E%3C%2Fpolyline%3E%3C%2Fsvg%3E");
+  --shadow-dropdown: rgba(8, 6, 3, 0.92);
+
+  /* Per-theme overrides */
+  --volume-accent: #7B4FD6;
+  --player-title: #FFD600;
+  --player-artist: #c8a060;
+}

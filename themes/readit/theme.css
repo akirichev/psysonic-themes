@@ -1,0 +1,44 @@
+/* ReadIt — exported from the Psysonic built-in themes. */
+[data-theme='readit'] {
+  color-scheme: dark;
+
+  /* Accent */
+  --accent: #FF4500;
+  --accent-dim: rgba(255, 69, 0, 0.1);
+  --accent-glow: rgba(255, 69, 0, 0.3);
+  --accent-2: #0079D3;
+
+  /* Backgrounds */
+  --bg-app: #030303;
+  --bg-sidebar: #1A1A1B;
+  --bg-card: #1A1A1B;
+  --bg-hover: #272729;
+  --bg-elevated: #343536;
+  --bg-player: #1A1A1B;
+  --bg-deep: #030303;
+  --bg-glass: rgba(26, 26, 27, 0.9);
+
+  /* Borders */
+  --border: #343536;
+  --border-subtle: #272729;
+  --border-dropdown: #343536;
+
+  /* Text */
+  --text-primary: #D7DADC;
+  --text-secondary: #D7DADC;
+  --text-muted: #818384;
+  --text-on-accent: #030303;
+
+  /* Status */
+  --danger: #FF4500;
+  --positive: #46D160;
+  --warning: #FFD635;
+  --highlight: #FFD635;
+
+  /* Special */
+  --select-arrow: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%23FF4500%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpolyline%20points%3D%226%209%2012%2015%2018%209%22%3E%3C%2Fpolyline%3E%3C%2Fsvg%3E");
+  --shadow-dropdown: rgba(0, 0, 0, 0.55);
+
+  /* Per-theme overrides */
+  --volume-accent: #FF4500;
+}

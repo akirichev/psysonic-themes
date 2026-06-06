@@ -1,0 +1,45 @@
+/* A Theme of Ice and Fire — exported from the Psysonic built-in themes. */
+[data-theme='ice-and-fire'] {
+  color-scheme: dark;
+
+  /* Accent */
+  --accent: #c41e1e;
+  --accent-dim: rgba(196, 30, 30, 0.14);
+  --accent-glow: rgba(196, 30, 30, 0.38);
+  --accent-2: #3a6898;
+
+  /* Backgrounds */
+  --bg-app: #100c08;
+  --bg-sidebar: #090c10;
+  --bg-card: #1c1410;
+  --bg-hover: #281c14;
+  --bg-elevated: #38261c;
+  --bg-player: #060402;
+  --bg-deep: #060402;
+  --bg-glass: rgba(10, 8, 6, 0.92);
+
+  /* Borders */
+  --border: rgba(196, 30, 30, 0.20);
+  --border-subtle: rgba(196, 30, 30, 0.08);
+  --border-dropdown: rgba(196, 30, 30, 0.32);
+
+  /* Text */
+  --text-primary: #ecdcc8;
+  --text-secondary: #9a7858;
+  --text-muted: #b08860;
+  --text-on-accent: #060402;
+
+  /* Status */
+  --danger: #c41e1e;
+  --positive: #5a8a3a;
+  --warning: #c8880a;
+  --highlight: #c8880a;
+
+  /* Special */
+  --select-arrow: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%23c41e1e%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpolyline%20points%3D%226%209%2012%2015%2018%209%22%3E%3C%2Fpolyline%3E%3C%2Fsvg%3E");
+  --shadow-dropdown: rgba(0, 0, 0, 0.92);
+
+  /* Per-theme overrides */
+  --player-title: #d42020;
+  --player-artist: #c8880a;
+}

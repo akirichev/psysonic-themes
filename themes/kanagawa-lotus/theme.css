@@ -1,0 +1,46 @@
+/* Kanagawa Lotus — exported from the Psysonic built-in themes. */
+[data-theme='kanagawa-lotus'] {
+  color-scheme: light;
+
+  /* Accent */
+  --accent: #4d699b;
+  --accent-dim: rgba(77, 105, 155, 0.14);
+  --accent-glow: rgba(77, 105, 155, 0.26);
+  --accent-2: #4d699b;
+
+  /* Backgrounds */
+  --bg-app: #f2ecbc;
+  --bg-sidebar: #dcd5ac;
+  --bg-card: #d5cea3;
+  --bg-hover: #e7dba0;
+  --bg-elevated: #e4d794;
+  --bg-player: #dcd5ac;
+  --bg-deep: #d5cea3;
+  --bg-glass: rgba(242, 236, 188, 0.92);
+
+  /* Borders */
+  --border: #e7dba0;
+  --border-subtle: #d5cea3;
+  --border-dropdown: #716e61;
+
+  /* Text */
+  --text-primary: #545464;
+  --text-secondary: #43436c;
+  --text-muted: #8a8980;
+  --text-on-accent: #d5cea3;
+
+  /* Status */
+  --danger: #c84053;
+  --positive: #6f894e;
+  --warning: #cc6d00;
+  --highlight: #836f4a;
+
+  /* Special */
+  --select-arrow: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%23545464%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpolyline%20points%3D%226%209%2012%2015%2018%209%22%3E%3C%2Fpolyline%3E%3C%2Fsvg%3E");
+  --shadow-dropdown: rgba(0, 0, 0, 0.18);
+
+  /* Per-theme overrides */
+  --waveform-played: #4d699b;
+  --waveform-buffered: #8a8980;
+  --waveform-unplayed: #d5cea3;
+}

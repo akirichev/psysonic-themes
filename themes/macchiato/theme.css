@@ -1,0 +1,41 @@
+/* Catppuccin Macchiato — exported from the Psysonic built-in themes. */
+[data-theme='macchiato'] {
+  color-scheme: dark;
+
+  /* Accent */
+  --accent: #c6a0f6;
+  --accent-dim: rgba(198, 160, 246, 0.15);
+  --accent-glow: rgba(198, 160, 246, 0.3);
+  --accent-2: #8aadf4;
+
+  /* Backgrounds */
+  --bg-app: #24273a;
+  --bg-sidebar: #1e2030;
+  --bg-card: #363a4f;
+  --bg-hover: #494d64;
+  --bg-elevated: #5b6078;
+  --bg-player: #181926;
+  --bg-deep: #181926;
+  --bg-glass: rgba(36, 39, 58, 0.75);
+
+  /* Borders */
+  --border: #494d64;
+  --border-subtle: #363a4f;
+  --border-dropdown: #494d64;
+
+  /* Text */
+  --text-primary: #cad3f5;
+  --text-secondary: #b8c0e0;
+  --text-muted: #a5adcb;
+  --text-on-accent: #181926;
+
+  /* Status */
+  --danger: #ed8796;
+  --positive: #a6da95;
+  --warning: #eed49f;
+  --highlight: #eed49f;
+
+  /* Special */
+  --select-arrow: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%23b8c0e0%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpolyline%20points%3D%226%209%2012%2015%2018%209%22%3E%3C%2Fpolyline%3E%3C%2Fsvg%3E");
+  --shadow-dropdown: rgba(0, 0, 0, 0.55);
+}

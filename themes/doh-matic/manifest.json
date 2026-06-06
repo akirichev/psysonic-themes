@@ -1,0 +1,11 @@
+{
+  "id": "doh-matic",
+  "name": "D'oh-matic",
+  "author": "Psychotoxical",
+  "version": "1.0.0",
+  "description": "D'oh-matic — a TV-series-inspired theme for Psysonic.",
+  "mode": "light",
+  "tags": [
+    "series"
+  ]
+}

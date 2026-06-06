@@ -1,0 +1,46 @@
+/* Atom One Dark — exported from the Psysonic built-in themes. */
+[data-theme='one-dark'] {
+  color-scheme: dark;
+
+  /* Accent */
+  --accent: #61afef;
+  --accent-dim: rgba(97, 175, 239, 0.16);
+  --accent-glow: rgba(97, 175, 239, 0.32);
+  --accent-2: #61afef;
+
+  /* Backgrounds */
+  --bg-app: #282c34;
+  --bg-sidebar: #21252b;
+  --bg-card: #2c323c;
+  --bg-hover: #3e4452;
+  --bg-elevated: #3e4452;
+  --bg-player: #21252b;
+  --bg-deep: #181a1f;
+  --bg-glass: rgba(40, 44, 52, 0.78);
+
+  /* Borders */
+  --border: #3e4452;
+  --border-subtle: #2c323c;
+  --border-dropdown: #4b5263;
+
+  /* Text */
+  --text-primary: #abb2bf;
+  --text-secondary: #828997;
+  --text-muted: #5c6370;
+  --text-on-accent: #181a1f;
+
+  /* Status */
+  --danger: #e06c75;
+  --positive: #98c379;
+  --warning: #e5c07b;
+  --highlight: #e5c07b;
+
+  /* Special */
+  --select-arrow: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%23abb2bf%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpolyline%20points%3D%226%209%2012%2015%2018%209%22%3E%3C%2Fpolyline%3E%3C%2Fsvg%3E");
+  --shadow-dropdown: rgba(0, 0, 0, 0.6);
+
+  /* Per-theme overrides */
+  --waveform-played: #61afef;
+  --waveform-buffered: #4b5263;
+  --waveform-unplayed: #2c323c;
+}

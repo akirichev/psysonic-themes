@@ -1,0 +1,11 @@
+{
+  "id": "jayfin",
+  "name": "Jayfin",
+  "author": "Psychotoxical",
+  "version": "1.0.0",
+  "description": "Jayfin — a media-player-inspired theme for Psysonic.",
+  "mode": "dark",
+  "tags": [
+    "mediaplayer"
+  ]
+}

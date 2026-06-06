@@ -1,0 +1,45 @@
+/* Windows 3.1 — exported from the Psysonic built-in themes. */
+[data-theme='w3-1'] {
+  color-scheme: light;
+
+  /* Accent */
+  --accent: #000080;
+  --accent-dim: rgba(0, 0, 128, 0.12);
+  --accent-glow: transparent;
+  --accent-2: #000080;
+
+  /* Backgrounds */
+  --bg-app: #008080;
+  --bg-sidebar: #c0c0c0;
+  --bg-card: #ffffff;
+  --bg-hover: #000080;
+  --bg-elevated: #c0c0c0;
+  --bg-player: #c0c0c0;
+  --bg-deep: #808080;
+  --bg-glass: #c0c0c0;
+
+  /* Borders */
+  --border: #000000;
+  --border-subtle: #808080;
+  --border-dropdown: #000000;
+
+  /* Text */
+  --text-primary: #000000;
+  --text-secondary: #000000;
+  --text-muted: #000000;
+  --text-on-accent: #808080;
+
+  /* Status */
+  --danger: #ff0000;
+  --positive: #008000;
+  --warning: #808000;
+  --highlight: #ffff00;
+
+  /* Special */
+  --select-arrow: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%23000000%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpolyline%20points%3D%226%209%2012%2015%2018%209%22%3E%3C%2Fpolyline%3E%3C%2Fsvg%3E");
+  --shadow-dropdown: rgba(0, 0, 0, 0.4);
+
+  /* Per-theme overrides */
+  --volume-accent: #000080;
+  --player-title: #ffffff;
+}

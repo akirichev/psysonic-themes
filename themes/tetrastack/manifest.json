@@ -1,0 +1,11 @@
+{
+  "id": "tetrastack",
+  "name": "TetraStack",
+  "author": "Psychotoxical",
+  "version": "1.0.0",
+  "description": "TetraStack — a game-inspired theme for Psysonic.",
+  "mode": "dark",
+  "tags": [
+    "games"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "cupertino-light",
+  "name": "Cupertino Light",
+  "author": "Psychotoxical",
+  "version": "1.0.0",
+  "description": "Cupertino Light — a theme for Psysonic.",
+  "mode": "light",
+  "tags": [
+    "operating-systems"
+  ]
+}

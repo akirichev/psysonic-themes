@@ -1,0 +1,11 @@
+{
+  "id": "muma-jukebox",
+  "name": "MuMa Jukebox",
+  "author": "Psychotoxical",
+  "version": "1.0.0",
+  "description": "MuMa Jukebox — a media-player-inspired theme for Psysonic.",
+  "mode": "light",
+  "tags": [
+    "mediaplayer"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "wnamp",
+  "name": "WnAmp",
+  "author": "Psychotoxical",
+  "version": "1.0.0",
+  "description": "WnAmp — a media-player-inspired theme for Psysonic.",
+  "mode": "dark",
+  "tags": [
+    "mediaplayer"
+  ]
+}
