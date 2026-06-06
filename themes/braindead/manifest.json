@@ -1,0 +1,11 @@
+{
+  "id": "braindead",
+  "name": "Braindead",
+  "author": "Psysonic",
+  "version": "1.0.0",
+  "description": "Braindead — a theme for Psysonic.",
+  "mode": "dark",
+  "tags": [
+    "demo"
+  ]
+}

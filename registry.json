@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-06T15:36:04.877Z",
+  "generatedAt": "2026-06-06T16:10:37.218Z",
   "themes": [
     {
       "id": "aero-glass",
@@ -63,6 +63,19 @@
       ],
       "css": "themes/blade/theme.css",
       "thumbnail": "themes/blade/thumbnail.png"
+    },
+    {
+      "id": "braindead",
+      "name": "Braindead",
+      "author": "Psysonic",
+      "version": "1.0.0",
+      "description": "Braindead — a theme for Psysonic.",
+      "mode": "dark",
+      "tags": [
+        "demo"
+      ],
+      "css": "themes/braindead/theme.css",
+      "thumbnail": "themes/braindead/thumbnail.png"
     },
     {
       "id": "carbon-grey",

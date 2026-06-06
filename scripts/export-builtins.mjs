@@ -46,7 +46,7 @@ const GRANULAR = noMeta(tokens.granular);
 const OPT_GRAN = new Set([...OPTIONAL, ...GRANULAR]);
 
 // Themes that intentionally stay built-in (cores + accessibility skins + demo).
-const EXCLUDE = new Set(['mocha', 'latte', 'kanagawa-wave', 'stark-hud', 'vision-dark', 'vision-navy', 'braindead']);
+const EXCLUDE = new Set(['mocha', 'latte', 'kanagawa-wave', 'stark-hud', 'vision-dark', 'vision-navy']);
 
 // Defaults for the two required core tokens that the Mocha base doesn't define
 // itself, so a theme that omits them still yields a complete contract theme.
