@@ -1,0 +1,40 @@
+[data-theme='chameleon-light'] {
+  color-scheme: light;
+
+  /* Accent — openSUSE green */
+  --accent: #30ba78;
+  --accent-dim: rgba(48, 186, 120, 0.16);
+  --accent-glow: rgba(48, 186, 120, 0.40);
+  --accent-2: #173f4f;
+
+  /* Backgrounds */
+  --bg-app: #f3f7f4;
+  --bg-sidebar: #e8efea;
+  --bg-card: #ffffff;
+  --bg-hover: #e0eae3;
+  --bg-elevated: #ffffff;
+  --bg-player: #e8efea;
+  --bg-deep: #d8e3db;
+  --bg-glass: rgba(243, 247, 244, 0.82);
+
+  /* Borders */
+  --border: #cdd9d1;
+  --border-subtle: #dde7e0;
+  --border-dropdown: #cdd9d1;
+
+  /* Text */
+  --text-primary: #14323d;
+  --text-secondary: #4a6670;
+  --text-muted: #7a9099;
+  --text-on-accent: #06271c;
+
+  /* Status */
+  --danger: #c8341f;
+  --positive: #2e9e57;
+  --warning: #c98a00;
+  --highlight: #1f8f5e;
+
+  /* Dropdown chevron — stroke recoloured to the muted text tone */
+  --select-arrow: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%234a6670%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpolyline%20points%3D%226%209%2012%2015%2018%209%22%3E%3C%2Fpolyline%3E%3C%2Fsvg%3E");
+  --shadow-dropdown: rgba(20, 50, 61, 0.18);
+}
