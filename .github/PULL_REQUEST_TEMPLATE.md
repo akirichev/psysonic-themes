@@ -1,10 +1,17 @@
 <!-- New theme submission. See CONTRIBUTING.md. registry.json is auto-generated — don't edit it. -->
 
-## Theme: <name>
+## Your theme
 
-- **id / folder:** `themes/<id>/`
-- **Mode:** dark / light
-- **Inspiration (if any):**
+**Please fill in the details below** — this is how the store labels your theme.
+Type your answer after each colon:
+
+- **Name** (as shown in the store): &nbsp; _e.g. Nord Dark_
+- **id / folder:** &nbsp; `themes/your-id/` &nbsp; _(must match your folder name)_
+- **Mode:** &nbsp; dark / light &nbsp; _(delete the one that doesn't apply)_
+- **Inspiration (if any):** &nbsp; _e.g. Inspired by Winamp — leave blank if none_
+
+<!-- Below is a checklist. Replace each [ ] with [x] once that item is done. -->
+
 
 ### Checklist
 
