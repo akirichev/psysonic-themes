@@ -90,11 +90,11 @@
   background: linear-gradient(
     to bottom,
     rgba(23, 147, 209, 0.3) 0%,
-                              rgba(23, 147, 209, 0.3) 40%,
-                              #ffffff 50%,
-                              #89dceb 56%,
-                              rgba(23, 147, 209, 0.3) 68%,
-                              rgba(23, 147, 209, 0.3) 100%
+    rgba(23, 147, 209, 0.3) 40%,
+    #ffffff 50%,
+    #89dceb 56%,
+    rgba(23, 147, 209, 0.3) 68%,
+    rgba(23, 147, 209, 0.3) 100%
   );
   background-size: 100% 300px;
   opacity: 0.4;
