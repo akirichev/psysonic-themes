@@ -1,0 +1,395 @@
+/* ─── Mainframe ─── */
+/* ─── Light Version ─── */
+[data-theme='mainframe-light'] {
+  color-scheme: light;
+  --select-arrow: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%231793d1%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpolyline%20points%3D%226%209%2012%2015%2018%209%22%3E%3C%2Fpolyline%3E%3C%2Fsvg%3E");
+
+  /* ── Catppuccin-compatible palette (cool steel, Arch tty aesthetic) ── */
+  --ctp-crust:    #dce0e8;
+  --ctp-mantle:   #e6e9ef;
+  --ctp-base:     #eff1f5;
+  --ctp-surface0: #ccd0da;
+  --ctp-surface1: #bcc0cc;
+  --ctp-surface2: #acb0be;
+  --ctp-overlay0: #6c6f85;
+  --ctp-overlay1: #5c5f77;
+  --ctp-overlay2: #4c4f69;
+  --ctp-text:     #4c4f69;
+  --ctp-subtext1: #5c5f77;
+  --ctp-subtext0: #6c6f85;
+  --ctp-mauve:    #8839ef;
+  --ctp-lavender: #7287fd;
+  --ctp-pink:     #ea76cb;
+  --ctp-flamingo: #dd7878;
+  --ctp-rosewater:#dc8a78;
+  --ctp-blue:     #1793d1;
+  --ctp-sapphire: #1580ba;
+  --ctp-sky:      #04a5e5;
+  --ctp-teal:     #179287;
+  --ctp-green:    #40a02b;
+  --ctp-yellow:   #df8e1d;
+  --ctp-peach:    #fe640b;
+  --ctp-maroon:   #e64553;
+  --ctp-red:      #d20f39;
+
+  /* ── Semantic tokens ── */
+  --bg-app:     #eff1f5;
+  --bg-sidebar: #e6e9ef;
+  --bg-card:    #f5f7fa;
+  --bg-hover:   #ccd0da;
+  --bg-player:  #e6e9ef;
+  --bg-glass:   rgba(239, 241, 245, 0.88);
+
+  --accent:      #1793d1;
+  --accent-dim:  rgba(23, 147, 209, 0.08);
+  --accent-glow: rgba(23, 147, 209, 0.15);
+
+  --text-primary:   #242933;
+  --text-secondary: #5c5f77;
+  --text-muted:     #8c92a6;
+
+  --border:          #cbd5e1;
+  --border-subtle:   #e6e9ef;
+  --border-dropdown: #ccd0da;
+  --shadow-dropdown: rgba(0, 0, 0, 0.08);
+
+  --positive: #40a02b;
+  --warning:  #df8e1d;
+  --danger:   #d20f39;
+
+  /* Slightly tighter radii — clean, not zero */
+  --radius-sm:   3px;
+  --radius-md:   6px;
+  --radius-lg:   10px;
+  --radius-full: 999px;
+
+  /* Waveform Colors */
+  --waveform-played:   #1793d1;           
+  --waveform-buffered: rgba(23, 147, 209, 0.25); 
+  --waveform-unplayed: #cbd5e1;           
+}
+
+/* ── Sidebar ── */
+[data-theme='mainframe-light'] .sidebar {
+  background: #e6e9ef;
+  border-right: 1px solid #cbd5e1;
+  position: relative; 
+  overflow: hidden;
+  z-index: 1;
+}
+
+/* ── Circuit Board Lines (Connected to top, behind text, permanent gradient) ── */
+[data-theme='mainframe-light'] .sidebar::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 420px;
+  z-index: -1;
+  
+  /* Moved the gradient here permanently so the white flows stay visible when paused */
+  background: linear-gradient(
+    to bottom,
+    rgba(23, 147, 209, 0.315) 0%,
+    rgba(23, 147, 209, 0.308) 40%,
+    #106692 50%,
+    #1793d1 56%,
+    rgba(23, 147, 209, 0.18) 68%,
+    rgba(23, 147, 209, 0.18) 100%
+  );
+  background-size: 100% 300px;
+  opacity: 0.4;
+  pointer-events: none;
+  transition: opacity 0.4s ease;
+
+  /*Load the animation on initialization, but keep it frozen by default */
+  animation: mainframe-light-pcb-electricity 25s linear infinite;
+  animation-play-state: paused; 
+
+  /* 6 Distributed SVG circuit paths encoded safely into the mask configuration */
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 220 420'%3E%3Cpath d='M10,0 L10,80 L20,100 L20,220' fill='none' stroke='white' stroke-width='1.5' /%3E%3Ccircle cx='20' cy='220' r='3.5' stroke='white' stroke-width='1.5' fill='none' /%3E%3Cpath d='M40,0 L40,110 L65,150 L65,330' fill='none' stroke='white' stroke-width='1.5' /%3E%3Ccircle cx='65' cy='330' r='3.5' stroke='white' stroke-width='1.5' fill='none' /%3E%3Cpath d='M105,0 L105,180 L85,215 L85,380' fill='none' stroke='white' stroke-width='1.5' /%3E%3Ccircle cx='85' cy='380' r='3.5' stroke='white' stroke-width='1.5' fill='none' /%3E%3Cpath d='M140,0 L140,130 L160,160 L160,350' fill='none' stroke='white' stroke-width='1.5' /%3E%3Ccircle cx='160' cy='350' r='3.5' stroke='white' stroke-width='1.5' fill='none' /%3E%3Cpath d='M180,0 L180,60 L150,105 L150,260' fill='none' stroke='white' stroke-width='1.5' /%3E%3Ccircle cx='150' cy='260' r='3.5' stroke='white' stroke-width='1.5' fill='none' /%3E%3Cpath d='M210,0 L210,90 L195,115 L195,300' fill='none' stroke='white' stroke-width='1.5' /%3E%3Ccircle cx='195' cy='300' r='3.5' stroke='white' stroke-width='1.5' fill='none' /%3E%3C/svg%3E");
+  mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 220 420'%3E%3Cpath d='M10,0 L10,80 L20,100 L20,220' fill='none' stroke='white' stroke-width='1.5' /%3E%3Ccircle cx='20' cy='220' r='3.5' stroke='white' stroke-width='1.5' fill='none' /%3E%3Cpath d='M40,0 L40,110 L65,150 L65,330' fill='none' stroke='white' stroke-width='1.5' /%3E%3Ccircle cx='65' cy='330' r='3.5' stroke='white' stroke-width='1.5' fill='none' /%3E%3Cpath d='M105,0 L105,180 L85,215 L85,380' fill='none' stroke='white' stroke-width='1.5' /%3E%3Ccircle cx='85' cy='380' r='3.5' stroke='white' stroke-width='1.5' fill='none' /%3E%3Cpath d='M140,0 L140,130 L160,160 L160,350' fill='none' stroke='white' stroke-width='1.5' /%3E%3Ccircle cx='160' cy='350' r='3.5' stroke='white' stroke-width='1.5' fill='none' /%3E%3Cpath d='M180,0 L180,60 L150,105 L150,260' fill='none' stroke='white' stroke-width='1.5' /%3E%3Ccircle cx='150' cy='260' r='3.5' stroke='white' stroke-width='1.5' fill='none' /%3E%3Cpath d='M210,0 L210,90 L195,115 L195,300' fill='none' stroke='white' stroke-width='1.5' /%3E%3Ccircle cx='195' cy='300' r='3.5' stroke='white' stroke-width='1.5' fill='none' /%3E%3C/svg%3E");  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+}
+
+/* ── Ambient Electricity Flow Animation (Unpause when active) ── */
+[data-theme='mainframe-light'][data-playing='true'] .sidebar::before {
+  animation-play-state: running;
+}
+
+@keyframes mainframe-light-pcb-electricity {
+  0% {
+    background-position-y: -300px;
+  }
+  100% {
+    background-position-y: 300px;
+  }
+}
+
+/* ── Nav active — Arch blue left stripe ── */
+[data-theme='mainframe-light'] .nav-link.active,
+[data-theme='mainframe-light'] .sidebar-nav-item.active {
+  background: rgba(23, 147, 209, 0.10);
+  border-left: 2px solid #1793d1;
+  color: #106692;
+  box-shadow: inset 0 0 14px rgba(23, 147, 209, 0.04);
+}
+
+[data-theme='mainframe-light'] .nav-link:hover:not(.active),
+[data-theme='mainframe-light'] .sidebar-nav-item:hover:not(.active) {
+  background: rgba(23, 147, 209, 0.05);
+  color: #242933;
+}
+
+/* ── Player bar ── */
+[data-theme='mainframe-light'] .player-bar {
+  background-color: #e6e9ef;
+  background-image: linear-gradient(to bottom, rgba(23, 147, 209, 0.02), transparent);
+  border-top: 1px solid #cbd5e1;
+  box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.05);
+}
+
+/* ── Track name — clean white, faint Arch colored glow ── */
+[data-theme='mainframe-light'] .player-track-name {
+  color: #242933;
+  text-shadow: 0 0 12px rgba(23, 147, 209, 0.10);
+}
+
+[data-theme='mainframe-light'] .player-artist-name {
+  color: #1793d1;
+}
+
+/* ── App shell — very subtle blue radial ── */
+[data-theme='mainframe-light'] .app-shell {
+  background: radial-gradient(ellipse at 60% 110%, rgba(23, 147, 209, 0.05) 0%, transparent 55%);
+}
+
+/* ── Cards ── */
+[data-theme='mainframe-light'] .album-card,
+[data-theme='mainframe-light'] .artist-card {
+  background: #f5f7fa;
+  border: 1px solid #cbd5e1;
+  box-shadow: none;
+}
+
+[data-theme='mainframe-light'] .album-card:hover,
+[data-theme='mainframe-light'] .artist-card:hover {
+  border-color: rgba(23, 147, 209, 0.45);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+}
+
+/* ── Track / queue row hover ── */
+[data-theme='mainframe-light'] .track-row:hover,
+[data-theme='mainframe-light'] .queue-item:hover {
+  background: rgba(23, 147, 209, 0.05);
+  box-shadow: inset 2px 0 0 #1793d1;
+}
+
+/* ── Primary buttons ── */
+[data-theme='mainframe-light'] .player-btn-primary,
+[data-theme='mainframe-light'] .btn-primary {
+  background: #1793d1;
+  color: #ffffff;
+  border: none;
+  box-shadow: none;
+}
+
+[data-theme='mainframe-light'] .player-btn-primary:hover,
+[data-theme='mainframe-light'] .btn-primary:hover {
+  background: #1580ba;
+  box-shadow: 0 0 10px rgba(23, 147, 209, 0.25);
+}
+
+[data-theme='mainframe-light'] .hero-play-btn {
+  background: #1793d1;
+  color: #ffffff;
+  border: none;
+  box-shadow: none;
+}
+
+[data-theme='mainframe-light'] .hero-play-btn:hover {
+  background: #1580ba;
+  box-shadow: 0 0 12px rgba(23, 147, 209, 0.20);
+}
+
+[data-theme='mainframe-light'] .album-card-details-btn {
+  background: #1793d1;
+  color: #ffffff;
+  border: none;
+  box-shadow: none;
+}
+
+[data-theme='mainframe-light'] .album-card-details-btn:hover {
+  background: #1580ba;
+}
+
+/* ── Queue round buttons ── */
+[data-theme='mainframe-light'] .queue-round-btn {
+  border: 1px solid #cbd5e1;
+  box-shadow: none;
+}
+
+[data-theme='mainframe-light'] .queue-round-btn.active {
+  background: #1793d1;
+  color: #ffffff;
+  border-color: #1793d1;
+  box-shadow: none;
+}
+
+/* ── Inputs ── */
+[data-theme='mainframe-light'] input,
+[data-theme='mainframe-light'] textarea {
+  background: #f5f7fa;
+  border: 1px solid #cbd5e1;
+}
+
+[data-theme='mainframe-light'] input:focus,
+[data-theme='mainframe-light'] textarea:focus {
+  border-color: #1793d1;
+  box-shadow: 0 0 0 2px rgba(23, 147, 209, 0.15);
+  outline: none;
+}
+
+/* ── Scrollbar ── */
+[data-theme='mainframe-light'] ::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+[data-theme='mainframe-light'] ::-webkit-scrollbar-track {
+  background: #e6e9ef;
+}
+
+[data-theme='mainframe-light'] ::-webkit-scrollbar-thumb {
+  background: #ccd0da;
+  border-radius: 3px;
+}
+
+[data-theme='mainframe-light'] ::-webkit-scrollbar-thumb:hover {
+  background: #1793d1;
+}
+
+/* ── Connection indicators ── */
+[data-theme='mainframe-light'] .connection-type,
+[data-theme='mainframe-light'] .connection-server {
+  color: #8c92a6;
+}
+
+/* ── Content header ── */
+[data-theme='mainframe-light'] .content-header {
+  border-bottom: 1px solid #cbd5e1;
+}
+
+/* ══ PLAY BUTTON — square-ish instead of circle ══ */
+[data-theme='mainframe-light'] .mp-ctrl-play {
+  border-radius: 8px;
+  background: #1793d1;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.12), 0 0 0 1px rgba(23,147,209,0.25);
+}
+
+[data-theme='mainframe-light'] .mp-ctrl-play:hover {
+  background: #1580ba;
+  border-radius: 8px;
+  transform: scale(1.05);
+  box-shadow: 0 6px 26px rgba(0,0,0,0.1), 0 0 18px rgba(23,147,209,0.25);
+}
+
+/* ══ TITLEBAR — KDE Breeze style ══ */
+[data-theme='mainframe-light'] .titlebar {
+  background: #e6e9ef;
+  border-bottom: 1px solid #eff1f5;
+}
+
+[data-theme='mainframe-light'] .titlebar-btn {
+  background: transparent;
+  border-radius: 4px;
+  width: 18px;
+  height: 18px;
+  box-shadow: none;
+  display: inline-flex; 
+  align-items: center;
+  justify-content: center;
+  transition: background var(--transition-fast),
+              border-color var(--transition-fast),
+              box-shadow var(--transition-fast);
+}
+
+/* ── × ─ □ symbols via ::before ── */
+[data-theme='mainframe-light'] .titlebar-btn-close::before   { content: '×'; font-size: 14px; }
+[data-theme='mainframe-light'] .titlebar-btn-minimize::before { content: '─'; font-size: 9px; }
+[data-theme='mainframe-light'] .titlebar-btn-maximize::before { content: '□'; font-size: 10px; }
+
+/* ── Resting colors: dim, tinted ── */
+[data-theme='mainframe-light'] .titlebar-btn-close {
+  background: rgba(210,15,57,0.08) !important;
+  border: 1px solid rgba(210,15,57,0.25);
+}
+[data-theme='mainframe-light'] .titlebar-btn-close::before {
+  color: rgba(210,15,57,0.75);
+}
+
+[data-theme='mainframe-light'] .titlebar-btn-minimize {
+  background: rgba(223,142,29,0.08) !important;
+  border: 1px solid rgba(223,142,29,0.25);
+}
+[data-theme='mainframe-light'] .titlebar-btn-minimize::before {
+  color: rgba(223,142,29,0.75);
+}
+
+[data-theme='mainframe-light'] .titlebar-btn-maximize {
+  background: rgba(64,160,43,0.08) !important;
+  border: 1px solid rgba(64,160,43,0.25);
+}
+[data-theme='mainframe-light'] .titlebar-btn-maximize::before {
+  color: rgba(64,160,43,0.75);
+}
+
+/* ── Hover: fill with full color ── */
+[data-theme='mainframe-light'] .titlebar-btn-close:hover {
+  background: #d20f39 !important;
+  border-color: #d20f39;
+  box-shadow: 0 0 8px rgba(210,15,57,0.35);
+  filter: none;
+}
+[data-theme='mainframe-light'] .titlebar-btn-close:hover::before { color: #ffffff; }
+
+[data-theme='mainframe-light'] .titlebar-btn-minimize:hover {
+  background: #df8e1d !important;
+  border-color: #df8e1d;
+  box-shadow: 0 0 6px rgba(223,142,29,0.30);
+  filter: none;
+}
+[data-theme='mainframe-light'] .titlebar-btn-minimize:hover::before { color: #ffffff; }
+
+[data-theme='mainframe-light'] .titlebar-btn-maximize:hover {
+  background: #40a02b !important;
+  border-color: #40a02b;
+  box-shadow: 0 0 6px rgba(64,160,43,0.30);
+  filter: none;
+}
+[data-theme='mainframe-light'] .titlebar-btn-maximize:hover::before { color: #ffffff; }
+
+/* ══ ARCH LOGO "EASTER EGG" ══ */
+[data-theme='mainframe-light'] .sidebar::after {
+  content: '';
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 46px;
+  height: 46px;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cpath d='M50 4 L4 96 L26 96 L50 48 L74 96 L96 96 Z' fill='%231793d1'/%3E%3C/svg%3E");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.01;
+  pointer-events: none;
+  transition: opacity 0.4s ease;
+}
+
+[data-theme='mainframe-light'] .sidebar:hover::after {
+  opacity: 0.4;
+}
