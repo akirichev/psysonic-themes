@@ -17,8 +17,19 @@ const themesDir = join(REPO, 'themes');
 
 const SCHEMA_VERSION = 1;
 
+const registryPath = join(REPO, 'registry.json');
+
 function build() {
   const themes = [];
+  // Carry over the enrichment fields (installs / updatedAt) from the previous
+  // registry so a plain rebuild without the stats step never drops them;
+  // enrich-registry-stats.mjs refreshes them afterwards.
+  const prevById = {};
+  if (existsSync(registryPath)) {
+    try {
+      for (const t of JSON.parse(readFileSync(registryPath, 'utf8')).themes || []) prevById[t.id] = t;
+    } catch { /* ignore a malformed previous registry */ }
+  }
   if (existsSync(themesDir)) {
     const ids = readdirSync(themesDir, { withFileTypes: true })
       .filter((d) => d.isDirectory())
@@ -44,6 +55,8 @@ function build() {
         ...(animated ? { animated: true } : {}),
         css: `themes/${id}/theme.css`,
         thumbnail: `themes/${id}/thumbnail.webp`,
+        ...(typeof prevById[id]?.installs === 'number' ? { installs: prevById[id].installs } : {}),
+        ...(prevById[id]?.updatedAt ? { updatedAt: prevById[id].updatedAt } : {}),
       });
     }
   }
@@ -53,7 +66,7 @@ function build() {
     generatedAt: new Date().toISOString(),
     themes,
   };
-  writeFileSync(join(REPO, 'registry.json'), JSON.stringify(registry, null, 2) + '\n');
+  writeFileSync(registryPath, JSON.stringify(registry, null, 2) + '\n');
   console.log(`registry.json: ${themes.length} theme(s)`);
 }
 
