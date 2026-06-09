@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-09T18:32:03.663Z",
+  "generatedAt": "2026-06-09T18:37:51.528Z",
   "themes": [
     {
       "id": "aero-glass",
@@ -14,7 +14,6 @@
       ],
       "css": "themes/aero-glass/theme.css",
       "thumbnail": "themes/aero-glass/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -29,7 +28,6 @@
       ],
       "css": "themes/alliance/theme.css",
       "thumbnail": "themes/alliance/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -41,7 +39,6 @@
       "mode": "dark",
       "css": "themes/amoled-black-pure/theme.css",
       "thumbnail": "themes/amoled-black-pure/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -56,7 +53,6 @@
       ],
       "css": "themes/barb-and-ken/theme.css",
       "thumbnail": "themes/barb-and-ken/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -71,7 +67,6 @@
       ],
       "css": "themes/blade/theme.css",
       "thumbnail": "themes/blade/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -86,7 +81,6 @@
       ],
       "css": "themes/braindead/theme.css",
       "thumbnail": "themes/braindead/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -98,7 +92,6 @@
       "mode": "dark",
       "css": "themes/carbon-grey/theme.css",
       "thumbnail": "themes/carbon-grey/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -114,7 +107,6 @@
       ],
       "css": "themes/carbonfox/theme.css",
       "thumbnail": "themes/carbonfox/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -132,7 +124,6 @@
       "animated": true,
       "css": "themes/chameleon-light/theme.css",
       "thumbnail": "themes/chameleon-light/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-09T20:24:17+02:00"
     },
     {
@@ -144,7 +135,6 @@
       "mode": "dark",
       "css": "themes/copper-oxide/theme.css",
       "thumbnail": "themes/copper-oxide/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -159,7 +149,6 @@
       ],
       "css": "themes/cupertino-beats/theme.css",
       "thumbnail": "themes/cupertino-beats/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -174,7 +163,6 @@
       ],
       "css": "themes/cupertino-dark/theme.css",
       "thumbnail": "themes/cupertino-dark/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -189,7 +177,6 @@
       ],
       "css": "themes/cupertino-light/theme.css",
       "thumbnail": "themes/cupertino-light/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -204,7 +191,6 @@
       ],
       "css": "themes/dark-side-of-the-moon/theme.css",
       "thumbnail": "themes/dark-side-of-the-moon/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -220,7 +206,6 @@
       ],
       "css": "themes/dawnfox/theme.css",
       "thumbnail": "themes/dawnfox/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -236,7 +221,6 @@
       ],
       "css": "themes/dayfox/theme.css",
       "thumbnail": "themes/dayfox/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -248,7 +232,6 @@
       "mode": "dark",
       "css": "themes/deep-forest/theme.css",
       "thumbnail": "themes/deep-forest/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -263,7 +246,6 @@
       ],
       "css": "themes/doh-matic/theme.css",
       "thumbnail": "themes/doh-matic/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -278,7 +260,6 @@
       ],
       "css": "themes/dos/theme.css",
       "thumbnail": "themes/dos/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -294,7 +275,6 @@
       ],
       "css": "themes/dracula/theme.css",
       "thumbnail": "themes/dracula/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -309,7 +289,6 @@
       ],
       "css": "themes/dune/theme.css",
       "thumbnail": "themes/dune/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -325,7 +304,6 @@
       ],
       "css": "themes/duskfox/theme.css",
       "thumbnail": "themes/duskfox/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -340,7 +318,6 @@
       ],
       "css": "themes/dzr0/theme.css",
       "thumbnail": "themes/dzr0/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -356,7 +333,6 @@
       ],
       "css": "themes/frappe/theme.css",
       "thumbnail": "themes/frappe/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -371,7 +347,6 @@
       ],
       "css": "themes/grand-theft-audio/theme.css",
       "thumbnail": "themes/grand-theft-audio/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -387,7 +362,6 @@
       ],
       "css": "themes/gruvbox-dark-hard/theme.css",
       "thumbnail": "themes/gruvbox-dark-hard/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -403,7 +377,6 @@
       ],
       "css": "themes/gruvbox-dark-medium/theme.css",
       "thumbnail": "themes/gruvbox-dark-medium/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -419,7 +392,6 @@
       ],
       "css": "themes/gruvbox-dark-soft/theme.css",
       "thumbnail": "themes/gruvbox-dark-soft/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -435,7 +407,6 @@
       ],
       "css": "themes/gruvbox-light-hard/theme.css",
       "thumbnail": "themes/gruvbox-light-hard/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -451,7 +422,6 @@
       ],
       "css": "themes/gruvbox-light-medium/theme.css",
       "thumbnail": "themes/gruvbox-light-medium/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -467,7 +437,6 @@
       ],
       "css": "themes/gruvbox-light-soft/theme.css",
       "thumbnail": "themes/gruvbox-light-soft/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -482,7 +451,6 @@
       ],
       "css": "themes/gw1/theme.css",
       "thumbnail": "themes/gw1/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -497,7 +465,6 @@
       ],
       "css": "themes/heisenberg/theme.css",
       "thumbnail": "themes/heisenberg/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -512,7 +479,6 @@
       ],
       "css": "themes/hill-valley-85/theme.css",
       "thumbnail": "themes/hill-valley-85/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -527,7 +493,6 @@
       ],
       "css": "themes/horde/theme.css",
       "thumbnail": "themes/horde/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -542,7 +507,6 @@
       ],
       "css": "themes/ice-and-fire/theme.css",
       "thumbnail": "themes/ice-and-fire/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -557,7 +521,6 @@
       ],
       "css": "themes/insta/theme.css",
       "thumbnail": "themes/insta/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -572,7 +535,6 @@
       ],
       "css": "themes/jayfin/theme.css",
       "thumbnail": "themes/jayfin/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -588,7 +550,6 @@
       ],
       "css": "themes/kanagawa-dragon/theme.css",
       "thumbnail": "themes/kanagawa-dragon/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -604,7 +565,6 @@
       ],
       "css": "themes/kanagawa-lotus/theme.css",
       "thumbnail": "themes/kanagawa-lotus/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -619,7 +579,6 @@
       ],
       "css": "themes/lambda-17/theme.css",
       "thumbnail": "themes/lambda-17/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -634,7 +593,6 @@
       ],
       "css": "themes/luna-teal/theme.css",
       "thumbnail": "themes/luna-teal/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -650,7 +608,6 @@
       ],
       "css": "themes/macchiato/theme.css",
       "thumbnail": "themes/macchiato/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -663,7 +620,6 @@
       "animated": true,
       "css": "themes/mainframe-dark/theme.css",
       "thumbnail": "themes/mainframe-dark/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-08T18:09:03+02:00"
     },
     {
@@ -676,7 +632,6 @@
       "animated": true,
       "css": "themes/mainframe-light/theme.css",
       "thumbnail": "themes/mainframe-light/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:27:47+02:00"
     },
     {
@@ -688,7 +643,6 @@
       "mode": "dark",
       "css": "themes/midnight-blue/theme.css",
       "thumbnail": "themes/midnight-blue/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -703,7 +657,6 @@
       ],
       "css": "themes/morpheus/theme.css",
       "thumbnail": "themes/morpheus/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -718,7 +671,6 @@
       ],
       "css": "themes/muma-jukebox/theme.css",
       "thumbnail": "themes/muma-jukebox/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -730,7 +682,6 @@
       "mode": "dark",
       "css": "themes/neon-drift/theme.css",
       "thumbnail": "themes/neon-drift/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -745,7 +696,6 @@
       ],
       "css": "themes/nightcity-2077/theme.css",
       "thumbnail": "themes/nightcity-2077/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -761,7 +711,6 @@
       ],
       "css": "themes/nightfox/theme.css",
       "thumbnail": "themes/nightfox/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -777,7 +726,6 @@
       ],
       "css": "themes/nord/theme.css",
       "thumbnail": "themes/nord/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -793,7 +741,6 @@
       ],
       "css": "themes/nord-aurora/theme.css",
       "thumbnail": "themes/nord-aurora/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -809,7 +756,6 @@
       ],
       "css": "themes/nord-frost/theme.css",
       "thumbnail": "themes/nord-frost/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -825,7 +771,6 @@
       ],
       "css": "themes/nord-snowstorm/theme.css",
       "thumbnail": "themes/nord-snowstorm/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -841,7 +786,6 @@
       ],
       "css": "themes/nordfox/theme.css",
       "thumbnail": "themes/nordfox/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -853,7 +797,6 @@
       "mode": "light",
       "css": "themes/nucleo/theme.css",
       "thumbnail": "themes/nucleo/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -865,7 +808,6 @@
       "mode": "dark",
       "css": "themes/obsidian-black/theme.css",
       "thumbnail": "themes/obsidian-black/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -877,7 +819,6 @@
       "mode": "dark",
       "css": "themes/obsidian-gold/theme.css",
       "thumbnail": "themes/obsidian-gold/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -893,7 +834,6 @@
       ],
       "css": "themes/one-dark/theme.css",
       "thumbnail": "themes/one-dark/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -909,7 +849,6 @@
       ],
       "css": "themes/one-light/theme.css",
       "thumbnail": "themes/one-light/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -924,7 +863,6 @@
       ],
       "css": "themes/p-dvd/theme.css",
       "thumbnail": "themes/p-dvd/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -936,7 +874,6 @@
       "mode": "dark",
       "css": "themes/poison/theme.css",
       "thumbnail": "themes/poison/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -948,7 +885,6 @@
       "mode": "dark",
       "css": "themes/psychowave/theme.css",
       "thumbnail": "themes/psychowave/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -963,7 +899,6 @@
       ],
       "css": "themes/readit/theme.css",
       "thumbnail": "themes/readit/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -975,7 +910,6 @@
       "mode": "dark",
       "css": "themes/sakura-night/theme.css",
       "thumbnail": "themes/sakura-night/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -987,7 +921,6 @@
       "mode": "dark",
       "css": "themes/sepia-dark/theme.css",
       "thumbnail": "themes/sepia-dark/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -1002,7 +935,6 @@
       ],
       "css": "themes/spider-tech/theme.css",
       "thumbnail": "themes/spider-tech/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -1017,7 +949,6 @@
       ],
       "css": "themes/spotless/theme.css",
       "thumbnail": "themes/spotless/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -1032,7 +963,6 @@
       ],
       "css": "themes/t-800/theme.css",
       "thumbnail": "themes/t-800/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -1048,7 +978,6 @@
       ],
       "css": "themes/terafox/theme.css",
       "thumbnail": "themes/terafox/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -1063,7 +992,6 @@
       ],
       "css": "themes/tetrastack/theme.css",
       "thumbnail": "themes/tetrastack/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -1078,7 +1006,6 @@
       ],
       "css": "themes/toy-tale/theme.css",
       "thumbnail": "themes/toy-tale/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -1093,7 +1020,6 @@
       ],
       "css": "themes/turtle-power/theme.css",
       "thumbnail": "themes/turtle-power/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -1108,7 +1034,6 @@
       ],
       "css": "themes/unix/theme.css",
       "thumbnail": "themes/unix/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -1123,7 +1048,6 @@
       ],
       "css": "themes/v-tactical/theme.css",
       "thumbnail": "themes/v-tactical/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -1135,7 +1059,6 @@
       "mode": "dark",
       "css": "themes/vintage-tube-radio/theme.css",
       "thumbnail": "themes/vintage-tube-radio/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -1147,7 +1070,6 @@
       "mode": "dark",
       "css": "themes/violet-haze/theme.css",
       "thumbnail": "themes/violet-haze/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -1159,7 +1081,6 @@
       "mode": "dark",
       "css": "themes/volcanic-dark/theme.css",
       "thumbnail": "themes/volcanic-dark/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -1175,7 +1096,6 @@
       ],
       "css": "themes/vs-1984/theme.css",
       "thumbnail": "themes/vs-1984/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -1191,7 +1111,6 @@
       ],
       "css": "themes/vs-1984-cyberpunk/theme.css",
       "thumbnail": "themes/vs-1984-cyberpunk/thumbnail.webp",
-      "installs": 9,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -1207,7 +1126,6 @@
       ],
       "css": "themes/vs-1984-light/theme.css",
       "thumbnail": "themes/vs-1984-light/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -1223,7 +1141,6 @@
       ],
       "css": "themes/vs-1984-orwell/theme.css",
       "thumbnail": "themes/vs-1984-orwell/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -1238,7 +1155,6 @@
       ],
       "css": "themes/w10/theme.css",
       "thumbnail": "themes/w10/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -1253,7 +1169,6 @@
       ],
       "css": "themes/w11/theme.css",
       "thumbnail": "themes/w11/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -1268,7 +1183,6 @@
       ],
       "css": "themes/w3-1/theme.css",
       "thumbnail": "themes/w3-1/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -1283,7 +1197,6 @@
       ],
       "css": "themes/w98/theme.css",
       "thumbnail": "themes/w98/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -1298,7 +1211,6 @@
       ],
       "css": "themes/winmedplayer/theme.css",
       "thumbnail": "themes/winmedplayer/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
@@ -1313,7 +1225,6 @@
       ],
       "css": "themes/wnamp/theme.css",
       "thumbnail": "themes/wnamp/thumbnail.webp",
-      "installs": 0,
       "updatedAt": "2026-06-07T19:05:13+02:00"
     }
   ]

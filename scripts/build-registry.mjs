@@ -3,11 +3,15 @@
 //
 //   node scripts/build-registry.mjs
 //
-// registry.json is the single file the app reads (over jsDelivr). It is
+// registry.json is the single file the app reads (over GitHub raw). It is
 // AUTO-GENERATED — never hand-edit it. CSS and thumbnails are referenced by
-// relative path and fetched on demand; the client prepends the CDN base.
+// relative path and fetched on demand; the client prepends the asset base.
+//
+// updatedAt (ISO date of the last commit touching a theme) is derived here from
+// git, so the build needs full history (actions/checkout fetch-depth: 0).
 
 import { readFileSync, writeFileSync, existsSync, readdirSync } from 'node:fs';
+import { execSync } from 'node:child_process';
 import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -19,17 +23,17 @@ const SCHEMA_VERSION = 1;
 
 const registryPath = join(REPO, 'registry.json');
 
+/** ISO date of the last commit touching themes/<id>/, or undefined. */
+function lastModified(id) {
+  try {
+    return execSync(`git log -1 --format=%cI -- themes/${id}`, { cwd: REPO, encoding: 'utf8' }).trim() || undefined;
+  } catch {
+    return undefined;
+  }
+}
+
 function build() {
   const themes = [];
-  // Carry over the enrichment fields (installs / updatedAt) from the previous
-  // registry so a plain rebuild without the stats step never drops them;
-  // enrich-registry-stats.mjs refreshes them afterwards.
-  const prevById = {};
-  if (existsSync(registryPath)) {
-    try {
-      for (const t of JSON.parse(readFileSync(registryPath, 'utf8')).themes || []) prevById[t.id] = t;
-    } catch { /* ignore a malformed previous registry */ }
-  }
   if (existsSync(themesDir)) {
     const ids = readdirSync(themesDir, { withFileTypes: true })
       .filter((d) => d.isDirectory())
@@ -55,8 +59,7 @@ function build() {
         ...(animated ? { animated: true } : {}),
         css: `themes/${id}/theme.css`,
         thumbnail: `themes/${id}/thumbnail.webp`,
-        ...(typeof prevById[id]?.installs === 'number' ? { installs: prevById[id].installs } : {}),
-        ...(prevById[id]?.updatedAt ? { updatedAt: prevById[id].updatedAt } : {}),
+        ...(lastModified(id) ? { updatedAt: lastModified(id) } : {}),
       });
     }
   }

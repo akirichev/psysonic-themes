@@ -31,11 +31,9 @@ jobs:
         # drop the source, so contributors can upload a plain screenshot.
         run: node scripts/make-webp.mjs --themes themes
       - name: Regenerate registry.json
+        # Reads each manifest and derives updatedAt from git history (needs the
+        # full clone fetched above).
         run: node scripts/build-registry.mjs
-      - name: Enrich with install counts + last-modified dates
-        # Adds per-theme installs (jsDelivr theme.css hits) and updatedAt (git),
-        # so a newly merged theme gets a date and best-effort count right away.
-        run: node scripts/enrich-registry-stats.mjs
       - name: Commit if changed
         run: |
           if [ -n "$(git status --porcelain)" ]; then
@@ -47,17 +45,3 @@ jobs:
           else
             echo "nothing to commit"
           fi
-      - name: Purge jsDelivr CDN cache
-        # jsDelivr caches mutable @main refs for up to 12h. Purge the registry
-        # index (always) plus any theme assets changed in this push so the app
-        # sees updates immediately instead of waiting for the cache to expire.
-        # Use ONE batch POST: jsDelivr throttles rapid single-file purges, which
-        # left part of a large push (e.g. a full thumbnail refresh) unpurged.
-        env:
-          REPO: ${{ github.repository }}
-          BEFORE: ${{ github.event.before }}
-        run: |
-          paths="$( { echo registry.json; git diff --name-only "$BEFORE" HEAD -- 'themes/**/theme.css' 'themes/**/thumbnail.webp' 2>/dev/null || true; } | sort -u )"
-          body="$(printf '%s\n' "$paths" | REPO="$REPO" node -e 'const fs=require("fs");const repo=process.env.REPO;const p=[...new Set(fs.readFileSync(0,"utf8").split(/\s+/).filter(Boolean))].map(x=>`/gh/${repo}@main/${x}`);process.stdout.write(JSON.stringify({path:p}))')"
-          echo "purging $(printf '%s\n' "$paths" | grep -c .) path(s)"
-          curl -sS -X POST https://purge.jsdelivr.net/ -H 'Content-Type: application/json' -d "$body" || true
