@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-09T18:41:54.561Z",
+  "generatedAt": "2026-06-14T01:07:11.601Z",
   "themes": [
     {
       "id": "aero-glass",
@@ -466,6 +466,27 @@
       "css": "themes/heisenberg/theme.css",
       "thumbnail": "themes/heisenberg/thumbnail.webp",
       "updatedAt": "2026-06-07T19:05:13+02:00"
+    },
+    {
+      "id": "hifi-73",
+      "name": "Hi-Fi 73",
+      "author": "1U3R6",
+      "version": "1.0.0",
+      "description": "Inspired by the stereo receivers of the golden era of Hi-Fi.",
+      "mode": "light",
+      "tags": [
+        "vintage",
+        "hifi",
+        "light",
+        "silver",
+        "blue",
+        "walnut",
+        "analog"
+      ],
+      "animated": true,
+      "css": "themes/hifi-73/theme.css",
+      "thumbnail": "themes/hifi-73/thumbnail.webp",
+      "updatedAt": "2026-06-13T12:46:01-07:00"
     },
     {
       "id": "hill-valley-85",
