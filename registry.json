@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-14T03:40:12.134Z",
+  "generatedAt": "2026-06-14T21:46:23.987Z",
   "themes": [
     {
       "id": "aero-glass",
@@ -528,7 +528,7 @@
       "animated": true,
       "css": "themes/hifi-73-noir/theme.css",
       "thumbnail": "themes/hifi-73-noir/thumbnail.webp",
-      "updatedAt": "2026-06-14T01:39:49Z"
+      "updatedAt": "2026-06-13T23:30:32-07:00"
     },
     {
       "id": "hill-valley-85",
@@ -1093,7 +1093,7 @@
       ],
       "css": "themes/tomorrow-night-blue/theme.css",
       "thumbnail": "themes/tomorrow-night-blue/thumbnail.webp",
-      "updatedAt": "2026-06-14T05:39:56+02:00"
+      "updatedAt": "2026-06-14T03:40:12Z"
     },
     {
       "id": "toy-tale",
