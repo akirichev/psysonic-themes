@@ -326,7 +326,7 @@
               box-shadow var(--transition-fast);
 }
 
-[data-theme='mainframe-dark'] .titlebar-btn::before {
+[data-theme='mainframe-light'] .titlebar-btn::before {
   position: absolute;
   top: 50%;
   left: 50%;
