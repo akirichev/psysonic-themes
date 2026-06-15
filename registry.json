@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-15T21:22:34.575Z",
+  "generatedAt": "2026-06-15T22:01:03.909Z",
   "themes": [
     {
       "id": "aero-glass",
@@ -183,15 +183,20 @@
       "id": "dark-side-of-the-moon",
       "name": "Dark Side of the Moon (inspired)",
       "author": "Psysonic",
-      "version": "1.0.0",
-      "description": "Inspired by Pink Floyd's Dark Side of the Moon.",
+      "version": "1.0.1",
+      "description": "Inspired by Pink Floyd's Dark Side of the Moon. Pure void black with a prism-spectrum rainbow accent.",
       "mode": "dark",
       "tags": [
-        "famous-albums"
+        "famous-albums",
+        "dark",
+        "black",
+        "spectrum",
+        "rainbow",
+        "pink-floyd"
       ],
       "css": "themes/dark-side-of-the-moon/theme.css",
       "thumbnail": "themes/dark-side-of-the-moon/thumbnail.webp",
-      "updatedAt": "2026-06-07T19:05:13+02:00"
+      "updatedAt": "2026-06-15T23:56:47+02:00"
     },
     {
       "id": "dawnfox",
@@ -549,7 +554,7 @@
       "animated": true,
       "css": "themes/hifi-83/theme.css",
       "thumbnail": "themes/hifi-83/thumbnail.webp",
-      "updatedAt": "2026-06-14T23:58:04-07:00"
+      "updatedAt": "2026-06-15T21:22:34Z"
     },
     {
       "id": "hill-valley-85",
