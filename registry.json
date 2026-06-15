@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-15T21:20:51.733Z",
+  "generatedAt": "2026-06-15T21:22:34.575Z",
   "themes": [
     {
       "id": "aero-glass",
@@ -529,6 +529,27 @@
       "css": "themes/hifi-73-noir/theme.css",
       "thumbnail": "themes/hifi-73-noir/thumbnail.webp",
       "updatedAt": "2026-06-14T16:36:36-07:00"
+    },
+    {
+      "id": "hifi-83",
+      "name": "Hi-Fi 83",
+      "author": "1U3R6",
+      "version": "1.0.0",
+      "description": "Inspired by the black-face receivers of the 80s.",
+      "mode": "dark",
+      "tags": [
+        "vintage",
+        "hifi",
+        "dark",
+        "black",
+        "amber",
+        "analog",
+        "vfd"
+      ],
+      "animated": true,
+      "css": "themes/hifi-83/theme.css",
+      "thumbnail": "themes/hifi-83/thumbnail.webp",
+      "updatedAt": "2026-06-14T23:58:04-07:00"
     },
     {
       "id": "hill-valley-85",
