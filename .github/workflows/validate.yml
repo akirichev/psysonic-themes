@@ -15,6 +15,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          # Full history so the version-bump check can diff against the base branch.
+          fetch-depth: 0
       - uses: actions/setup-node@v4
         with:
           node-version: 20
@@ -24,3 +27,5 @@ jobs:
         run: node scripts/validate-theme.mjs
       - name: Validate the template stays contract-valid
         run: node scripts/validate-theme.mjs template
+      - name: Require a version bump when an existing theme changes
+        run: node scripts/check-version-bump.mjs

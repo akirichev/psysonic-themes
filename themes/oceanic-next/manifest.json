@@ -1,0 +1,9 @@
+{
+  "id": "oceanic-next",
+  "name": "Oceanic Next",
+  "author": "Psychotoxical",
+  "version": "1.0.0",
+  "description": "Dark theme based on the Oceanic Next palette by Dmitri Voronianski (MIT) — deep slate blues with teal and blue accents and warm reds and yellows.",
+  "mode": "dark",
+  "tags": ["dark", "blue", "teal", "slate", "base16", "editor"]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "borealis-lite",
+  "name": "Borealis Lite",
+  "author": "Psysonic",
+  "version": "1.0.0",
+  "description": "The Borealis palette as a lightweight, token-only theme — same mid-tone aurora colours (plum, teal, violet), no animations or effects.",
+  "mode": "dark",
+  "tags": [
+    "mid-tone",
+    "teal",
+    "violet",
+    "plum",
+    "minimal",
+    "aurora"
+  ]
+}

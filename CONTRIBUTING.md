@@ -19,6 +19,14 @@ tokens — validated automatically and served to the in-app store over a CDN.
    its own validation and visual review, and a problem with one never blocks the
    others from merging).
 
+## Updating an existing theme
+
+When you change a theme that is already in the store, **bump `version` in its
+`manifest.json`** (e.g. `1.0.1` → `1.0.2`). The in-app theme store detects
+updates by comparing the version, so a change shipped with the same version is
+never offered to users who already installed it. CI enforces this: a PR that
+edits an existing theme without raising its version fails the `validate` check.
+
 ## The CSS contract (enforced by CI)
 
 `theme.css` is **free-form CSS** — any selectors, structure, `@media`, and

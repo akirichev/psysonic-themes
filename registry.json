@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-09T18:41:54.561Z",
+  "generatedAt": "2026-06-16T23:40:07.772Z",
   "themes": [
     {
       "id": "aero-glass",
@@ -68,6 +68,43 @@
       "css": "themes/blade/theme.css",
       "thumbnail": "themes/blade/thumbnail.webp",
       "updatedAt": "2026-06-07T19:05:13+02:00"
+    },
+    {
+      "id": "borealis",
+      "name": "Borealis",
+      "author": "Psysonic",
+      "version": "1.0.1",
+      "description": "Mid-tone slate-blue with an aurora ribbon drifting across the player bar. Not quite dark, not quite light.",
+      "mode": "dark",
+      "tags": [
+        "animated",
+        "blue",
+        "teal",
+        "violet",
+        "aurora",
+        "mid-tone"
+      ],
+      "animated": true,
+      "css": "themes/borealis/theme.css",
+      "thumbnail": "themes/borealis/thumbnail.webp"
+    },
+    {
+      "id": "borealis-lite",
+      "name": "Borealis Lite",
+      "author": "Psysonic",
+      "version": "1.0.0",
+      "description": "The Borealis palette as a lightweight, token-only theme — same mid-tone aurora colours (plum, teal, violet), no animations or effects.",
+      "mode": "dark",
+      "tags": [
+        "mid-tone",
+        "teal",
+        "violet",
+        "plum",
+        "minimal",
+        "aurora"
+      ],
+      "css": "themes/borealis-lite/theme.css",
+      "thumbnail": "themes/borealis-lite/thumbnail.webp"
     },
     {
       "id": "braindead",
@@ -183,11 +220,16 @@
       "id": "dark-side-of-the-moon",
       "name": "Dark Side of the Moon (inspired)",
       "author": "Psysonic",
-      "version": "1.0.0",
-      "description": "Inspired by Pink Floyd's Dark Side of the Moon.",
+      "version": "1.0.2",
+      "description": "Inspired by Pink Floyd's Dark Side of the Moon. Pure void black with a prism-spectrum rainbow accent.",
       "mode": "dark",
       "tags": [
-        "famous-albums"
+        "famous-albums",
+        "dark",
+        "black",
+        "spectrum",
+        "rainbow",
+        "pink-floyd"
       ],
       "css": "themes/dark-side-of-the-moon/theme.css",
       "thumbnail": "themes/dark-side-of-the-moon/thumbnail.webp",
@@ -319,6 +361,26 @@
       "css": "themes/dzr0/theme.css",
       "thumbnail": "themes/dzr0/thumbnail.webp",
       "updatedAt": "2026-06-07T19:05:13+02:00"
+    },
+    {
+      "id": "eternia",
+      "name": "Eternia",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "Light chrome theme in silver, steel-blue and power-red, inspired by the 1980s Masters of the Universe logo. Headings use the Macondo font by John Vargas Beltran (SIL OFL).",
+      "mode": "light",
+      "tags": [
+        "light",
+        "silver",
+        "steel-blue",
+        "red",
+        "chrome",
+        "retro",
+        "cartoon"
+      ],
+      "animated": true,
+      "css": "themes/eternia/theme.css",
+      "thumbnail": "themes/eternia/thumbnail.webp"
     },
     {
       "id": "frappe",
@@ -468,6 +530,68 @@
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
+      "id": "hifi-73",
+      "name": "Hi-Fi 73",
+      "author": "1U3R6",
+      "version": "1.1.0",
+      "description": "Inspired by the stereo receivers of the golden era of Hi-Fi.",
+      "mode": "light",
+      "tags": [
+        "vintage",
+        "hifi",
+        "light",
+        "silver",
+        "blue",
+        "walnut",
+        "analog"
+      ],
+      "animated": true,
+      "css": "themes/hifi-73/theme.css",
+      "thumbnail": "themes/hifi-73/thumbnail.webp",
+      "updatedAt": "2026-06-16T14:02:39-07:00"
+    },
+    {
+      "id": "hifi-73-noir",
+      "name": "Hi-Fi 73 Noir",
+      "author": "1U3R6",
+      "version": "1.0.0",
+      "description": "Inspired by the stereo receivers of the golden era of Hi-Fi. Dark companion to Hi-Fi 73.",
+      "mode": "dark",
+      "tags": [
+        "vintage",
+        "hifi",
+        "dark",
+        "black",
+        "blue",
+        "walnut",
+        "analog"
+      ],
+      "animated": true,
+      "css": "themes/hifi-73-noir/theme.css",
+      "thumbnail": "themes/hifi-73-noir/thumbnail.webp",
+      "updatedAt": "2026-06-13T13:16:33-07:00"
+    },
+    {
+      "id": "hifi-83",
+      "name": "Hi-Fi 83",
+      "author": "1U3R6",
+      "version": "1.0.0",
+      "description": "Inspired by the black-face receivers of the 80s.",
+      "mode": "dark",
+      "tags": [
+        "vintage",
+        "hifi",
+        "dark",
+        "black",
+        "amber",
+        "analog",
+        "vfd"
+      ],
+      "animated": true,
+      "css": "themes/hifi-83/theme.css",
+      "thumbnail": "themes/hifi-83/thumbnail.webp"
+    },
+    {
       "id": "hill-valley-85",
       "name": "Hill Valley 85",
       "author": "Psysonic",
@@ -614,7 +738,7 @@
       "id": "mainframe-dark",
       "name": "Mainframe Dark",
       "author": "Asra",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "Cold steel terminal aesthetic with animated PCB circuit sidebar. Deep dark backgrounds, Breeze-style titlebar buttons.",
       "mode": "dark",
       "animated": true,
@@ -626,7 +750,7 @@
       "id": "mainframe-light",
       "name": "Mainframe Light",
       "author": "Asra",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "Inspired by Arch Linux terminal aesthetics and KDE Breeze titlebar controls. Recolor of Catppuccin Latte by the Catppuccin team, with an animated PCB-style sidebar.",
       "mode": "light",
       "animated": true,
@@ -644,6 +768,26 @@
       "css": "themes/midnight-blue/theme.css",
       "thumbnail": "themes/midnight-blue/thumbnail.webp",
       "updatedAt": "2026-06-07T19:05:13+02:00"
+    },
+    {
+      "id": "monolith-dark",
+      "name": "Monolith-dark",
+      "author": "Asra",
+      "version": "1.1.6",
+      "description": "Monochrome charcoal and white neumorphic theme with circular record player esque album grid patches.",
+      "mode": "dark",
+      "css": "themes/monolith-dark/theme.css",
+      "thumbnail": "themes/monolith-dark/thumbnail.webp"
+    },
+    {
+      "id": "monolith-light",
+      "name": "Monolith-light",
+      "author": "Asra",
+      "version": "1.2.0",
+      "description": "Monochrome white and charcoal neumorphic theme with circular record player esque album grid patches.",
+      "mode": "light",
+      "css": "themes/monolith-light/theme.css",
+      "thumbnail": "themes/monolith-light/thumbnail.webp"
     },
     {
       "id": "morpheus",
@@ -822,6 +966,24 @@
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
+      "id": "oceanic-next",
+      "name": "Oceanic Next",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "Dark theme based on the Oceanic Next palette by Dmitri Voronianski (MIT) — deep slate blues with teal and blue accents and warm reds and yellows.",
+      "mode": "dark",
+      "tags": [
+        "dark",
+        "blue",
+        "teal",
+        "slate",
+        "base16",
+        "editor"
+      ],
+      "css": "themes/oceanic-next/theme.css",
+      "thumbnail": "themes/oceanic-next/thumbnail.webp"
+    },
+    {
       "id": "one-dark",
       "name": "Atom One Dark",
       "author": "Psysonic",
@@ -993,6 +1155,24 @@
       "css": "themes/tetrastack/theme.css",
       "thumbnail": "themes/tetrastack/thumbnail.webp",
       "updatedAt": "2026-06-07T19:05:13+02:00"
+    },
+    {
+      "id": "tomorrow-night-blue",
+      "name": "Tomorrow Night Blue",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "Dark theme based on Tomorrow Night Blue by Chris Kempson (MIT) — deep navy background with soft pastel red, yellow, green and blue accents.",
+      "mode": "dark",
+      "tags": [
+        "dark",
+        "blue",
+        "navy",
+        "pastel",
+        "tomorrow",
+        "editor"
+      ],
+      "css": "themes/tomorrow-night-blue/theme.css",
+      "thumbnail": "themes/tomorrow-night-blue/thumbnail.webp"
     },
     {
       "id": "toy-tale",

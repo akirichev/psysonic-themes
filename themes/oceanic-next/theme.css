@@ -1,0 +1,63 @@
+/* Oceanic Next — dark theme based on the Oceanic Next palette by Dmitri
+   Voronianski (https://github.com/voronianski/oceanic-next-color-scheme, MIT).
+   Token-only, no animations: deep slate-blue surfaces, blue + teal accents,
+   warm red/yellow status colours. */
+[data-theme='oceanic-next'] {
+  color-scheme: dark;
+
+  /* ── Accent: Oceanic blue, teal as the second stop ── */
+  --accent: #6699cc;
+  --accent-dim: rgba(102, 153, 204, 0.16);
+  --accent-glow: rgba(102, 153, 204, 0.34);
+  --accent-2: #5fb3b3;
+
+  /* ── Backgrounds: deep slate (base00) elevation ladder ── */
+  --bg-app: #1b2b34;
+  --bg-sidebar: #18272f;
+  --bg-card: #22323b;
+  --bg-hover: #2b3b45;
+  --bg-elevated: #313f49;
+  --bg-player: #18272f;
+  --bg-deep: #14212a;
+  --bg-glass: rgba(27, 43, 52, 0.82);
+
+  /* ── Borders ── */
+  --border: #3a4751;
+  --border-subtle: #2c3a43;
+  --border-dropdown: #44525c;
+
+  /* ── Text (base07 / base04 / base03) ── */
+  --text-primary: #d8dee9;
+  --text-secondary: #a7adba;
+  --text-muted: #65737e;
+  --text-on-accent: #14212a;
+
+  /* ── Status (Oceanic accents) ── */
+  --danger: #ec5f67;
+  --positive: #99c794;
+  --warning: #fac863;
+  --highlight: #fac863;
+
+  /* Dropdown chevron — stroke recoloured to the secondary text. */
+  --select-arrow: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%23a7adba%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpolyline%20points%3D%226%209%2012%2015%2018%209%22%3E%3C%2Fpolyline%3E%3C%2Fsvg%3E");
+  --shadow-dropdown: rgba(0, 0, 0, 0.45);
+
+  /* ── Optional ── */
+  --volume-accent: #6699cc;
+  --waveform-played: #6699cc;
+  --waveform-unplayed: #3a4751;
+  --waveform-buffered: #4f5b66;
+  --player-title: #d8dee9;
+  --player-artist: #a7adba;
+
+  /* ── Per-region ── */
+  --row-playing-bg: rgba(102, 153, 204, 0.16);
+  --row-playing-text: #6699cc;
+  --sidebar-item-active-bg: rgba(102, 153, 204, 0.18);
+  --sidebar-item-active-text: #6699cc;
+  --card-hover-border: #6699cc;
+  --input-border: #3a4751;
+  --input-focus-border: #6699cc;
+  --scrollbar-thumb: #3a4751;
+  --scrollbar-thumb-hover: #4f5b66;
+}

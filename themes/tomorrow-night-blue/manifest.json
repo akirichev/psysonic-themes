@@ -1,0 +1,9 @@
+{
+  "id": "tomorrow-night-blue",
+  "name": "Tomorrow Night Blue",
+  "author": "Psychotoxical",
+  "version": "1.0.0",
+  "description": "Dark theme based on Tomorrow Night Blue by Chris Kempson (MIT) — deep navy background with soft pastel red, yellow, green and blue accents.",
+  "mode": "dark",
+  "tags": ["dark", "blue", "navy", "pastel", "tomorrow", "editor"]
+}

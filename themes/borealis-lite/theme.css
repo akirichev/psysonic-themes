@@ -1,0 +1,64 @@
+/* ─── Borealis Lite ─── */
+/* The Borealis palette as a token-only theme: the same mid-tone polar-night
+   colours (plum / teal / violet), but no aurora animations, no gradient sky,
+   no custom selectors — just the semantic tokens. Lightweight and motion-free. */
+
+[data-theme='borealis-lite'] {
+  color-scheme: dark;
+
+  /* Accent — aurora teal-mint + violet */
+  --accent: #5eead4;
+  --accent-dim: rgba(94, 234, 212, 0.16);
+  --accent-glow: rgba(94, 234, 212, 0.34);
+  --accent-2: #a78bfa;
+
+  /* Backgrounds — polar-night plum with a petrol undertone. Mid-tone, cool,
+     and not the usual slate-blue. (Flat, since this is the token-only build.) */
+  --bg-app: #332b44;
+  --bg-sidebar: #2a2438;
+  --bg-card: #3b3251;
+  --bg-hover: #463c5e;
+  --bg-elevated: #50456b;
+  --bg-player: #2a2438;
+  --bg-deep: #201b2c;
+  --bg-glass: rgba(51, 43, 68, 0.80);
+
+  /* Borders */
+  --border: #463c5e;
+  --border-subtle: #3a3150;
+  --border-dropdown: #564a73;
+
+  /* Text */
+  --text-primary: #eef2fb;
+  --text-secondary: #bcc6e0;
+  --text-muted: #8794b4;
+  --text-on-accent: #10131c;
+
+  /* Status */
+  --danger: #fb7185;
+  --positive: #4ade80;
+  --warning: #fde047;
+  --highlight: #fde047;
+
+  /* Dropdown chevron — stroke matches --text-secondary */
+  --select-arrow: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%23bcc6e0%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpolyline%20points%3D%226%209%2012%2015%2018%209%22%3E%3C%2Fpolyline%3E%3C%2Fsvg%3E");
+  --shadow-dropdown: rgba(0, 0, 0, 0.50);
+
+  /* Player + waveform */
+  --volume-accent: #5eead4;
+  --waveform-played: #5eead4;
+  --waveform-unplayed: #3a4360;
+  --waveform-buffered: #4b5878;
+  --player-title: #eef2fb;
+  --player-artist: #bcc6e0;
+
+  /* Sidebar logo — aurora gradient (static) */
+  --logo-color-start: #5eead4;
+  --logo-color-end: #a78bfa;
+
+  /* Granular */
+  --sidebar-item-hover: #352c4a;
+  --row-playing-bg: rgba(94, 234, 212, 0.16);
+  --row-playing-text: #5eead4;
+  --menu-item-hover: #352c4a;
+}

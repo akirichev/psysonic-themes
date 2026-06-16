@@ -1,0 +1,63 @@
+/* Tomorrow Night Blue — dark theme based on the Tomorrow Night Blue palette by
+   Chris Kempson (https://github.com/chriskempson/tomorrow-theme, MIT).
+   Token-only, no animations: deep navy surfaces, white text, soft pastel
+   accents (blue + aqua, with warm red/yellow status colours). */
+[data-theme='tomorrow-night-blue'] {
+  color-scheme: dark;
+
+  /* ── Accent: pastel blue, aqua as the second stop ── */
+  --accent: #bbdaff;
+  --accent-dim: rgba(187, 218, 255, 0.16);
+  --accent-glow: rgba(187, 218, 255, 0.34);
+  --accent-2: #99ffff;
+
+  /* ── Backgrounds: deep navy (#002451) elevation ladder ── */
+  --bg-app: #002451;
+  --bg-sidebar: #001f47;
+  --bg-card: #00346e;
+  --bg-hover: #003f8e;
+  --bg-elevated: #0a4794;
+  --bg-player: #001f47;
+  --bg-deep: #001936;
+  --bg-glass: rgba(0, 36, 81, 0.82);
+
+  /* ── Borders ── */
+  --border: #1f4683;
+  --border-subtle: #103163;
+  --border-dropdown: #2a5494;
+
+  /* ── Text (foreground / soft blue / comment) ── */
+  --text-primary: #ffffff;
+  --text-secondary: #b8c9e8;
+  --text-muted: #7285b7;
+  --text-on-accent: #002451;
+
+  /* ── Status (Tomorrow pastels) ── */
+  --danger: #ff9da4;
+  --positive: #d1f1a9;
+  --warning: #ffc58f;
+  --highlight: #ffeead;
+
+  /* Dropdown chevron — stroke recoloured to the comment blue-grey. */
+  --select-arrow: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%237285b7%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpolyline%20points%3D%226%209%2012%2015%2018%209%22%3E%3C%2Fpolyline%3E%3C%2Fsvg%3E");
+  --shadow-dropdown: rgba(0, 0, 0, 0.5);
+
+  /* ── Optional ── */
+  --volume-accent: #bbdaff;
+  --waveform-played: #bbdaff;
+  --waveform-unplayed: #1f4683;
+  --waveform-buffered: #2a5494;
+  --player-title: #ffffff;
+  --player-artist: #b8c9e8;
+
+  /* ── Per-region ── */
+  --row-playing-bg: rgba(187, 218, 255, 0.14);
+  --row-playing-text: #bbdaff;
+  --sidebar-item-active-bg: rgba(187, 218, 255, 0.16);
+  --sidebar-item-active-text: #bbdaff;
+  --card-hover-border: #bbdaff;
+  --input-border: #1f4683;
+  --input-focus-border: #bbdaff;
+  --scrollbar-thumb: #1f4683;
+  --scrollbar-thumb-hover: #2a5494;
+}
