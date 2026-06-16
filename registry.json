@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-16T23:32:27.991Z",
+  "generatedAt": "2026-06-16T23:40:07.772Z",
   "themes": [
     {
       "id": "aero-glass",
@@ -86,8 +86,7 @@
       ],
       "animated": true,
       "css": "themes/borealis/theme.css",
-      "thumbnail": "themes/borealis/thumbnail.webp",
-      "updatedAt": "2026-06-17T01:31:28+02:00"
+      "thumbnail": "themes/borealis/thumbnail.webp"
     },
     {
       "id": "borealis-lite",
@@ -105,8 +104,7 @@
         "aurora"
       ],
       "css": "themes/borealis-lite/theme.css",
-      "thumbnail": "themes/borealis-lite/thumbnail.webp",
-      "updatedAt": "2026-06-16T18:20:07Z"
+      "thumbnail": "themes/borealis-lite/thumbnail.webp"
     },
     {
       "id": "braindead",
@@ -235,7 +233,7 @@
       ],
       "css": "themes/dark-side-of-the-moon/theme.css",
       "thumbnail": "themes/dark-side-of-the-moon/thumbnail.webp",
-      "updatedAt": "2026-06-16T16:55:17Z"
+      "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
       "id": "dawnfox",
@@ -382,8 +380,7 @@
       ],
       "animated": true,
       "css": "themes/eternia/theme.css",
-      "thumbnail": "themes/eternia/thumbnail.webp",
-      "updatedAt": "2026-06-14T03:14:58Z"
+      "thumbnail": "themes/eternia/thumbnail.webp"
     },
     {
       "id": "frappe",
@@ -536,7 +533,7 @@
       "id": "hifi-73",
       "name": "Hi-Fi 73",
       "author": "1U3R6",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "description": "Inspired by the stereo receivers of the golden era of Hi-Fi.",
       "mode": "light",
       "tags": [
@@ -551,7 +548,7 @@
       "animated": true,
       "css": "themes/hifi-73/theme.css",
       "thumbnail": "themes/hifi-73/thumbnail.webp",
-      "updatedAt": "2026-06-14T08:35:27-07:00"
+      "updatedAt": "2026-06-16T14:02:39-07:00"
     },
     {
       "id": "hifi-73-noir",
@@ -572,7 +569,7 @@
       "animated": true,
       "css": "themes/hifi-73-noir/theme.css",
       "thumbnail": "themes/hifi-73-noir/thumbnail.webp",
-      "updatedAt": "2026-06-14T16:36:36-07:00"
+      "updatedAt": "2026-06-13T13:16:33-07:00"
     },
     {
       "id": "hifi-83",
@@ -592,8 +589,7 @@
       ],
       "animated": true,
       "css": "themes/hifi-83/theme.css",
-      "thumbnail": "themes/hifi-83/thumbnail.webp",
-      "updatedAt": "2026-06-15T21:02:53-07:00"
+      "thumbnail": "themes/hifi-83/thumbnail.webp"
     },
     {
       "id": "hill-valley-85",
@@ -748,7 +744,7 @@
       "animated": true,
       "css": "themes/mainframe-dark/theme.css",
       "thumbnail": "themes/mainframe-dark/thumbnail.webp",
-      "updatedAt": "2026-06-15T09:48:51+02:00"
+      "updatedAt": "2026-06-08T18:09:03+02:00"
     },
     {
       "id": "mainframe-light",
@@ -760,7 +756,7 @@
       "animated": true,
       "css": "themes/mainframe-light/theme.css",
       "thumbnail": "themes/mainframe-light/thumbnail.webp",
-      "updatedAt": "2026-06-15T09:49:12+02:00"
+      "updatedAt": "2026-06-07T19:27:47+02:00"
     },
     {
       "id": "midnight-blue",
@@ -781,8 +777,7 @@
       "description": "Monochrome charcoal and white neumorphic theme with circular record player esque album grid patches.",
       "mode": "dark",
       "css": "themes/monolith-dark/theme.css",
-      "thumbnail": "themes/monolith-dark/thumbnail.webp",
-      "updatedAt": "2026-06-14T21:57:53Z"
+      "thumbnail": "themes/monolith-dark/thumbnail.webp"
     },
     {
       "id": "monolith-light",
@@ -792,8 +787,7 @@
       "description": "Monochrome white and charcoal neumorphic theme with circular record player esque album grid patches.",
       "mode": "light",
       "css": "themes/monolith-light/theme.css",
-      "thumbnail": "themes/monolith-light/thumbnail.webp",
-      "updatedAt": "2026-06-14T21:57:53Z"
+      "thumbnail": "themes/monolith-light/thumbnail.webp"
     },
     {
       "id": "morpheus",
@@ -987,8 +981,7 @@
         "editor"
       ],
       "css": "themes/oceanic-next/theme.css",
-      "thumbnail": "themes/oceanic-next/thumbnail.webp",
-      "updatedAt": "2026-06-14T03:32:22Z"
+      "thumbnail": "themes/oceanic-next/thumbnail.webp"
     },
     {
       "id": "one-dark",
@@ -1179,8 +1172,7 @@
         "editor"
       ],
       "css": "themes/tomorrow-night-blue/theme.css",
-      "thumbnail": "themes/tomorrow-night-blue/thumbnail.webp",
-      "updatedAt": "2026-06-14T03:40:12Z"
+      "thumbnail": "themes/tomorrow-night-blue/thumbnail.webp"
     },
     {
       "id": "toy-tale",
