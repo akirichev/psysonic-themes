@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-17T21:43:03.460Z",
+  "generatedAt": "2026-06-17T22:37:01.302Z",
   "themes": [
     {
       "id": "aero-glass",
@@ -58,7 +58,7 @@
       ],
       "css": "themes/anarchy-77/theme.css",
       "thumbnail": "themes/anarchy-77/thumbnail.webp",
-      "updatedAt": "2026-06-17T23:42:41+02:00"
+      "updatedAt": "2026-06-17T21:43:03Z"
     },
     {
       "id": "barb-and-ken",
@@ -727,6 +727,24 @@
       "css": "themes/lambda-17/theme.css",
       "thumbnail": "themes/lambda-17/thumbnail.webp",
       "updatedAt": "2026-06-07T19:05:13+02:00"
+    },
+    {
+      "id": "london-79",
+      "name": "London '79",
+      "author": "Psychotoxical",
+      "version": "1.0.0",
+      "description": "Dark punk theme — warm grey canvas, green accent, rose waveform/highlights. Inspired by The Clash's 'London Calling' cover. Headings: London Presley by Julian Gudowski (OFL).",
+      "mode": "dark",
+      "tags": [
+        "dark",
+        "grey",
+        "green",
+        "pink",
+        "punk"
+      ],
+      "css": "themes/london-79/theme.css",
+      "thumbnail": "themes/london-79/thumbnail.webp",
+      "updatedAt": "2026-06-18T00:36:45+02:00"
     },
     {
       "id": "luna-teal",
