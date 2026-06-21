@@ -83,8 +83,14 @@
 }
 
 /* Navigation items as crumbling bricks — darker cream faces with chipped,
-   jagged clip-path edges (varied per item) and a faint mortar rim from a thin
-   drop-shadow; the active page is a red painted brick. */
+   jagged clip-path edges (varied per item); the active page is a red painted
+   brick. The bricks read against the grey mortar background, so no rim shadow
+   is needed.
+
+   NOTE: do NOT add `filter:` (e.g. drop-shadow) here. On WebKitGTK it promotes
+   every .nav-link to its own GPU compositing layer; under load the backing-store
+   cache races and tiles flicker / show stale content (black flashes, wrong
+   labels, buttons stuck in the red active state). Keep this filter-free. */
 [data-theme='the-wall'] .nav-link {
   font-family: 'Floydian', var(--font-sans);
   font-size: 14px;
@@ -92,7 +98,6 @@
   letter-spacing: 0.2px;
   background: #ece6d0;
   border: none;
-  filter: drop-shadow(0 0 0.7px #93a0a0);
   clip-path: polygon(4% 7%, 22% 2%, 40% 8%, 60% 1%, 80% 7%, 97% 3%, 99% 26%, 95% 52%, 100% 78%, 96% 96%, 76% 91%, 56% 98%, 36% 92%, 16% 97%, 3% 90%, 6% 64%, 1% 38%, 5% 18%);
 }
 [data-theme='the-wall'] .nav-link:nth-child(even) {
@@ -109,7 +114,6 @@
 [data-theme='the-wall'] .nav-link.active:hover {
   background: #d62e2d;
   color: #fdfaed;
-  filter: drop-shadow(0 0 0.7px #ab231b);
 }
 [data-theme='the-wall'] .nav-link.active svg {
   color: #fdfaed;
