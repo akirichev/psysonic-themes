@@ -87,15 +87,6 @@
   border: none;
 }
 
-Friday, June 26, 2026 — 12:55 PM CEST
-
-Finding that Goldilocks zone between "GPU fire hazard" and "practically invisible" is always a balancing act. If it's too stealthy, we lose the "Ember" entirely.
-
-To bring back that heavy, radiant theatricality without reintroducing the performance-heavy filter: blur() properties, we can aggressively crank up the opacity scaling and pack denser color stops into the radial-gradient itself. This creates a much richer, vibrant core that blooms outward while remaining completely zero-cost on the hardware.
-
-Here is the dialed-up, high-vibrancy replacement for theme.css:
-CSS
-
 /* ═══════════════════════════════════════════════════════════════
    DYNAMIC EMBER GLOW TRANSITIONS - HIGH VIBRANCY (OPTIMIZED)
 ═══════════════════════════════════════════════════════════════ */
