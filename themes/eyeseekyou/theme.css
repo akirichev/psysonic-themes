@@ -1,0 +1,226 @@
+/* EyeSeekYou — a bright green-and-white light theme with a retro
+   instant-messenger feel. Inspired by the classic ICQ messenger look. */
+[data-theme='eyeseekyou'] {
+  color-scheme: light;
+
+  /* Accent — ICQ lime green. Lime is bright, so text-on-accent goes dark. */
+  /* --accent is used app-wide for TEXT/labels/links/accent lines, which sit on
+     white surfaces — so it must stay readable. The bright ICQ #46ee00 is hard-
+     wired onto the big fills (sidebar, buttons, waveform, volume) below. */
+  --accent: #2a9000;
+  --accent-dim: rgba(70, 238, 0, 0.16);
+  --accent-glow: rgba(70, 238, 0, 0.38);
+  --accent-2: #46ee00;
+
+  /* Backgrounds — white surfaces with the faintest green tint */
+  --bg-app: #ffffff;
+  --bg-card: #ffffff;
+  --bg-hover: #eef8e0;
+  --bg-elevated: #dcefc4;
+  --bg-player: rgba(255, 255, 255, 0.92);
+  --bg-deep: #f1f8e9;
+  --bg-glass: rgba(255, 255, 255, 0.82);
+
+  /* Sidebar — full ICQ green. It's bright, so the sidebar text goes dark. */
+  --bg-sidebar: #46ee00;
+
+  /* Borders */
+  --border: #cfe6ad;
+  --border-subtle: #e6f2d4;
+  --border-dropdown: #cfe6ad;
+
+  /* Text — dark olive instead of pure black, warmer on the green */
+  --text-primary: #243018;
+  --text-secondary: #4f6238;
+  --text-muted: #87996f;
+  --text-on-accent: #14260a;
+
+  /* Status — green online dot, red petal, yellow flower centre */
+  --danger: #e53935;
+  --positive: #46ee00;
+  --warning: #fb8c00;
+  --highlight: #ffd600;
+
+  /* Special */
+  --select-arrow: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%234f6238%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpolyline%20points%3D%226%209%2012%2015%2018%209%22%3E%3C%2Fpolyline%3E%3C%2Fsvg%3E");
+  --shadow-dropdown: 0 8px 30px rgba(40, 70, 10, 0.14), 0 2px 8px rgba(40, 70, 10, 0.10);
+
+  /* Player */
+  --player-title: #243018;
+  --player-artist: #4f6238;
+  --volume-accent: #46ee00;
+  --waveform-played: #46ee00;
+  --waveform-buffered: #b6e08a;
+  --waveform-unplayed: #d8e8c4;
+
+  /* Bright green sidebar needs DARK text/icons for contrast. Active item lifts
+     off with a near-white wash; hover is a subtle lighter tint. */
+  --sidebar-text: rgba(14, 34, 0, 0.82);
+  --sidebar-item-hover: rgba(255, 255, 255, 0.28);
+  --sidebar-item-active-bg: rgba(255, 255, 255, 0.6);
+  --sidebar-item-active-text: #0e2200;
+  --sidebar-border: rgba(0, 0, 0, 0.12);
+  --sidebar-trigger-bg: rgba(255, 255, 255, 0.4);
+
+  /* Sidebar logo gradient (dark, reads on the bright green) */
+  --logo-color-start: #0e2200;
+  --logo-color-end: #2a6e00;
+}
+
+/* ─── Component overrides ─── */
+/* Queue panel inherits --bg-sidebar by default; keep it white (modern ICQ
+   contact-list look) so its dark item text stays legible — only the narrow
+   nav sidebar stays green. */
+[data-theme='eyeseekyou'] .queue-panel {
+  background: var(--bg-app);
+}
+
+/* The bright green sidebar needs DARK text everywhere. Rescope the text tokens
+   inside it so every label, section header (LIBRARY/LISTEN), expand toggle and
+   icon reads on the green — without touching the white-surface rest of the app. */
+[data-theme='eyeseekyou'] .sidebar {
+  --text-primary: #0e2200;
+  --text-secondary: rgba(14, 34, 0, 0.78);
+  --text-muted: rgba(14, 34, 0, 0.56);
+}
+
+/* ICQ glossy buttons: large primary actions = orange, small ones = green.
+   Top-down gradient + inset top highlight + 1px rim + light text-shadow give
+   the early-2000s glossy pill look. Covers .btn-primary everywhere and the
+   Mainstage hero play button (its own .hero-play-btn class). */
+[data-theme='eyeseekyou'] .btn-primary,
+[data-theme='eyeseekyou'] .hero-play-btn {
+  background: linear-gradient(to bottom, #ffb84f 0%, #f7941e 52%, #ef7d08 100%);
+  color: #3a2300;
+  border: 1px solid #d36e00;
+  border-radius: var(--radius-md);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.55), 0 1px 2px rgba(0, 0, 0, 0.15);
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.35);
+}
+[data-theme='eyeseekyou'] .btn-primary:hover,
+[data-theme='eyeseekyou'] .hero-play-btn:hover {
+  background: linear-gradient(to bottom, #ffc56b 0%, #fca22e 52%, #f78a14 100%);
+  filter: none;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.6), 0 2px 7px rgba(239, 125, 8, 0.4);
+}
+
+/* Smaller / secondary buttons stay green, same glossy treatment. Covers the
+   small primary variant plus the ghost (icon) and surface buttons. */
+[data-theme='eyeseekyou'] .btn-primary.btn-sm,
+[data-theme='eyeseekyou'] .btn-ghost,
+[data-theme='eyeseekyou'] .btn-surface {
+  background: linear-gradient(to bottom, #6bff33 0%, #46ee00 52%, #36c000 100%);
+  color: #16330a;
+  border: 1px solid #2a9800;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0 1px 2px rgba(0, 0, 0, 0.12);
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
+}
+[data-theme='eyeseekyou'] .btn-primary.btn-sm:hover,
+[data-theme='eyeseekyou'] .btn-ghost:hover,
+[data-theme='eyeseekyou'] .btn-surface:hover {
+  background: linear-gradient(to bottom, #7dff4d 0%, #57f718 52%, #44d400 100%);
+  color: #16330a;
+  border-color: #4a8c10;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.55), 0 2px 7px rgba(70, 238, 0, 0.4);
+}
+
+/* Album-card cover-hover Play/Enqueue buttons (own class) — glossy green too,
+   keeping the round pill shape and the dark drop-shadow that lifts them off
+   the cover art. */
+[data-theme='eyeseekyou'] .album-card-details-btn {
+  background: linear-gradient(to bottom, #6bff33 0%, #46ee00 52%, #36c000 100%);
+  color: #16330a;
+  border: 1px solid #2a9800;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0 4px 16px rgba(0, 0, 0, 0.45);
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
+}
+[data-theme='eyeseekyou'] .album-card-details-btn:hover {
+  background: linear-gradient(to bottom, #7dff4d 0%, #57f718 52%, #44d400 100%);
+  filter: none;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.55), 0 4px 18px rgba(0, 0, 0, 0.5);
+}
+
+/* The Live (now-playing) trigger is a glossy green button; its Radio icon uses
+   an inline var(--accent) (also green) and disappears. Rescope --accent on the
+   icon so the inline value resolves dark and the icon stays visible. */
+[data-theme='eyeseekyou'] .now-playing-dropdown__trigger svg {
+  --accent: #16330a;
+}
+
+/* Queue current-track tech line uses accent (green) text on the light-green
+   --bg-hover pill — green-on-green, unreadable. Use dark text instead. */
+[data-theme='eyeseekyou'] .queue-current-tech,
+[data-theme='eyeseekyou'] .queue-current-tech-rg-badge {
+  color: var(--text-secondary);
+}
+
+/* Play / pause buttons are the main playback action → orange, like the other
+   primary buttons. Covers the player transport button and the filled row play
+   buttons in track lists. */
+[data-theme='eyeseekyou'] .player-btn-primary,
+[data-theme='eyeseekyou'] .mp-ctrl-play,
+[data-theme='eyeseekyou'] .playlist-suggestion-play-btn {
+  background: linear-gradient(to bottom, #ffb84f 0%, #f7941e 52%, #ef7d08 100%);
+  color: #3a2300;
+  border: 1px solid #d36e00;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0 2px 6px rgba(0, 0, 0, 0.18);
+}
+[data-theme='eyeseekyou'] .player-btn-primary:hover,
+[data-theme='eyeseekyou'] .mp-ctrl-play:hover,
+[data-theme='eyeseekyou'] .playlist-suggestion-play-btn:hover {
+  background: linear-gradient(to bottom, #ffc56b 0%, #fca22e 52%, #f78a14 100%);
+  filter: none;
+}
+
+/* SongRow play (icon-only at rest, fills on hover / when current) → orange. */
+[data-theme='eyeseekyou'] .song-list-row-btn--play {
+  color: #cf6c00;
+}
+[data-theme='eyeseekyou'] .song-list-row-btn--play:hover,
+[data-theme='eyeseekyou'] .song-list-row.is-current .song-list-row-btn--play {
+  background: #f7941e;
+  color: #3a2300;
+}
+
+/* ICQ-style flower mark — own build, not the original logo. Seven teardrop
+   petals (one red), black outline, yellow centre. Sits in the sidebar. */
+[data-theme='eyeseekyou'] .sidebar {
+  position: relative;
+}
+[data-theme='eyeseekyou'] .sidebar::after {
+  content: '';
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 38px;
+  height: 38px;
+  background: url("data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20viewBox%3D%270%200%20200%20200%27%3E%3Cg%20stroke%3D%27%23000000%27%20stroke-width%3D%279%27%20stroke-linejoin%3D%27round%27%3E%3Cpath%20d%3D%27M100%2C70C82%2C54%2082%2C30%20100%2C16C118%2C30%20118%2C54%20100%2C70Z%27%20fill%3D%27%2317FD34%27%20transform%3D%27rotate%280.0%20100%20100%29%27%2F%3E%3Cpath%20d%3D%27M100%2C70C82%2C54%2082%2C30%20100%2C16C118%2C30%20118%2C54%20100%2C70Z%27%20fill%3D%27%2317FD34%27%20transform%3D%27rotate%2851.43%20100%20100%29%27%2F%3E%3Cpath%20d%3D%27M100%2C70C82%2C54%2082%2C30%20100%2C16C118%2C30%20118%2C54%20100%2C70Z%27%20fill%3D%27%2317FD34%27%20transform%3D%27rotate%28102.86%20100%20100%29%27%2F%3E%3Cpath%20d%3D%27M100%2C70C82%2C54%2082%2C30%20100%2C16C118%2C30%20118%2C54%20100%2C70Z%27%20fill%3D%27%2317FD34%27%20transform%3D%27rotate%28154.29%20100%20100%29%27%2F%3E%3Cpath%20d%3D%27M100%2C70C82%2C54%2082%2C30%20100%2C16C118%2C30%20118%2C54%20100%2C70Z%27%20fill%3D%27%23F51B1F%27%20transform%3D%27rotate%28205.71%20100%20100%29%27%2F%3E%3Cpath%20d%3D%27M100%2C70C82%2C54%2082%2C30%20100%2C16C118%2C30%20118%2C54%20100%2C70Z%27%20fill%3D%27%2317FD34%27%20transform%3D%27rotate%28257.14%20100%20100%29%27%2F%3E%3Cpath%20d%3D%27M100%2C70C82%2C54%2082%2C30%20100%2C16C118%2C30%20118%2C54%20100%2C70Z%27%20fill%3D%27%2317FD34%27%20transform%3D%27rotate%28308.57%20100%20100%29%27%2F%3E%3C%2Fg%3E%3Ccircle%20cx%3D%27100%27%20cy%3D%27100%27%20r%3D%2724%27%20fill%3D%27%23000000%27%2F%3E%3Ccircle%20cx%3D%27100%27%20cy%3D%27100%27%20r%3D%2716%27%20fill%3D%27%23F9EE3E%27%2F%3E%3C%2Fsvg%3E") no-repeat center / contain;
+  pointer-events: none;
+  z-index: 3;
+}
+
+/* Brand override: replace the SVG logo with the "psysonicq" wordmark —
+   psyson (black) + icq (red), ICQ style. Expanded only; collapsed keeps the
+   small logo (the text wouldn't fit the narrow rail). */
+[data-theme='eyeseekyou'][data-sidebar-collapsed='false'] .sidebar-brand {
+  gap: 0;
+}
+[data-theme='eyeseekyou'][data-sidebar-collapsed='false'] .sidebar-brand > svg {
+  display: none;
+}
+[data-theme='eyeseekyou'][data-sidebar-collapsed='false'] .sidebar-brand::before,
+[data-theme='eyeseekyou'][data-sidebar-collapsed='false'] .sidebar-brand::after {
+  font-family: 'Varela Round', 'Arial Rounded MT Bold', var(--font-display), system-ui, sans-serif;
+  font-weight: 900;
+  font-size: 23px;
+  letter-spacing: -0.01em;
+  line-height: 1;
+}
+[data-theme='eyeseekyou'][data-sidebar-collapsed='false'] .sidebar-brand::before {
+  content: 'psyson';
+  color: #000000;
+}
+[data-theme='eyeseekyou'][data-sidebar-collapsed='false'] .sidebar-brand::after {
+  content: 'icq';
+  color: #F51B1F;
+}
