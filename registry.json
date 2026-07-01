@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-27T16:48:44.127Z",
+  "generatedAt": "2026-07-01T14:23:25.830Z",
   "themes": [
     {
       "id": "aero-glass",
@@ -418,7 +418,7 @@
       ],
       "css": "themes/eyeseekyou/theme.css",
       "thumbnail": "themes/eyeseekyou/thumbnail.webp",
-      "updatedAt": "2026-06-27T18:48:29+02:00"
+      "updatedAt": "2026-06-27T16:48:44Z"
     },
     {
       "id": "frappe",
@@ -602,7 +602,7 @@
       "id": "hifi-73-noir",
       "name": "Hi-Fi 73 Noir",
       "author": "JU3RG",
-      "version": "1.1.2",
+      "version": "1.1.3",
       "description": "Inspired by the stereo receivers from the golden era of Hi-Fi. Dark companion to Hi-Fi 73.",
       "mode": "dark",
       "tags": [
@@ -616,7 +616,7 @@
       "animated": true,
       "css": "themes/hifi-73-noir/theme.css",
       "thumbnail": "themes/hifi-73-noir/thumbnail.webp",
-      "updatedAt": "2026-06-19T20:19:33+02:00"
+      "updatedAt": "2026-07-01T16:23:09+02:00"
     },
     {
       "id": "hifi-83",
