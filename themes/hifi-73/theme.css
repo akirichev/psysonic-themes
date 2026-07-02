@@ -38,14 +38,14 @@
   --bg-hover:    #f2f2f2;   /* hover surfaces */
   --bg-elevated: #D7DBDD;   /* elevated panels */
   --bg-player:   #0a0c0e;   /* player bar — black dial glass */
-  --bg-deep:     #DAD9D2;   /* deepest background */
+  --bg-deep:     #c9cfd1;  /* deepest background */
   --bg-glass:    rgba(140, 147, 153, 0.20);
   --modal-bg:    #D7DBDD;
 
   /* ── Borders  */
   --border:          #D7DBDD;   /* default border */
   --border-subtle:   #D7DBDD;   /* hairline border */
-  --border-dropdown: #201e1c;   /* dropdown/popover border */
+  --border-dropdown: #8a8a94;   /* dropdown/popover border */
 
   /* ── Text — black engraving on faceplate ── */
   --text-primary:   #171717;
@@ -87,13 +87,13 @@
   --card-placeholder-bg: #cccdc8;
 
   /* ── Menus / inputs ── */
-  --menu-bg:               #d0d1cc;
-  --menu-item-hover:       #c4c5bf;
+  --menu-bg:               #EBEBED;
+  --menu-item-hover:       #c9cfd1;
   --menu-item-active-text: #cccdc8;
-  --menu-divider:          #9a8068;
+  --menu-divider:          #ababab;
   --input-bg:              #D7DBDD;
   --input-focus-border:    #0069D1;
-  --button-hover:          #c4c5bf;
+  --button-hover:          #c9cfd1;
 
   /* ── Sliders — bright silver knobs ── */
   --slider-track:       #9a9a93;
@@ -118,6 +118,12 @@
   --player-border:             #23242A;   /* top seam of dial */
   --player-time-toggle-hover:  #242424;
   --player-time-toggle-active: #0069D1;
+}
+
+/* Album-art corners line up with the card ──
+   .np-dash-hero-cover clips its cover with overflow:hidden  */
+[data-theme='hifi-73'] .np-dash-hero-cover .np-cover {
+  border-radius: var(--radius-md);
 }
 
 
@@ -380,6 +386,12 @@
   transition:
     background 0.6s ease-in,    /* lamp holds briefly then fades */
     box-shadow 0.5s ease-in;    /* glow dies just before lens goes dark */
+}
+
+/*  Now-Playing hero favorite heart */
+[data-theme='hifi-73'] .np-dash-hero-actions svg.lucide-heart[fill="var(--highlight)"] {
+  fill:   #d23b30 !important;
+  stroke: #d23b30 !important;
 }
 
 
@@ -707,8 +719,7 @@
 }
 
 
-/* ── Custom logo — psysonic wordmark (outlines) ──
-   For private import only, not for store submission. */
+/* ── Custom logo — psysonic wordmark (outlines) */
 
 [data-theme='hifi-73'] .sidebar-brand svg {
   display: none !important;
