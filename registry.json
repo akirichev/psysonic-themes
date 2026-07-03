@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-03T21:52:05.242Z",
+  "generatedAt": "2026-07-03T21:53:33.976Z",
   "themes": [
     {
       "id": "aero-glass",
@@ -429,7 +429,7 @@
       "mode": "dark",
       "css": "themes/feywild/theme.css",
       "thumbnail": "themes/feywild/thumbnail.webp",
-      "updatedAt": "2026-07-03T23:51:48+02:00"
+      "updatedAt": "2026-07-03T21:52:05Z"
     },
     {
       "id": "frappe",
@@ -776,6 +776,17 @@
       "updatedAt": "2026-06-07T19:05:13+02:00"
     },
     {
+      "id": "latte-reserve",
+      "name": "Latte Reserve",
+      "author": "Asra",
+      "version": "1.0.0",
+      "description": "Catppuccin Latte neumorphic theme. Deep mauve accent over warm cream base.",
+      "mode": "light",
+      "css": "themes/latte-reserve/theme.css",
+      "thumbnail": "themes/latte-reserve/thumbnail.webp",
+      "updatedAt": "2026-07-03T23:53:02+02:00"
+    },
+    {
       "id": "london-79",
       "name": "London '79",
       "author": "Psychotoxical",
@@ -856,6 +867,17 @@
       "css": "themes/midnight-blue/theme.css",
       "thumbnail": "themes/midnight-blue/thumbnail.webp",
       "updatedAt": "2026-06-07T19:05:13+02:00"
+    },
+    {
+      "id": "mocha-reserve",
+      "name": "Mocha Reserve",
+      "author": "Asra",
+      "version": "1.0.0",
+      "description": "Catppuccin Mocha neumorphic theme. Cream and mauve smoke over deep navy-mauve.",
+      "mode": "dark",
+      "css": "themes/mocha-reserve/theme.css",
+      "thumbnail": "themes/mocha-reserve/thumbnail.webp",
+      "updatedAt": "2026-07-03T23:53:17+02:00"
     },
     {
       "id": "monolith-dark",
