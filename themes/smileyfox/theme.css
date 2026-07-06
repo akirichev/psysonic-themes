@@ -1,0 +1,122 @@
+/* Template theme — copy this folder to themes/<your-id>/ and recolour.
+   Rename the [data-theme='template'] selector to [data-theme='<your-id>'].
+
+   Setting these semantic tokens is the simplest way to recolour the whole app
+   and the recommended starting point. Themes are FREE-FORM, though — you may add
+   any selectors, structure, @media and @keyframes (see the commented examples at
+   the bottom). The only hard rules are the safety floor: no @import, url() may
+   only be a data: URI, no scripts, and @keyframes names must start with
+   "<your-id>-". Validate with `node scripts/validate-theme.mjs themes/<your-id>`. */
+[data-theme='template'] {
+  color-scheme: dark;
+
+  --space-0: 0px;
+
+  /* Accent */
+  --accent: #FF6E0B;
+  --accent-dim: rgba(110, 168, 254, 0.15);
+  --accent-glow: rgba(110, 168, 254, 0.30);
+  --accent-2: #7ee0c8;
+
+  /* Backgrounds */
+  --bg-app: #021025;
+  --bg-sidebar: #0f1117;
+  --bg-card: rgba(255,255,255, 0.05);
+  --bg-hover: #262a36;
+  --bg-elevated: #2f3441;
+  --bg-player: #0f1117;
+  --bg-deep: #0a0c11;
+  --bg-glass: rgba(21, 23, 30, 0.78);
+
+  /* Borders */
+  --border: #2a2f3a;
+  --border-subtle: #20242d;
+  --border-dropdown: #343a47;
+
+  /* Text */
+  --text-primary: #fff;
+  --text-secondary: #b6bbc7;
+  --text-muted: #7f8593;
+  --text-on-accent: #0a0c11;
+
+  /* Status */
+  --danger: #f3727a;
+  --positive: #6cd08a;
+  --warning: #e6c069;
+  --highlight: #f2d479;
+
+  /* Dropdown chevron — recolour by editing the stroke=%23RRGGBB hex below */
+  --select-arrow: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%23b6bbc7%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpolyline%20points%3D%226%209%2012%2015%2018%209%22%3E%3C%2Fpolyline%3E%3C%2Fsvg%3E");
+  --shadow-dropdown: rgba(0, 0, 0, 0.55);
+
+  /* Optional — delete any you do not need (they fall back to accent/text tones) */
+  --volume-accent: #6ea8fe;
+  --waveform-played: #6ea8fe;
+  --waveform-unplayed: #2a2f3a;
+  --waveform-buffered: #3b4250;
+  --player-title: #e7e9ee;
+  --player-artist: #b6bbc7;
+
+  /* Optional per-region overrides — each falls back to a base token, so set one
+     only if you want that region to differ. A few examples (see
+     schema/allowed-tokens.json "granular" for the full list): */
+  --sidebar-item-hover: #1c2030;
+  --row-playing-bg: rgba(110, 168, 254, 0.22);
+  --row-playing-text: #6ea8fe;
+  --menu-item-hover: #1c2030;
+}
+[data-theme='template'] {
+
+  .btn {
+    border-radius: var(--radius-sm);
+  }
+  .hero-meta .badge {
+    background-color: var(--ctp-surface1);
+    color: var(--text-primary);
+  }
+  .album-grid {
+    gap:var(--space-0);
+  }
+  .album-grid-wrap {
+    gap:var(--space-0);
+  }
+  .album-card {
+    padding: var(--space-3);
+    box-shadow: none;
+    background: transparent;
+  }
+  .album-card:hover {
+    box-shadow: none;
+    background: var(--bg-card);
+  }
+  .album-card-cover {
+    border-radius: var(--radius-sm);
+  }
+  .album-card-info {
+    padding-left: 0;
+    padding-right: 0;
+    padding: var(--space-2) 0 var(--space-4);
+  }
+}
+/* ─────────────────────────────────────────────────────────────────────────
+   Optional, free-form extras (uncomment + adapt). Delete this block if unused.
+
+   React to app state — these attributes are set on the theme root alongside
+   data-theme: data-playing, data-fullscreen, data-sidebar-collapsed,
+   data-lyrics-open (each "true" | "false"):
+
+   [data-theme='template'][data-playing='true'] {
+     --accent: #8ec8ff;
+   }
+
+   Animations — @keyframes names MUST start with your id ("template-…") so they
+   never collide with other installed themes:
+
+   @keyframes template-pulse {
+     from { opacity: 1; }
+     to   { opacity: 0.6; }
+   }
+   [data-theme='template'][data-playing='true'] .player-bar-title {
+     animation: template-pulse 2s ease-in-out infinite;
+   }
+   ───────────────────────────────────────────────────────────────────────── */
