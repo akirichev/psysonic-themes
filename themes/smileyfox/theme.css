@@ -10,7 +10,7 @@
 [data-theme='template'] {
   color-scheme: dark;
 
-  --space-0: 0px;
+    --artwork-shadow: rgba(255,255,255, 0.1);
 
   /* Accent */
   --accent: #FF6E0B;
@@ -75,15 +75,17 @@
     color: var(--text-primary);
   }
   .album-grid {
-    gap:var(--space-0);
+    gap:var(--space-0) var(--space-0);
   }
   .album-grid-wrap {
     gap:var(--space-0);
   }
   .album-card {
     padding: var(--space-3);
+    border-radius: var(--radius-md);
     box-shadow: none;
     background: transparent;
+    transition: background 0.15s ease-in;
   }
   .album-card:hover {
     box-shadow: none;
@@ -91,11 +93,31 @@
   }
   .album-card-cover {
     border-radius: var(--radius-sm);
+    transform: none;
+    box-shadow: 0 8px 24px #00000080, inset 0 0 0px 1px var(--artwork-shadow);
+  }
+  .album-card:hover .album-card-cover img {
+    transition: none;
+    transform: none;
+  }
+  .album-card-cover img {
+    /* box-shadow: inset 0 0 4px 4px var(--artwork-shadow); */
+    transition: none;
+    transform: none;
   }
   .album-card-info {
-    padding-left: 0;
-    padding-right: 0;
-    padding: var(--space-2) 0 var(--space-4);
+    padding: var(--space-2) 0 0;
+  }
+  .album-card-play-overlay {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 50%, rgba(0, 0, 0, 0.30) 100%);
+    padding: var(--space-4, 16px);
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  .album-card-details-btn {
+    padding: var(--space-4, 16px);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4)
   }
 }
 /* ─────────────────────────────────────────────────────────────────────────
