@@ -19,9 +19,9 @@
   --accent-2: #7ee0c8;
 
   /* Backgrounds */
-  --bg-app: #021025;
+  --bg-app: #121212;
   --bg-sidebar: #0f1117;
-  --bg-card: rgba(255,255,255, 0.05);
+  --bg-card: rgba(255,255,255, 0.04);
   --bg-hover: #262a36;
   --bg-elevated: #2f3441;
   --bg-player: #0f1117;
@@ -94,8 +94,17 @@
   .album-card-cover {
     border-radius: var(--radius-sm);
     transform: none;
-    box-shadow: 0 8px 24px #00000080, inset 0 0 0px 1px var(--artwork-shadow);
+    box-shadow: 0 1px 1px rgba(0,0,0,.01), 0 2px 2px rgba(0,0,0,.01), 0 4px 4px rgba(0,0,0,.02), 0 8px 8px rgba(0,0,0,.03), 0 14px 14px rgba(0,0,0,.03);
   }
+  .album-card-cover::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1); 
+    pointer-events: none; 
+  }
+
   .album-card:hover .album-card-cover img {
     transition: none;
     transform: none;
@@ -116,8 +125,16 @@
     align-items: flex-end;
   }
   .album-card-details-btn {
-    padding: var(--space-4, 16px);
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4)
+    padding: var(--space-3, 12px);
+    /* box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4); */
+    box-shadow: none;
+    background: rgba(0, 0, 0, 0.6);
+    color: var(--text-primary);
+  }
+  .song-card-action-btn {
+    box-shadow: none;
+    background: rgba(0, 0, 0, 0.6);
+    color: var(--text-primary);
   }
 }
 /* ─────────────────────────────────────────────────────────────────────────
