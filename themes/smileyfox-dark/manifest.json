@@ -1,9 +1,9 @@
 {
-  "id": "smileyfox",
+  "id": "smileyfox-dark",
   "name": "Smileyfox",
   "author": "akirichev",
   "version": "1.0.0",
-  "description": "Smileyfox theme",
+  "description": "Smileyfox Dark theme",
   "mode": "dark",
   "tags": ["smileyfox"]
 }
